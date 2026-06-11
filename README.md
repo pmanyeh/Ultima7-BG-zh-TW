@@ -15,6 +15,17 @@
 請先自行安裝 Exult Tools，可於 Exult 官網下載。（https://exult.sourceforge.io/download.html）
 詳細的腳本解譯、翻譯規則與使用 UCC 編譯的方式，請參閱專案內的 Markdown 說明檔。
 
+
+## 翻譯進度總覽
+黑月之門(The Black Gate)
+- 腳本翻譯：96%；除了 `017B.es`、`02CB.es`、`0334.es` 三個與「盧恩符文」相關文本之外，其餘都已翻譯。
+- 物品翻譯：100%
+
+巨蛇之島(Serpent Isle)
+- 腳本翻譯：0%；尚未開始
+- 物品翻譯：0%；尚未開始
+
+
 ## 授權與聲明
 
 本專案為玩家自發性的翻譯計畫，旨在推廣經典遊戲。遊戲原作版權歸原發行商 (Electronic Arts / Origin Systems) 所有。
