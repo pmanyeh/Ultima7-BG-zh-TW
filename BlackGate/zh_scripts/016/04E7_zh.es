@@ -94,10 +94,10 @@ labelFunc04E7_0152:
 	UI_add_answer("墮落處女 (Fallen Virgin)");
 labelFunc04E7_0159:
 	case "食物" attend labelFunc04E7_0173:
-	message("「如果我自己說的話，我們提供一盤很棒的餿水！那道銀葉 (Silverleaf) 真的很特別。你應該嚐嚐看。」");
+	message("「如果我自己說的話，我們提供一盤很棒的餿水！那道銀樹葉 真的很特別。你應該嚐嚐看。」");
 	say();
 	UI_remove_answer("食物");
-	UI_add_answer("銀葉 (Silverleaf)");
+	UI_add_answer("銀樹葉");
 labelFunc04E7_0173:
 	case "飲料" attend labelFunc04E7_0186:
 	message("「我可以提供你葡萄酒和麥酒。」");
@@ -146,10 +146,10 @@ labelFunc04E7_023A:
 	case "買賣" attend labelFunc04E7_0245:
 	Func08B9();
 labelFunc04E7_0245:
-	case "銀葉 (Silverleaf)" attend labelFunc04E7_0258:
+	case "銀樹葉" attend labelFunc04E7_0258:
 	message("「這是你在地球表面上能吃到最他媽讚的餿水！」");
 	say();
-	UI_remove_answer("銀葉 (Silverleaf)");
+	UI_remove_answer("銀樹葉");
 labelFunc04E7_0258:
 	case "墮落處女 (Fallen Virgin)" attend labelFunc04E7_0318:
 	message("「是的，自從我當侍女的日子以來，我就一直經營這家酒館和旅店。」 Mandy 笑了。「我當時是個相當美麗的人，但你現在看不出來了。我認識鎮上的每個人，他們也都認識我。如果你需要知道關於任何人的事，讓我知道。」");

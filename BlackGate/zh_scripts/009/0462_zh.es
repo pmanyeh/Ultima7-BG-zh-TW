@@ -62,7 +62,7 @@ labelFunc0462_00C7:
 	UI_add_answer("家人");
 labelFunc0462_00DA:
 	case "家人" attend labelFunc0462_00FA:
-	message("「是的，我是一個家庭的一份子。銀葉樹（Silverleaf tree）是我的家。我與 Trellek 結為伴侶。」");
+	message("「是的，我是一個家庭的一份子。銀葉樹是我的家。我與 Trellek 結為伴侶。」");
 	say();
 	UI_remove_answer("家人");
 	UI_add_answer(["銀葉樹", "Trellek"]);

@@ -35,7 +35,7 @@ labelFunc041B_0057:
 	gflags[0x009C] = true;
 	goto labelFunc041B_006D;
 labelFunc041B_0069:
-	message("「是，是？」 Raymundo 沒好氣地說。「你要什麼？我很忙！」");
+	message("「是......？」 Raymundo 沒好氣地說。「你要什麼？我很忙！」");
 	say();
 labelFunc041B_006D:
 	converse attend labelFunc041B_0249;
@@ -100,9 +100,9 @@ labelFunc041B_0114:
 	message("「這是個很棒的空間，你不覺得嗎？它去年才剛開幕，這多虧了我們這座偉大城市幾位富有的市民的贊助。」");
 	say();
 	UI_remove_answer("Royal Theatre");
-	UI_add_answer(["sponsorship", "citizens"]);
+	UI_add_answer(["資助", "贊助者"]);
 labelFunc041B_0134:
-	case "sponsorship" attend labelFunc041B_017F:
+	case "資助" attend labelFunc041B_017F:
 	message("「劇院建築的實際建設費用是由皇家鑄幣局支付的，但劇團完全依賴像你這樣的人的個人支持。你願意為我們的劇團做出一點微薄的貢獻，比如說，十枚金幣嗎？」");
 	say();
 	var0005 = Func090A();
@@ -121,7 +121,7 @@ labelFunc041B_0174:
 	message("「給一個人一條麵包，你只能餵飽他一天；給一個人一齣戲，或許你已經餵飽了他的靈魂一輩子！一旦你看過我們的一部作品，我相信你一定會重新考慮的。」");
 	say();
 labelFunc041B_0178:
-	UI_remove_answer("sponsorship");
+	UI_remove_answer("資助");
 labelFunc041B_017F:
 	case "試鏡" attend labelFunc041B_01C3:
 	if (!(var0001 == 0x0007)) goto labelFunc041B_01BE;
@@ -156,16 +156,16 @@ labelFunc041B_01DA:
 	say();
 	UI_remove_answer("Max");
 labelFunc041B_01F1:
-	case "citizens" attend labelFunc041B_0211:
+	case "贊助者" attend labelFunc041B_0211:
 	message("「嗯，我真的無權透露我們贊助者的名字。但他們大多數都屬於友誼會。」");
 	say();
-	UI_remove_answer("citizens");
-	UI_add_answer(["patrons", "友誼會"]);
+	UI_remove_answer("贊助者");
+	UI_add_answer(["主顧", "友誼會"]);
 labelFunc041B_0211:
-	case "patrons" attend labelFunc041B_0224:
+	case "主顧" attend labelFunc041B_0224:
 	message("「這些是為我們劇院做出貢獻的人。他們來自各行各業，除了對優秀戲劇的熱愛之外，幾乎沒有什麼共同點。」");
 	say();
-	UI_remove_answer("patrons");
+	UI_remove_answer("主顧");
 labelFunc041B_0224:
 	case "友誼會" attend labelFunc041B_023B:
 	message("「對於非藝術家來說，他們對劇院做出了慷慨的貢獻。在我的標準裡，他們是 -好- 人！」他高興地搓著手。");
@@ -189,16 +189,16 @@ labelFunc041B_024E:
 	var0008 = UI_die_roll(0x0001, 0x0004);
 	if (!(var0001 == 0x0007)) goto labelFunc041B_02CF;
 	if (!(var0008 == 0x0001)) goto labelFunc041B_0292;
-	var0009 = "@Louder! I can't hear thee!@";
+	var0009 = "「大聲點！我聽不見你的聲音！」";
 labelFunc041B_0292:
 	if (!(var0008 == 0x0002)) goto labelFunc041B_02A2;
-	var0009 = "@Move stage right, please.@";
+	var0009 = "「請往舞台左側移動。」";
 labelFunc041B_02A2:
 	if (!(var0008 == 0x0003)) goto labelFunc041B_02B2;
-	var0009 = "@Try that scene again.@";
+	var0009 = "「那場戲再試一次。」";
 labelFunc041B_02B2:
 	if (!(var0008 == 0x0004)) goto labelFunc041B_02C2;
-	var0009 = "@From the top, please.@";
+	var0009 = "「請從頭再來一遍。」";
 labelFunc041B_02C2:
 	UI_item_say(0xFFE5, var0009);
 	goto labelFunc041B_02D5;

@@ -25,7 +25,7 @@ labelFunc011C_0046:
 	goto labelFunc011C_0082;
 labelFunc011C_0076:
 	var0001 = Func0908();
-	Func08FF("@^<Avatar>, I believe the key word in sundial is `sun'.@");
+	Func08FF("「聖者, 我確信...『日晷』需要...『日頭』才能使用！」");
 labelFunc011C_0082:
 	return;
 }

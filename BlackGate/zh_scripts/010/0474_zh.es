@@ -74,7 +74,7 @@ labelFunc0474_00F1:
 	case "銀葉樹" attend labelFunc0474_0158:
 	message("「哎呀，是的， ");
 	message(var0000);
-	message("，我砍伐銀葉樹 (Silverleaf trees) 。它們只生長在一個區域，所以我需要它們的木材時，得走很長一段路。你為什麼問這個， ");
+	message("，我砍伐銀葉樹 。它們只生長在一個區域，所以我需要它們的木材時，得走很長一段路。你為什麼問這個， ");
 	message(var0000);
 	message("？~~「喔，我懂了，」他咧嘴一笑，「你想要一些給自己用，對吧？」");
 	say();

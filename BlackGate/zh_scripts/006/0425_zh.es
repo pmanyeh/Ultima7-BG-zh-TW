@@ -160,20 +160,20 @@ labelFunc0425_0249:
 	UI_remove_answer("人");
 labelFunc0425_025C:
 	case "食物" attend labelFunc0425_0276:
-	message("「我這裡提供的每樣東西都很美味。我強烈推薦你嚐嚐銀葉草（Silverleaf）這道菜。保證物超所值！」");
+	message("「我這裡提供的每樣東西都很美味。我強烈推薦你嚐嚐『銀樹葉』這道菜。保證物超所值！」");
 	say();
-	UI_remove_answer("food");
-	UI_add_answer("銀葉草");
+	UI_remove_answer("食物");
+	UI_add_answer("銀樹葉");
 labelFunc0425_0276:
 	case "飲料" attend labelFunc0425_0289:
 	message("「我提供 Britain 最棒的麥酒和葡萄酒。」");
 	say();
-	UI_remove_answer("drink");
+	UI_remove_answer("飲料");
 labelFunc0425_0289:
-	case "銀葉草" attend labelFunc0425_029C:
-	message("「它是用一種非常稀有樹木的根做成的。非常棒！」");
+	case "銀樹葉" attend labelFunc0425_029C:
+	message("「它是用一種非常稀有樹木的葉子做成的。非常棒！」");
 	say();
-	UI_remove_answer("銀葉草");
+	UI_remove_answer("銀樹葉");
 labelFunc0425_029C:
 	case "購買" attend labelFunc0425_02A7:
 	Func08B7();

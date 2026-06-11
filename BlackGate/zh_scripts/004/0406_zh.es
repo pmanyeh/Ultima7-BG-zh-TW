@@ -155,12 +155,12 @@ labelFunc0406_0237:
 	message("「銀葉樹是我們的家，」他點點頭。");
 	say();
 	UI_remove_answer("家");
-	UI_add_answer("銀葉樹 (Silverleaf trees)");
+	UI_add_answer("銀葉樹");
 labelFunc0406_0251:
-	case "銀葉樹 (Silverleaf trees)" attend labelFunc0406_0264:
+	case "銀葉樹" attend labelFunc0406_0264:
 	message("「我無法用人類的語言來解釋銀葉樹。很抱歉。你應該去問另一個人類？」他聳了聳肩，把人類的手勢模仿得很好。");
 	say();
-	UI_remove_answer("銀葉樹 (Silverleaf trees)");
+	UI_remove_answer("銀葉樹");
 labelFunc0406_0264:
 	case "Salamon" attend labelFunc0406_0277:
 	message("「Salamon 是最聰明的森靈。她見過人類。她見過『許多』事物。她非常有經驗且知識淵博。」");

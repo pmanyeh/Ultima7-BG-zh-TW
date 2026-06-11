@@ -67,7 +67,7 @@ labelFunc04F7_00DA:
 	UI_add_answer("需要配方");
 labelFunc04F7_0103:
 	case "為什麼？" attend labelFunc04F7_0116:
-	message("「火焰，傻瓜！火焰！」他又喘了一口氣。");
+	message("「火焰呀！笨蛋！是火焰呀！」他又喘了一口氣。");
 	say();
 	UI_remove_answer("為什麼？");
 labelFunc04F7_0116:
@@ -90,7 +90,11 @@ labelFunc04F7_0150:
 	UI_add_answer("鎮長");
 labelFunc04F7_0171:
 	case "Skara Brae" attend labelFunc04F7_018B:
-	message("\"'Twas a thriving town -- before I destroyed it!\" His jaw tightens and his face clenches. \"Why? Why, why, why!\" He again gasps in agony, but quickly regains control.~~\"There were so many innocent people,\" he says, staring directly at you. \"I cannot believe I am responsible for all their deaths.\"");
+	message("「這曾是座繁榮的城鎮——直到我毀了它！」他的下顎一緊，整張臉因痛苦而扭曲。");
+	say();
+	message("「為什麼？為什麼、為什麼、為什麼！」他再次因痛苦而劇烈抽息，但很快便按捺住情緒。");
+	say();
+	message("「那裡有那麼多無辜的百姓，」他直勾勾地盯著你說道：「我真的無法相信，我竟然必須為他們所有人的死負責。」");
 	say();
 	UI_add_answer("人");
 	UI_remove_answer("Skara Brae");

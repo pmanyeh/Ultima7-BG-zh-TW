@@ -47,7 +47,7 @@ labelFunc04B3_007E:
 	gflags[0x022C] = true;
 	goto labelFunc04B3_009A;
 labelFunc04B3_0090:
-	message("「Polly 笑了笑。『我能為你做什麼，");
+	message("Polly 笑了笑。「我能為你做什麼，");
 	message(var0000);
 	message("？」");
 	say();

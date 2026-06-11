@@ -54,29 +54,29 @@ labelFunc042F_0070:
 	UI_remove_npc_face(0xFFFC);
 	UI_show_npc_face(0xFFD1, 0x0000);
 labelFunc042F_00CA:
-	UI_add_answer(["food", "drink", "buy"]);
+	UI_add_answer(["食物", "飲料", "購買"]);
 	goto labelFunc042F_00E1;
 labelFunc042F_00DD:
 	message("「我在白天和晚上工作。你到時候應該來酒館，我們再多聊聊！」");
 	say();
 labelFunc042F_00E1:
-	case "food" attend labelFunc042F_00FB:
-	message("「Lucy 是個好廚師。我推薦所有的東西。特別是銀葉草 (Silverleaf) 。」");
+	case "食物" attend labelFunc042F_00FB:
+	message("「Lucy 是個好廚師。我推薦所有的東西。特別是銀樹葉。」");
 	say();
-	UI_add_answer("Silverleaf");
-	UI_remove_answer("food");
+	UI_add_answer("銀樹葉");
+	UI_remove_answer("食物");
 labelFunc042F_00FB:
-	case "Silverleaf" attend labelFunc042F_010E:
+	case "銀樹葉" attend labelFunc042F_010E:
 	message("「很棒的一道菜。嚐嚐看吧！」");
 	say();
-	UI_remove_answer("Silverleaf");
+	UI_remove_answer("銀樹葉");
 labelFunc042F_010E:
-	case "drink" attend labelFunc042F_0121:
+	case "飲料" attend labelFunc042F_0121:
 	message("「你看起來像是需要好好喝一杯！」");
 	say();
-	UI_remove_answer("drink");
+	UI_remove_answer("飲料");
 labelFunc042F_0121:
-	case "buy" attend labelFunc042F_012C:
+	case "購買" attend labelFunc042F_012C:
 	Func08A0();
 labelFunc042F_012C:
 	case "Charles" attend labelFunc042F_0150:

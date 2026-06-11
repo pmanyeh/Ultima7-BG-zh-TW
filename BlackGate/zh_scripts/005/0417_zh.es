@@ -229,7 +229,7 @@ labelFunc0417_0336:
 	UI_add_answer("Hook");
 labelFunc0417_0356:
 	if (!gflags[0x0040]) goto labelFunc0417_0363;
-	UI_add_answer("Crown Jewel號");
+	UI_add_answer("皇冠寶石號（The Crown Jewel）");
 labelFunc0417_0363:
 	case "友誼會" attend labelFunc0417_0383:
 	message("「他們是一群非常有用和有生產力的公民。你絕對應該去參觀一下位於 Britain 的友誼會總部，並與 Batlin 交談。友誼會在 Britannia 各地做了許多善事，包括提供食物給窮人、教育和幫助有需要的人，以及促進普遍的善意與和平。」");
@@ -252,10 +252,10 @@ labelFunc0417_03A9:
 	say();
 	UI_remove_answer("Hook");
 labelFunc0417_03BC:
-	case "Crown Jewel號" attend labelFunc0417_03CF:
+	case "皇冠寶石號（The Crown Jewel）" attend labelFunc0417_03CF:
 	message("「恐怕我不可能知道每一艘經過我們港口的船隻。如果你還沒有去確認的話，你應該去問問造船匠 Clint 。」");
 	say();
-	UI_remove_answer("Crown Jewel號");
+	UI_remove_answer("皇冠寶石號（The Crown Jewel）");
 labelFunc0417_03CF:
 	case "朋友們" attend labelFunc0417_03F2:
 	message("「你當然是指 Iolo 、 Shamino 和 Dupre 。」");

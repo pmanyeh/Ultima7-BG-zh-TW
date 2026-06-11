@@ -62,7 +62,7 @@ labelFunc0464_00B3:
 	UI_add_answer("食物");
 labelFunc0464_00BE:
 	case "解釋職業" attend labelFunc0464_013B:
-	message("「我現在理解『職業』了。我沒有職業。我和我的家人負責收集食物。」他仔細地觀察你。「你的職業是砍伐銀葉樹（Silverleaf trees），對吧？」");
+	message("「我現在理解『職業』了。我沒有職業。我和我的家人負責收集食物。」他仔細地觀察你。「你的職業是砍伐銀葉樹，對吧？」");
 	say();
 	gflags[0x012E] = true;
 	var0002 = Func090A();

@@ -26,7 +26,7 @@ void Func08B9 0x8B9 ()
 	var0000 = Func0909();
 	UI_push_answers();
 	var0001 = true;
-	var0002 = ["無", "羊肉", "麵包", "比目魚", "Silverleaf", "葡萄酒", "麥芽酒"];
+	var0002 = ["無", "羊肉", "麵包", "比目魚", "銀樹葉", "葡萄酒", "麥芽酒"];
 	var0003 = [0x0000, 0x0179, 0x0179, 0x0179, 0x0179, 0x0268, 0x0268];
 	var0004 = [0xFE99, 0x0008, 0x0001, 0x000D, 0x001F, 0x0005, 0x0003];
 	var0005 = [0x0000, 0x0006, 0x0005, 0x0005, 0x0032, 0x0005, 0x0005];
@@ -49,7 +49,7 @@ labelFunc08B9_00CF:
 	if (!gflags[0x012B]) goto labelFunc08B9_00E9;
 	message("「我已經沒有存貨了，");
 	message(var0000);
-	message("。Silverleaf 樹已不再砍伐，我的供應量也減少了。」");
+	message("。銀葉樹已不再砍伐，我的供應量也減少了。」");
 	say();
 labelFunc08B9_00E9:
 	var000B = Func091B(var0006, var0002[var000A], var0007, var0005[var000A], var0008[var000A]);
