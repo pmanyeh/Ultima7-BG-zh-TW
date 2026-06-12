@@ -83,7 +83,7 @@ labelFunc04C0_012C:
 	message("「或許等我上班時再談這個話題會比較合適。」");
 	say();
 labelFunc04C0_0130:
-	case "forge" attend labelFunc04C0_01A1:
+	case "打造" attend labelFunc04C0_01A1:
 	message("「你想打造一把劍嗎？」");
 	say();
 	if (!((var0002 == 0x0003) || ((var0002 == 0x0004) || (var0002 == 0x0005)))) goto labelFunc04C0_0196;
@@ -109,7 +109,7 @@ labelFunc04C0_0196:
 	message("「等我上班時再幫你處理。」");
 	say();
 labelFunc04C0_019A:
-	UI_remove_answer("forge");
+	UI_remove_answer("打造");
 labelFunc04C0_01A1:
 	case "告辭" attend labelFunc04C0_01AC:
 	goto labelFunc04C0_01AF;

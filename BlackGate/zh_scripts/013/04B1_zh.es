@@ -174,7 +174,7 @@ labelFunc04B1_02A0:
 	message("「我不在乎 Feridwyn 怎麼說！我兒子不是小偷！」");
 	say();
 labelFunc04B1_02A4:
-	UI_remove_answer("thief");
+	UI_remove_answer("小偷");
 labelFunc04B1_02AB:
 	case "Feridwyn" attend labelFunc04B1_02BE:
 	message("「Feridwyn 那個男人知道我不信任友誼會，因此他把我視為他的個人敵人。我不知道他為什麼試圖透過我兒子來攻擊我，但他絕不能得逞。」");

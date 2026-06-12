@@ -48,7 +48,7 @@ labelFunc0424_00AF:
 	case "理論" attend labelFunc0424_00CF:
 	message("「就像城堡是從地基往上建的一樣，戰士也是如此。不能一開始就學習用武器戰鬥。武器只是人體末端的延伸。一個真正的戰士首先學會使用他的四肢。」");
 	say();
-	UI_remove_answer("theory");
+	UI_remove_answer("理論");
 	UI_add_answer(["戰士", "四肢"]);
 labelFunc0424_00CF:
 	case "戰士" attend labelFunc0424_00E2:

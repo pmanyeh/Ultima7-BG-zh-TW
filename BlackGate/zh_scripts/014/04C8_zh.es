@@ -134,7 +134,7 @@ labelFunc04C8_01A3:
 labelFunc04C8_01B5:
 	UI_add_answer(["治療師", "軍械士", "訓練師", "補給官"]);
 labelFunc04C8_01C8:
-	UI_remove_answer("Hold");
+	UI_remove_answer("堡壘");
 labelFunc04C8_01CF:
 	case "Lord John-Paul" attend labelFunc04C8_01ED:
 	message("「他是位非凡的領袖。每個人都尊敬他。你只需要問問他的隊長就知道了。」");

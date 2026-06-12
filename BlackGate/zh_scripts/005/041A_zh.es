@@ -135,10 +135,10 @@ labelFunc041A_01BE:
 	if (!gflags[0x008E]) goto labelFunc041A_01DE;
 	UI_remove_answer(["已送達的包裹", "包裹已送達"]);
 	if (!gflags[0x0097]) goto labelFunc041A_01DE;
-	UI_add_answer("chest");
+	UI_add_answer("箱子");
 labelFunc041A_01DE:
 	if (!gflags[0x008D]) goto labelFunc041A_01EB;
-	UI_remove_answer("chest");
+	UI_remove_answer("箱子");
 labelFunc041A_01EB:
 	if (!gflags[0x0091]) goto labelFunc041A_01FF;
 	if (!(!gflags[0x0090])) goto labelFunc041A_01FF;
@@ -241,7 +241,7 @@ labelFunc041A_0372:
 	UI_remove_answer("價值先行於報償");
 	UI_add_answer("加入");
 labelFunc041A_038C:
-	case "Elizabeth and Abraham" attend labelFunc041A_03E5:
+	case "Elizabeth 和 Abraham" attend labelFunc041A_03E5:
 	if (!(!gflags[0x0105])) goto labelFunc041A_03A3;
 	message("「啊，我的好同事 Elizabeth 和 Abraham 剛才還在這裡。他們今天早上為友誼會的事務前往 Minoc 了。他們負責資金的分配和收集。」");
 	say();
@@ -264,7 +264,7 @@ labelFunc041A_03D4:
 	message("「自從他們上次來過之後，我就沒見過我的同事們了。他們都是大忙人。」");
 	say();
 labelFunc041A_03DE:
-	UI_remove_answer("Elizabeth and Abraham");
+	UI_remove_answer("Elizabeth 和 Abraham");
 labelFunc041A_03E5:
 	case "加入" attend labelFunc041A_0416:
 	if (!gflags[0x0006]) goto labelFunc041A_03FA;
@@ -359,11 +359,11 @@ labelFunc041A_0512:
 	UI_remove_answer("任務");
 	abort;
 labelFunc041A_0530:
-	case "chest" attend labelFunc041A_0556:
+	case "箱子" attend labelFunc041A_0556:
 	message("「啊，是的，你從 Destard 地城回來了！但等等！我沒有看到你要帶回來的友誼會資金！發生了什麼事？！」");
 	say();
 	UI_add_answer(["攔路強盜", "怪物", "海盜", "船沉了"]);
-	UI_remove_answer("chest");
+	UI_remove_answer("箱子");
 labelFunc041A_0556:
 	case "攔路強盜" attend labelFunc041A_0570:
 	message("「哎呀，你的故事太離譜了！我拒絕相信！」 Batlin 惱火地嗤之以鼻。");

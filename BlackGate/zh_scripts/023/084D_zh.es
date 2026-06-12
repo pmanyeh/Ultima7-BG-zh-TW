@@ -31,7 +31,7 @@ labelFunc084D_0040:
 	say();
 	Func084F();
 labelFunc084D_0047:
-	UI_remove_answer("join");
+	UI_remove_answer("加入");
 	goto labelFunc084D_0056;
 labelFunc084D_0051:
 	message("「我看得出來，你還沒準備好在你的思想和生活中邁出這勇敢的一步。但請記住我們今天談過的話，我的朋友！也許假以時日你就會準備好了。」*");

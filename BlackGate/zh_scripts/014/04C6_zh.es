@@ -136,14 +136,14 @@ labelFunc04C6_01C9:
 	say();
 	UI_remove_npc_face(0xFFFF);
 labelFunc04C6_021E:
-	UI_remove_answer("original branch");
+	UI_remove_answer("最初設的店");
 labelFunc04C6_0225:
 	case "騎士" attend labelFunc04C6_0238:
 	message("「有很多人住在堡壘裡。神聖碼頭的酒保 Denton 爵士，認識他們所有人。」");
 	say();
 	UI_remove_answer("騎士");
 labelFunc04C6_0238:
-	case "sell" attend labelFunc04C6_0281:
+	case "販售" attend labelFunc04C6_0281:
 	var0007 = UI_get_schedule_type(UI_get_npc_object(0xFF3A));
 	if (!(var0007 == 0x0007)) goto labelFunc04C6_0270;
 	message("「近戰武器還是遠程武器？」");

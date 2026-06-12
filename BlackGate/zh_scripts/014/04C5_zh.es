@@ -100,10 +100,10 @@ labelFunc04C5_018F:
 	say();
 	UI_remove_answer("黑暗");
 labelFunc04C5_01A2:
-	case "Sir Richter" attend labelFunc04C5_01BC:
+	case "Richter 爵士" attend labelFunc04C5_01BC:
 	message("「知道他不會相信一個公然藐視友誼會的人。」");
 	say();
-	UI_remove_answer("Sir Richter");
+	UI_remove_answer("Richter 爵士");
 	UI_add_answer("友誼會");
 labelFunc04C5_01BC:
 	case "友誼會" attend labelFunc04C5_01CF:

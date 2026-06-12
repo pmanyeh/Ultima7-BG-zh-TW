@@ -72,7 +72,7 @@ labelFunc04CA_010E:
 	case "屏障" attend labelFunc04CA_0128:
 	message("「這是為了將非成員擋在外面而設置的。在屏障內部，友誼會成員發現更容易聽到他們的內在聲音。每位成員都會拿到一把隨時可以使用的鑰匙。」");
 	say();
-	UI_remove_answer("barrier");
+	UI_remove_answer("屏障");
 	UI_add_answer("鑰匙");
 labelFunc04CA_0128:
 	case "鑰匙" attend labelFunc04CA_01B4:

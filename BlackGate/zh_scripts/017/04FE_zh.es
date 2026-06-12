@@ -212,14 +212,14 @@ labelFunc04FE_0373:
 	case "單身" attend labelFunc04FE_03A4:
 	message("「我敢打賭，就像那些為了同樣原因在下面徘徊尋找我的傻瓜一樣。好吧，他們可以打消這個念頭了。我喜歡女人，我真的喜歡，坦白說，我厭倦了被用作羞辱她們的工具。」");
 	say();
-	UI_remove_answer("marriages");
+	UI_remove_answer("婚約");
 	if (!gflags[0x02E0]) goto labelFunc04FE_0396;
 	UI_add_answer("男性童貞測試");
 	goto labelFunc04FE_039D;
 labelFunc04FE_0396:
 	UI_add_answer("傻瓜");
 labelFunc04FE_039D:
-	UI_remove_answer("bachelorhood");
+	UI_remove_answer("單身");
 labelFunc04FE_03A4:
 	case "傻瓜" attend labelFunc04FE_03BB:
 	message("「我是一個魔法生物。只要我願意，我可以在下面避開他們。他們在抓到我之前就會老死。我拒絕協助他們逃避某種違背承諾的責任。如果你看到他們，你可以把這話告訴他們。」");

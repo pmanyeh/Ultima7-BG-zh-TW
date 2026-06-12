@@ -209,7 +209,7 @@ labelFunc04C7_033A:
 	message("「哦。你以前聽過了。」");
 	say();
 	UI_remove_answer("到另一邊去");
-	UI_remove_answer("I don't know");
+	UI_remove_answer("我不知道");
 labelFunc04C7_035F:
 	case "友誼會" attend labelFunc04C7_03CC:
 	message("「友誼會是一個有二十年歷史的組織，舉辦許多節日、遊行和慶祝活動。此外，他們還在 Paws 鎮維持一個庇護所。他們有一個潛在的理念，被稱為『內在力量的三位一體 (Triad of Inner Strength)』 。這個三位一體被分解為三個原則：『致力合一 (Strive For Unity)』、『信賴你的兄弟 (Trust Thy Brother)』和『價值先行於報償 (Worthiness Precedes Reward)』。我現在將解釋每一個原則的含義。」");

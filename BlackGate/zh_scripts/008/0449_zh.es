@@ -52,10 +52,10 @@ labelFunc0449_008E:
 	UI_remove_answer("僕人");
 	UI_add_answer(["家族", "心上人"]);
 labelFunc0449_00AE:
-	case "家人" attend labelFunc0449_00C1:
+	case "家族" attend labelFunc0449_00C1:
 	message("「你會遇到他們的。我母親在廚房做飯。我那古板的妹妹是女僕。」");
 	say();
-	UI_remove_answer("家人");
+	UI_remove_answer("家族");
 labelFunc0449_00C1:
 	case "心上人" attend labelFunc0449_00DF:
 	message("Charles 嘆了口氣。他顯然是被迷住了。「她是 Jeanette 。她在藍野豬酒館工作。但我恐怕『達不到她的標準』。我相信她看上別人了。我不知道該怎麼辦。」");
@@ -84,7 +84,7 @@ labelFunc0449_0103:
 	if (!gflags[0x007A]) goto labelFunc0449_0127;
 	UI_add_answer("孩子");
 labelFunc0449_0127:
-	case "小孩" attend labelFunc0449_015E:
+	case "孩子" attend labelFunc0449_015E:
 	message("你回想起 Nell 告訴你關於她的『狀況』。你要跟 Charles 提這件事嗎？");
 	say();
 	var0000 = Func090A();
@@ -101,7 +101,7 @@ labelFunc0449_0127:
 labelFunc0449_0153:
 	message("你的良心感到安寧，因為你知道你抵擋住了搬弄是非的誘惑。");
 	say();
-	UI_remove_answer("小孩");
+	UI_remove_answer("孩子");
 labelFunc0449_015E:
 	case "酒" attend labelFunc0449_01CF:
 	message("「你想來點酒嗎？」");

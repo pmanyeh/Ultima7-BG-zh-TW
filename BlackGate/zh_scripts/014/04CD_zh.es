@@ -42,7 +42,7 @@ labelFunc04CD_007D:
 	case "Vesper" attend labelFunc04CD_009D:
 	message("「我在這裡教了很多年了。我喜歡這個城鎮，但我不太喜歡某些居民。」");
 	say();
-	UI_add_answer(["town", "residents"]);
+	UI_add_answer(["城鎮", "居民"]);
 	UI_remove_answer("Vesper");
 labelFunc04CD_009D:
 	case "城鎮" attend labelFunc04CD_00B0:
@@ -73,17 +73,17 @@ labelFunc04CD_00FD:
 	UI_remove_answer("石像鬼");
 	UI_add_answer(["搶劫", "暴力"]);
 labelFunc04CD_011D:
-	case "rob" attend labelFunc04CD_0130:
-	message("「我已經聽說我的一些居民同伴被那些可憐的生物偷了東西。」");
+	case "搶劫" attend labelFunc04CD_0130:
+	message("「我聽說有些居民，被那些可悲的生物偷了東西。」");
 	say();
-	UI_remove_answer("rob");
+	UI_remove_answer("搶劫");
 labelFunc04CD_0130:
-	case "violence" attend labelFunc04CD_0143:
+	case "暴力" attend labelFunc04CD_0143:
 	message("「你肯定知道，所有石像鬼都容易產生毫無理智的暴力行為。期待他們為了自己的私利而使用暴力是很自然的。」");
 	say();
-	UI_remove_answer("violence");
+	UI_remove_answer("暴力");
 labelFunc04CD_0143:
-	case "train" attend labelFunc04CD_0188:
+	case "訓練" attend labelFunc04CD_0188:
 	if (!(var0002 == 0x0007)) goto labelFunc04CD_017E;
 	message("「我可以以 40 金幣訓練你。可以嗎？」");
 	say();

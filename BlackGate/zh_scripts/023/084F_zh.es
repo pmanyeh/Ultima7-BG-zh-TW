@@ -168,10 +168,10 @@ labelFunc084F_023A:
 	var000F = Func08F7(0xFFFC);
 	var0010 = UI_is_pc_female();
 	if (!var0010) goto labelFunc084F_0275;
-	var0011 = "she";
+	var0011 = "她";
 	goto labelFunc084F_027B;
 labelFunc084F_0275:
-	var0011 = "he";
+	var0011 = "他";
 labelFunc084F_027B:
 	if (!var000F) goto labelFunc084F_02C9;
 	UI_show_npc_face(0xFFFD, 0x0000);

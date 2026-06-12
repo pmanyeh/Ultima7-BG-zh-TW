@@ -45,12 +45,12 @@ labelFunc04A1_0066:
 	say();
 labelFunc04A1_0070:
 	converse attend labelFunc04A1_0207;
-	case "名字" attend labelFunc04A1_0152:
+	case "姓名" attend labelFunc04A1_0152:
 	message("「Chad，為您效勞，");
 	message(var0001);
-	message("。你叫什麼名字？」");
+	message("。請問您是～？」");
 	say();
-	UI_remove_answer("名字");
+	UI_remove_answer("姓名");
 	var0004 = Func090B([var0000, var0002, var0001]);
 	if (!(var0004 == var0000)) goto labelFunc04A1_00B6;
 	message("「你好，");

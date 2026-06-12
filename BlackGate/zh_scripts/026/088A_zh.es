@@ -14,11 +14,11 @@ void Func088A 0x88A ()
 	var var0007;
 
 	var0000 = Func0909();
-	message("在得知沒有鎮民願意為了更大的利益犧牲自己後，Forsythe 的眼中閃爍著奇異的光芒。他下巴緊繃，肩膀挺直。~~\"Well, then. It has got to be done! And since no other brave soul will do it, perhaps I shall have to show them all what real courage is.\" He strides forward like a lord and plants his feet. \"Please be kind enough to lead me to the well, ");
+	message("在得知沒有鎮民願意為了更大的利益犧牲自己後，Forsythe 的眼中閃爍著奇異的光芒。他下巴緊繃，肩膀挺直。~~「既然如此，這件事總得有人去做！既然沒有其他勇敢的靈魂願意挺身而出，或許就該由我來讓所有人看看，什麼才是真正的勇氣。」他像個領主般大步邁向前，站穩了腳步。「請行個好，帶我前往那口井吧。");
 	message(var0000);
-	message(".\"*");
+	message("。」*");
 	say();
-	UI_remove_answer("sacrifice");
+	UI_remove_answer("犧牲");
 	var0001 = 0x0000;
 	var0002 = UI_get_party_list();
 	var0003 = UI_get_npc_object(0xFFF8);

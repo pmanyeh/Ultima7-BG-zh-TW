@@ -182,7 +182,7 @@ labelFunc043E_0285:
 	if (!(!var0009)) goto labelFunc043E_02AC;
 	message("「啊哈！沒我想像中的勇敢！」");
 	say();
-	UI_remove_answer("joke five");
+	UI_remove_answer("joke five");//這個沒有對應到UI_add_answer("joke five")來源，所以就不處理了
 	goto labelFunc043E_02E5;
 labelFunc043E_02AC:
 	var000A = UI_remove_party_items(0x0001, 0x0284, 0xFE99, 0xFE99, true);

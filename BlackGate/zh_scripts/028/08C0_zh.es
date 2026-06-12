@@ -35,7 +35,7 @@ labelFunc08C0_0061:
 	if (!gflags[0x01C2]) goto labelFunc08C0_006E;
 	UI_add_answer("Caine");
 labelFunc08C0_006E:
-	UI_add_answer("沒有人");
+	UI_add_answer("暫時沒有");
 	message("「那好。你想談談誰？」");
 	say();
 labelFunc08C0_0079:
@@ -170,10 +170,10 @@ labelFunc08C0_0247:
 labelFunc08C0_0259:
 	UI_remove_answer("Caine");
 labelFunc08C0_0260:
-	case "ingredients" attend labelFunc08C0_0273:
+	case "配方" attend labelFunc08C0_0273:
 	message("「如果我告訴你，你必須確保弄對它們。否則，當初我告訴那個該死的市長時發生的慘劇就會再次重演。而且，雖然我們在 Skara Brae 這裡已經沒有更多的生命可以失去了，但你卻有一條相當寶貴的性命！~~「瓦解巫妖所需的成分有：一瓶隱形藥水、一瓶療傷藥水，以及一小瓶曼陀羅根精華——我家裡的某個地方有一瓶。記住，只要 -一- 小瓶！」");
 	say();
-	UI_remove_answer("ingredients");
+	UI_remove_answer("配方");
 labelFunc08C0_0273:
 	case "巫妖 Horance" attend labelFunc08C0_0291:
 	message("「他就是大火發生時，我試圖消滅的那個該死的巫妖。法師 Horance 顯然在某一天決定了凡人的壽命不適合他。於是，他開始研究避免死亡的方法。最後，他找到了將自己變成不死生物——一個長生不老的不死生物——巫妖所需的配方。不幸的是，這種轉變加上他本就偏執的行為，使他變成了今天這個邪惡的怪物！~~「而正是他那邪惡的『黑色儀式』在擺佈著我們所有人！」");
@@ -217,7 +217,7 @@ labelFunc08C0_0303:
 labelFunc08C0_0315:
 	UI_remove_answer("Black Service");
 labelFunc08C0_031C:
-	case "no one" attend labelFunc08C0_0333:
+	case "暫時沒有" attend labelFunc08C0_0333:
 	message("「我明白了。那麼，你想談談什麼？」*");
 	say();
 	UI_clear_answers();

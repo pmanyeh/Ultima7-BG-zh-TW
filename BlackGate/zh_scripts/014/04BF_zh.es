@@ -115,7 +115,7 @@ labelFunc04BF_013A:
 	message("「真遺憾。」");
 	say();
 labelFunc04BF_013E:
-	UI_remove_answer("Sultan");
+	UI_remove_answer("蘇丹");
 labelFunc04BF_0145:
 	case "Spektran" attend labelFunc04BF_0186:
 	message("「就是你現在站著的這座島！」他轉向左邊看不見的人低語：「你說得對——這個人真的是個傻瓜！」~~ Martingo 轉回頭對你說。「如我所說，我是這裡的蘇丹。我是所有這些臣民的主人。」他朝房間周圍比劃了一下。");
