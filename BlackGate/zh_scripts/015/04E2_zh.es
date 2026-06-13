@@ -25,7 +25,7 @@ void Func04E2 object#(0x4E2) ()
 	UI_show_npc_face(0xFF1E, 0x0000);
 	var0000 = Func0908();
 	var0001 = UI_wearing_fellowship();
-	var0002 = "Avatar";
+	var0002 = "聖者";
 	var0003 = UI_get_npc_object(0xFF1E);
 	if (!gflags[0x02A3]) goto labelFunc04E2_003B;
 	var0004 = var0000;
@@ -74,14 +74,14 @@ labelFunc04E2_00D7:
 	UI_remove_answer("姓名");
 labelFunc04E2_00ED:
 	case "職業" attend labelFunc04E2_0106:
-	message("「把聖者 做成魚餌！」他大笑。「我已經受夠那些跑來跑去自稱是聖者 的瘦弱傢伙了！我正在找上週來過這裡的特定一個聖者 。一個身為友誼會成員的聖者 ！」");
+	message("「把聖者做成魚餌！」他大笑。「我已經受夠那些跑來跑去，自稱是聖者的瘦弱傢伙了！我正在找上週來過這裡的特定一個聖者。一個身為友誼會成員的聖者！」");
 	say();
-	UI_add_answer(["Avatar", "友誼會"]);
+	UI_add_answer(["聖者", "友誼會"]);
 labelFunc04E2_0106:
-	case "Avatar" attend labelFunc04E2_0120:
-	message("「他一週前來過這裡。試圖從我身上偷些金幣！想想看！那個混蛋的膽子！在我意識到他做了什麼之前，他就已經不見了。」");
+	case "聖者" attend labelFunc04E2_0120:
+	message("「他一週前來過這裡。試圖從我身上偷些金幣！那個混蛋！在我意識到他做了什麼之前，他就已經溜走了。」");
 	say();
-	UI_remove_answer("Avatar");
+	UI_remove_answer("聖者");
 	UI_add_answer("偷竊");
 labelFunc04E2_0120:
 	case "偷竊" attend labelFunc04E2_013D:
@@ -104,14 +104,14 @@ labelFunc04E2_015A:
 	message("我不信任他們。我認為他們都在隱瞞什麼。我認為他們都是騙子。拿我的老朋友 Mole 來說吧。嗯，我的前老朋友 Mole 。自從他加入他們之後，他改變了很多。」");
 	say();
 	UI_remove_answer("友誼會");
-	UI_add_answer(["Mole", "changed"]);
+	UI_add_answer(["Mole", "改變"]);
 labelFunc04E2_0175:
 	case "Mole" attend labelFunc04E2_0188:
 	message("「他是另一個退休住在島上的老海盜。我們曾是多年的夥伴，但後來他加入了那個該死的友誼會。現在他覺得自己的排泄物不臭了，如果你懂我的意思。」");
 	say();
 	UI_remove_answer("Mole");
 labelFunc04E2_0188:
-	case "changed" attend labelFunc04E2_021A:
+	case "改變" attend labelFunc04E2_021A:
 	message("「他已經放棄了所有海盜的行徑！他現在是個該死的聖人，每當他看到我，他就試圖說服我加入友誼會。我現在不惜一切代價避開他。我受不了看到他變成這樣。這讓我怒火中燒！」~~然後，在一個軟弱的時刻，這個強悍的海盜小聲地說：「我也想他。我們曾經是最好的夥伴。」你敢發誓他眼裡有淚水。*");
 	say();
 	var0007 = Func08F7(0xFFFE);
@@ -141,7 +141,7 @@ labelFunc04E2_01F4:
 labelFunc04E2_01FE:
 	message("「我就繼續孤獨且貧困地留在這裡吧！我的匕首在哪裡？我要割喉自盡！！」");
 	say();
-	UI_remove_answer("changed");
+	UI_remove_answer("改變");
 	gflags[0x02A5] = true;
 	if (!gflags[0x02A7]) goto labelFunc04E2_021A;
 	UI_add_answer("Mole 說……");

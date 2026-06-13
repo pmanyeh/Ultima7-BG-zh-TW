@@ -31,7 +31,7 @@ labelFunc04F2_003E:
 labelFunc04F2_0048:
 	if (!gflags[0x0138]) goto labelFunc04F2_005F;
 	var0001 = true;
-	UI_add_answer(["小精靈", "Emps"]);
+	UI_add_answer(["鬼火", "森靈"]);
 labelFunc04F2_005F:
 	converse attend labelFunc04F2_029A;
 	case "姓名" attend labelFunc04F2_0088:
@@ -58,7 +58,7 @@ labelFunc04F2_00BA:
 	say();
 	if (!gflags[0x0100]) goto labelFunc04F2_00DA;
 	if (!(!var0001)) goto labelFunc04F2_00DA;
-	UI_add_answer("小精靈");
+	UI_add_answer("鬼火");
 labelFunc04F2_00DA:
 	UI_remove_answer("動物");
 labelFunc04F2_00E1:
@@ -112,12 +112,12 @@ labelFunc04F2_019A:
 	say();
 	UI_remove_answer("Julius");
 labelFunc04F2_01AD:
-	case "小精靈" attend labelFunc04F2_01D1:
-	message("「小精靈？」他笑了。「我懷疑它們是否存在。我知道許多人似乎相信它們的存在，但我從未見過任何一隻。~~「如果你一定要知道，民間傳說認為它們居住在森林區域，靠近 Emps 的地方。據說，Emps 能夠和它們說話。」他聳了聳肩。「如果你希望，你可以去尋找它們，但我自己是不會浪費寶貴的時間的。」");
+	case "鬼火" attend labelFunc04F2_01D1:
+	message("「鬼火？」他大笑了起來：『我懷疑那些東西根本不存在。我知道很多人似乎對此深信不疑，但我可是從來沒見過。~~「你若非知不可，民間傳說倒是一直堅稱牠們棲息在森林一帶，就在森靈族的聚落附近。據說，森靈族能夠與牠們交談。」他聳了聳肩：「你若真想找，大可自己去碰碰運氣，但換作是我，我可不會把寶貴的時間浪費在這種事情上。」");
 	say();
-	UI_add_answer(["寶貴的時間", "Emps"]);
+	UI_add_answer(["寶貴的時間", "森靈"]);
 	gflags[0x0138] = true;
-	UI_remove_answer("小精靈");
+	UI_remove_answer("鬼火");
 labelFunc04F2_01D1:
 	case "寶貴的時間" attend labelFunc04F2_01EA:
 	message("「有太多令人興奮的事物值得研究了……例如，樹花，");
@@ -126,20 +126,20 @@ labelFunc04F2_01D1:
 	say();
 	UI_remove_answer("寶貴的時間");
 labelFunc04F2_01EA:
-	case "Emps" attend labelFunc04F2_020E:
-	message("「啊，Emps。我還沒能收集到太多關於它們的資訊。~~「它們住在深林的東部邊緣，離這裡不算是太遠。~~「它們長得有點像猿，但只有一點點像。它們極其害羞，很少會覺得自在到足以接近人類。~~「我唯一一次能近距離觀察 Emp 是因為我背包裡剛好有從 Bee Cave 撿來的蜂蜜。那隻生物出現了，盯著我看了幾分鐘，然後要——我要說，是要——我的蜂蜜。我相信它們有同理心（empathic），這也是它們名字的由來。~~「非常有趣的物種，你不同意嗎？」");
+	case "森靈" attend labelFunc04F2_020E:
+	message("「啊，森靈族。關於牠們，我目前所能收集到的情報也相當有限。~~「牠們棲息在深林東緣，離此地並不算太遠。~~「牠們的外表略微神似猿猴，但也僅僅是有些相仿。牠們的生性極度害羞，極少能在人類面前感到自在並主動接近。~~「我唯一一次得以近距離觀察森靈族的經歷，是有次我恰巧在背包裡帶了剛從『蜜蜂洞窟（Bee Cave）』採集到的蜂蜜。那隻小生物突然現身，盯著我看了好幾分鐘，接著竟然開口——我沒聽錯，牠確實是開口——向我索要我的蜂蜜。我相信牠們具備極高的共情感知能力（Empathic），這也是其族名的由來。~~「真是個極其有趣的物種，你不這麼認為嗎？」");
 	say();
-	UI_add_answer(["蜂蜜", "Bee Cave"]);
+	UI_add_answer(["蜂蜜", "蜜蜂洞窟"]);
 	var0002 = true;
-	UI_remove_answer("Emps");
+	UI_remove_answer("森靈");
 labelFunc04F2_020E:
 	case "蜂蜜" attend labelFunc04F2_0221:
-	message("「洞穴裡的蜂蜜相當美味，但很少有人能不經過戰鬥就得到它。Bee Cave 可能是一個相當危險的地方。」");
+	message("「洞穴裡的蜂蜜相當美味，但很少有人能不經過戰鬥就得到它。蜜蜂洞窟可能是一個相當危險的地方。」");
 	say();
 	UI_remove_answer("蜂蜜");
 labelFunc04F2_0221:
-	case "Bee Cave" attend labelFunc04F2_028C:
-	message("「Bee Cave 位於修道院的西南方。但如果你計畫去那裡，要小心住在洞穴裡的巨蜂。牠們的毒液非常毒。~~");
+	case "蜜蜂洞窟" attend labelFunc04F2_028C:
+	message("「蜜蜂洞窟位於修道院的西南方。但如果你計畫去那裡，要小心住在洞穴裡的巨蜂。牠們的毒液非常毒。~~");
 	say();
 	var0003 = Func0931(0xFE9B, 0x0001, 0x0301, 0xFE99, 0xFE99);
 	if (!(!var0003)) goto labelFunc04F2_0285;
@@ -161,7 +161,7 @@ labelFunc04F2_0281:
 	message("「很好。但如果你剛好路過洞穴，要小心點！」");
 	say();
 labelFunc04F2_0285:
-	UI_remove_answer("Bee Cave");
+	UI_remove_answer("蜜蜂洞窟");
 labelFunc04F2_028C:
 	case "告辭" attend labelFunc04F2_0297:
 	goto labelFunc04F2_029A;
@@ -169,7 +169,7 @@ labelFunc04F2_0297:
 	goto labelFunc04F2_005F;
 labelFunc04F2_029A:
 	endconv;
-	message("「願你的知識隨著你與自然的邂逅而增長，");
+	message("「願你的知識，隨著你與自然的邂逅而增長，");
 	message(var0000);
 	message("。」*");
 	say();

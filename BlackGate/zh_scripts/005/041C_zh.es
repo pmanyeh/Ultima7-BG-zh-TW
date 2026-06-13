@@ -57,7 +57,7 @@ labelFunc041C_00A1:
 	case "職業" attend labelFunc041C_00BA:
 	message("「我在皇家劇院當演員。我在我的職業生涯中扮演過 -所有- 偉大的角色。我現在有機會扮演一生難得的角色——聖者！」");
 	say();
-	UI_add_answer(["皇家劇院", "Avatar"]);
+	UI_add_answer(["皇家劇院", "聖者"]);
 labelFunc041C_00BA:
 	case "皇家劇院" attend labelFunc041C_00DA:
 	message("「因為它必須迎合大眾，我們從來沒有機會做實驗性作品——只有傳統平庸的大雜燴。但這是一個很棒的空間，而且音響效果極佳。」");
@@ -70,11 +70,11 @@ labelFunc041C_00DA:
 	say();
 	UI_remove_answer("大眾");
 labelFunc041C_00ED:
-	case "Avatar" attend labelFunc041C_010D:
+	case "聖者" attend labelFunc041C_010D:
 	message("「這個角色極具挑戰性。我有過多的台詞，而且我必須和訓練員一起工作好幾週，為所需的大量活動做準備。這個角色會讓『Jesse』家喻戶曉！」");
 	say();
 	UI_add_answer(["具挑戰性", "台詞"]);
-	UI_remove_answer("Avatar");
+	UI_remove_answer("聖者");
 labelFunc041C_010D:
 	case "具挑戰性" attend labelFunc041C_0120:
 	message("「這絕對是史上構思過最具野心的戲劇製作。有超過一百個小時的演出時間。對觀眾來說那是一段很長的時間。」");

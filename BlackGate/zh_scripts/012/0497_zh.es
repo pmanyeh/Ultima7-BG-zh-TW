@@ -28,7 +28,7 @@ void Func0497 object#(0x497) ()
 	var0006 = UI_is_pc_female();
 	UI_add_answer(["姓名", "職業", "告辭"]);
 	if (!(!gflags[0x02C6])) goto labelFunc0497_0073;
-	message("這個活潑的仙子 (fairy) 在你周圍飛舞，咯咯笑著在你的頭上撒下某種閃閃發光的粉末。~~「我愛你！是的，我愛你！我愛你！」");
+	message("這個活潑的小仙子 (fairy) 在你周圍飛舞，咯咯笑著在你的頭上撒下某種閃閃發光的粉末。~~「我愛你！是的，我愛你！我愛你！」");
 	say();
 	gflags[0x02C6] = true;
 	goto labelFunc0497_0077;
@@ -44,7 +44,7 @@ labelFunc0497_0077:
 	UI_show_npc_face(0xFFFF, 0x0000);
 	message("「別這麼做，");
 	message(var0004);
-	message("！誰知道這個奇怪的生物可能擁有什麼邪惡的力量！」他更仔細地檢查了這個小精靈 (sprite) 。「也許我應該先試試看，以確保它是安全的……」*");
+	message("！誰知道這個奇怪的生物可能擁有什麼邪惡的力量！」他更仔細地檢查了這個小妖精 。「也許我應該先試試看，以確保它是安全的……」*");
 	say();
 	UI_remove_npc_face(0xFFFF);
 labelFunc0497_00A7:

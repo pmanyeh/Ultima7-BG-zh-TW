@@ -31,7 +31,7 @@ labelFunc087C_0066:
 	goto labelFunc087C_007B;
 labelFunc087C_0069:
 	if (!gflags[0x0154]) goto labelFunc087C_0076;
-	message("這個恩普 (Emp) 看起來非常失望。");
+	message("這個森靈看起來非常失望。");
 	say();
 	goto labelFunc087C_007B;
 labelFunc087C_0076:

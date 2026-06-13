@@ -97,7 +97,7 @@ labelFunc04CB_018C:
 	UI_remove_answer("友誼會");
 labelFunc04CB_019A:
 	case "三位一體 (Triad)" attend labelFunc04CB_01AD:
-	message("「那些是友誼會的三項基本原則：努力團結 (Strive for Unity) 、信任你的兄弟 (Trust thy Brother) 以及善有善報 (Worthiness Precedes Reward) 。」");
+	message("「那些是友誼會的三項基本原則：致力合一 (Strive for Unity) 、信賴你的兄弟 (Trust thy Brother) 以及價值先行於報償 (Worthiness Precedes Reward) 。」");
 	say();
 	UI_remove_answer("三位一體 (Triad)");
 labelFunc04CB_01AD:

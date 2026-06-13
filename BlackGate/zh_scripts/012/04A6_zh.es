@@ -157,7 +157,7 @@ labelFunc04A6_025B:
 	message("「我沒有妻子或家人。我曾經考慮過加入友誼會，但我拒絕了。我除了工作，就只有偶爾在 Salty Dog 喝杯酒。」");
 	say();
 	UI_remove_answer("活著的理由");
-	UI_add_answer(["友誼會", "Salty Dog"]);
+	UI_add_answer(["友誼會", "老海狗酒館"]);
 labelFunc04A6_027B:
 	case "友誼會" attend labelFunc04A6_029E:
 	message("「我知道他們在鎮上做了很好的工作，但他們身上就是有些東西讓我感到不舒服。」");
@@ -170,7 +170,7 @@ labelFunc04A6_027B:
 labelFunc04A6_0297:
 	UI_remove_answer("友誼會");
 labelFunc04A6_029E:
-	case "Salty Dog" attend labelFunc04A6_02C3:
+	case "老海狗酒館" attend labelFunc04A6_02C3:
 	if (!(!gflags[0x0216])) goto labelFunc04A6_02B8;
 	message("「說實話，我去那裡更多是為了靠近旅館老闆 Polly，而不是為了喝酒。但我肯定她總是在忙著照顧酒吧，沒有時間理我。」");
 	say();
@@ -180,7 +180,7 @@ labelFunc04A6_02B8:
 	message("「我應該去 Salty Dog 看看 Polly。」Thurston 茫然地盯著半空幾秒鐘，他的眼睛睜得大大的，臉上帶著癡情的表情。突然，他回過神來。「對不起，你剛才說什麼？」");
 	say();
 labelFunc04A6_02BC:
-	UI_remove_answer("Salty Dog");
+	UI_remove_answer("老海狗酒館");
 labelFunc04A6_02C3:
 	case "Polly" attend labelFunc04A6_02E8:
 	if (!(!gflags[0x0231])) goto labelFunc04A6_02DD;

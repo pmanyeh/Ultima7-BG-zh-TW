@@ -13,7 +13,7 @@ void Func0282 shape#(0x282) ()
 	var0001 = item;
 	var0002 = UI_get_item_quality(var0001);
 	if (!(var0002 > var0000)) goto labelFunc0282_0037;
-	message("This is @not a @valid book");
+	message("這不是一本「好書」。");
 	say();
 labelFunc0282_0037:
 	if (!(var0002 == 0x0000)) goto labelFunc0282_004D;
@@ -45,11 +45,11 @@ labelFunc0282_006F:
 	say();
 	message("雖然友誼會預示著自己是一個樂觀主義者的團體，其理念被稱為『內在力量的三位一體 (Triad of Inner Strength)』，但仔細審視該團體的『價值觀』，可以發現許多謬誤。");
 	say();
-	message("第一個『價值觀』是努力追求團結 (Strive For Unity)。這暗示我們都應該和諧地一起工作，朝著人生中的同一個目標邁進。然而，仔細審視這項原則會發現，友誼會的成員認為自己是一個菁英團體，而且帶有偏見。他們傾向於認為，如果一個人不支持他們，那麼那個人就是反對他們！而如果一個人反對他們，那麼願好運與那個人同在，因為他/她很可能會落得個悲慘的下場！");
+	message("第一個價值觀是『致力合一 (Strive For Unity)』。這暗示我們都應該和諧地一起工作，朝著人生中的同一個目標邁進。然而，仔細審視這項原則會發現，友誼會的成員認為自己是一個菁英團體，而且帶有偏見。他們傾向於認為，如果一個人不支持他們，那麼那個人就是反對他們！而如果一個人反對他們，那麼願好運與那個人同在，因為他/她很可能會落得個悲慘的下場！");
 	say();
-	message("第二個『價值觀』是信任你的兄弟 (Trust Thy Brother)。這暗示每個成員都絕對信任其他友誼會成員，而且每個人都會無條件地為另一個人幫忙或做事。另一方面，這可能意味著一個成員應該聽從另一個人的指示，無論該行為的含義為何。換句話說，『照我說的做，不要質疑！』似乎是這項原則潛在的潛台詞。");
+	message("第二個價值觀是『信賴你的兄弟 (Trust Thy Brother)』。這暗示每個成員都絕對信任其他友誼會成員，而且每個人都會無條件地為另一個人幫忙或做事。另一方面，這可能意味著一個成員應該聽從另一個人的指示，無論該行為的含義為何。換句話說，『照我說的做，不要質疑！』似乎是這項原則潛在的潛台詞。");
 	say();
-	message("第三個『價值觀』是價值先於回報 (Worthiness Precedes Reward)。如果一個人為友誼會做了好事，那麼他就會得到回報。當然，硬幣的另一面是，如果一個人沒有為友誼會做好事，那麼他將得到他『應得的』回報！在友誼會中，『回報』可以是『好』的，也可以是『壞』的！");
+	message("第三個價值觀是『價值先行於報償 (Worthiness Precedes Reward)』。如果一個人為友誼會做了好事，那麼他就會得到回報。當然，硬幣的另一面是，如果一個人沒有為友誼會做好事，那麼他將得到他『應得的』回報！在友誼會中，『回報』可以是『好』的，也可以是『壞』的！");
 	say();
 	message("二十年來，友誼會一直在欺騙 Britannia 的大眾。他們變得越來越強大。經過仔細研究，我得出了一個結論：這個團體正在為某個更高級、邪惡的實體服務，該組織的內部核心圈將其稱為『守護者 (The Guardian)』。需要取得更多關於守護者的資訊，但我確信他非常危險。");
 	say();
@@ -262,19 +262,19 @@ labelFunc0282_02C7:
 	say();
 	message("     一個古老的預言講述了最後的日子。那時我們的世界末日將會到來。末日到來之前會有三個跡象。一個極度邪惡的生物將三次進入我們的土地，由此可以知道末日將近。~");
 	say();
-	message("     這個邪惡的傢伙屬於另一個種族，他們認為這個邪惡的傢伙是一位偉大的先知。然而，這個假先知並不遵循控制、熱情和勤奮的原則。~");
+	message("     這個邪惡的傢伙屬於另一個種族，他們認為這個邪惡的傢伙是一位偉大的先知。然而，這個假先知並不遵循「自制」、「熱情」和「勤奮」這三個原則。~");
 	say();
-	message("     One day the false prophet will come and desecrate our most holy shrine. And the false prophet will steal our most holy artifact, the Codex of Ultimate Wisdom.~");
+	message("     終有一日，假先知將會降臨，褻瀆我們最神聖的聖壇。假先知還將竊走我們最神聖的神器——《終極智慧法典（Codex of Ultimate Wisdom）》。~");
 	say();
-	message("     This shall be the first sign of the end.~");
+	message("     此乃末日降臨的第一個跡象。~");
 	say();
-	message("     Then, it is written, the false prophet shall descend deep into the bowels of the earth. And the false prophet will cause the underworld to collapse. This will cause great earthquakes to tear our world asunder, and there will be a time of plague and famine.~");
+	message("     隨後，經文記載，假先知將深入地底最深沉的腹地。假先知將導致地底世界分崩離析。這將引發恐怖的劇烈地震，將我們的世界撕裂，隨之而來的將是長期的瘟疫與饑荒。~");
 	say();
-	message("     This shall be the second sign of the end.~");
+	message("     此乃末日降臨的第二個跡象。~");
 	say();
-	message("     One last time shall the prophet come. This time, the false prophet will come with a band of warriors. And they will destroy all that remains of the gargoyle race.~");
+	message("     這名先知將最後一次降臨。這一次，假先知將率領一眾爪牙戰士，徹底將石像鬼一族僅存的一切趕盡殺絕。~");
 	say();
-	message("     There is only one way that this prophecy may be averted: That is by the sacrifice of the false prophet.");
+	message("     欲阻止此末日預言，唯一方式：獻祭虛偽先知。~");
 	say();
 labelFunc0282_02F5:
 	if (!(var0002 == 0x001D)) goto labelFunc0282_0307;
@@ -498,11 +498,11 @@ labelFunc0282_054F:
 	say();
 	message("     隨著全國各地城市的發展，許多人發現很難繼續做一個簡單的農民和牧民來過著和平的生活。學習涉及商品和服務交換的行業變得越來越有必要，而且自給自足的例子也大大減少了。雖然大多數 Britannia 人對此感到滿意，但也有些人想回歸生活中較不機械化的一面。~");
 	say();
-	message("     而這些人中，許多來自 Yew，開始在深邃森林中定居。雖然不用多久，不斷發展的城鎮就會趕上他們，但目前，許多人能夠在樹木、鹿和 Emps 之間迷失自我。~");
+	message("     而這些人中，許多來自 Yew，開始在深邃森林中定居。雖然不用多久，不斷發展的城鎮就會趕上他們，但目前，許多人能夠在樹木、鹿和森靈族之間迷失自我。~");
 	say();
-	message("     奇怪的是，很少有人真正遇到過這些像猿猴一樣的生物。人們對牠們知之甚少，牠們似乎迴避與人類接觸。然而，觀察顯示牠們絕對是食草動物，從不吃肉。Emps 用死樹的木頭建造家園，並在銀葉樹的樹枝高處建造庇護所。~");
+	message("     奇怪的是，很少有人真正遇到過這些像猿猴一樣的生物。人們對牠們知之甚少，牠們似乎迴避與人類接觸。然而，觀察顯示牠們絕對是食草動物，從不吃肉。森靈族用死樹的木頭建造家園，並在銀葉樹的樹枝高處建造庇護所。~");
 	say();
-	message("     當然，Emps 並不是唯一...");
+	message("     當然，森靈族並不是唯一...");
 	say();
 labelFunc0282_0571:
 	if (!(var0002 == 0x003B)) goto labelFunc0282_0583;

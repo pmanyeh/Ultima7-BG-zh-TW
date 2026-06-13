@@ -99,13 +99,13 @@ labelFunc04D7_0153:
 	case "Lap-Lem" attend labelFunc04D7_0173:
 	message("「在這裡的礦業公司採礦。是這裡唯一還在採礦的石像鬼。」他點點頭。~~「非常寬容，就像 For-Lem 一樣。」");
 	say();
-	UI_add_answer(["tolerant", "For-Lem"]);
+	UI_add_answer(["寬容", "For-Lem"]);
 	UI_remove_answer("Lap-Lem");
 labelFunc04D7_0173:
-	case "tolerant" attend labelFunc04D7_0186:
+	case "寬容" attend labelFunc04D7_0186:
 	message("「現在只和恨他、貶低他的人類一起工作。然而，儘管如此還是繼續工作。對人類的不寬容相當寬容。」他點點頭，彷彿在強調他的觀點。");
 	say();
-	UI_remove_answer("tolerant");
+	UI_remove_answer("寬容");
 labelFunc04D7_0186:
 	case "Anmanivas" attend labelFunc04D7_01CD:
 	var0002 = UI_is_dead(UI_get_npc_object(0xFF27));

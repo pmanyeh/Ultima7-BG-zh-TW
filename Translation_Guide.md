@@ -18,6 +18,7 @@
 - **murders** ➔ **謀殺案**
 - **murder** ➔ **謀殺**
 - **Emp** ➔ **森靈**
+- **Emps** ➔ **森靈族**
 - **Field** ➔ **力場** (用於法術、陷阱、魔法陣等)
 - **locket** ➔ **吊飾盒** (新馬金西亞任務中 Henry/Robin 的金色吊飾盒)
 - **Empath Abbey** ➔ **共情修道院**
@@ -36,6 +37,20 @@
 - **Triad** ➔ **三位一體 (Triad)** (請注意：當內容涉及講述「兄弟會」的理念時，要特別留意此用法)
 - **Ether** ➔ **以太**
 - **philosophy** ➔ **理念** (請注意：當內容涉及講述「兄弟會」的理念時，要特別留意此用法)
+- **Silverleaf meal** ➔ **銀樹葉餐**
+- **THE BUNK AND STOOL** ➔ **木鋪與矮凳客棧**
+- **THE MODEST DAMSEL** ➔ **羞怯少女旅店**
+- **THE CHECQUERED CORK** ➔ **方格軟木塞客棧**
+- **THE HONORABLE HOUND** ➔ **謙遜獵犬客棧**
+- **THE OUT'N'INN** ➔ **出入平安客棧**
+- **THE WAYFARERER'S INN** ➔ **風塵旅人客棧**
+- **THE FALLEN VIRGIN** ➔ **落難少女旅店**
+- **Salty Dog** ➔ **老海狗酒館**
+- **Ferryman** ➔ **擺渡人**
+- **Wisp** ➔ **鬼火**
+- **Wisps** ➔ **鬼火**
+- **Time Lord** ➔ **時間領主**
+- **Keg O' Spirits** ➔ **魂靈烈酒桶酒館**
 
 ## 常用 UI 選項 (對話選單)
 - **name** ➔ **姓名** （不使用「名字」）

@@ -80,7 +80,7 @@ labelFunc045D_00F1:
 labelFunc045D_010B:
 	case "謀殺" attend labelFunc045D_0137:
 	if (!(!gflags[0x010A])) goto labelFunc045D_0125;
-	message("「今天早上我一去開鋸木廠的門就發現了屍體。我靠著從內在力量三位一體（Triad of Inner Strength）和友誼會教誨中獲得的所有自律，才沒在看到那一幕時發瘋。這一定發生在昨晚某個時候，但我向你發誓我什麼都沒聽到！」");
+	message("「今天早上，我一開鋸木廠的門就發現了屍體！靠著從內在力量的三位一體，和友誼會教誨中獲得的所有自律，我當下才沒發瘋。這件事一定發生在昨晚某個時候，但我向你發誓，我什麼都沒聽到！」");
 	say();
 	gflags[0x010A] = true;
 	goto labelFunc045D_0129;

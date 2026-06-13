@@ -52,14 +52,14 @@ labelFunc04AD_0069:
 	UI_remove_answer("姓名");
 labelFunc04AD_007F:
 	case "職業" attend labelFunc04AD_0098:
-	message("「哎呀，我在 Paws 這裡經營 House of Items。」");
+	message("「哎呀，我在 Paws 這裡經營雜貨鋪。」");
 	say();
-	UI_add_answer(["House of Items", "Paws"]);
+	UI_add_answer(["雜貨鋪", "Paws"]);
 labelFunc04AD_0098:
-	case "House of Items" attend labelFunc04AD_00B2:
-	message("「這是一家賣古董和二手物品的商店。經營這家商店讓我保持年輕和活力。能把東西賣給鎮上那些原本買不起的窮人，令人感到欣慰。」");
+	case "雜貨鋪" attend labelFunc04AD_00B2:
+	message("「這是一間賣古董和二手物品的雜貨鋪。經營這家商店讓我保持年輕和活力。能把東西賣給鎮上那些原本買不起的窮人，令人感到欣慰。」");
 	say();
-	UI_remove_answer("House of Items");
+	UI_remove_answer("雜貨鋪");
 	UI_add_answer("買東西");
 labelFunc04AD_00B2:
 	case "Paws" attend labelFunc04AD_00C5:

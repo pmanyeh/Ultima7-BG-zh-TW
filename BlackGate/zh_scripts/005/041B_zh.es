@@ -30,12 +30,12 @@ labelFunc041B_0044:
 	UI_add_answer(["Miranda", "Max"]);
 labelFunc041B_0057:
 	if (!(!gflags[0x009C])) goto labelFunc041B_0069;
-	message("你可以看到這個人的創造力簡直源源不絕地湧現出來。他饒富興味地看著你。");
+	message("你可以看到這個人的創造力，源源不絕地湧現出來。他饒富興味地看著你。");
 	say();
 	gflags[0x009C] = true;
 	goto labelFunc041B_006D;
 labelFunc041B_0069:
-	message("「是......？」 Raymundo 沒好氣地說。「你要什麼？我很忙！」");
+	message("「是……？」 Raymundo 沒好氣地說。「你要什麼？我很忙！」");
 	say();
 labelFunc041B_006D:
 	converse attend labelFunc041B_0249;
@@ -53,7 +53,7 @@ labelFunc041B_0083:
 	say();
 	goto labelFunc041B_00A6;
 labelFunc041B_00A2:
-	message("「-真的嗎-！？我很驚訝！不過算了...");
+	message("「-真的嗎-！？我很驚訝！不過算了…");
 	say();
 labelFunc041B_00A6:
 	message("「我是 Britain 這裡皇家劇院的導演。我也是駐院劇作家。我偶爾也會作些曲子。我有時也會演戲，但演自己導的戲可不是明智之舉。~");
@@ -66,9 +66,9 @@ labelFunc041B_00BB:
 	message("「白天來劇院看看我們排戲吧。」");
 	say();
 labelFunc041B_00BF:
-	UI_add_answer(["Royal Theatre", "play"]);
+	UI_add_answer(["皇家劇院", "排戲"]);
 labelFunc041B_00CC:
-	case "play" attend labelFunc041B_0114:
+	case "排戲" attend labelFunc041B_0114:
 	message("「這是我寫的一點小東西，名為『聖者的試煉（The Trials of the Avatar）』。這是關於 Britannia 歷史上一位傳奇人物的故事。」這位藝術家上下打量著你。");
 	say();
 	message("「嗯...你的確有一種特質...你曾經在舞台上演過戲嗎？」");
@@ -82,11 +82,11 @@ labelFunc041B_00EF:
 	message("「嗯，沒關係。我相信你能很快適應的。");
 	say();
 labelFunc041B_00F3:
-	message("「官方說法是試鏡已經結束，而且選角也完成了。然而，我們需要一個人來作為聖者這個角色的替補演員。你想要試鏡嗎？」");
+	message("「官方說法是試鏡已經結束，而且選角也完成了。然而，我們需要找一個人，作為『聖者』這個角色的替補演員。你想要試鏡嗎？」");
 	say();
 	var0004 = Func090A();
 	if (!var0004) goto labelFunc041B_010F;
-	message("「太棒了！你需要做的是去 Gaye 的服裝店買一套聖者的服裝。等我看到你穿著 -合適的- 服裝後，我就可以幫你試鏡。快去辦吧，快點，我是個大忙人。」*");
+	message("「太棒了！你需要做的是去 Gaye 的服裝店，買一套聖者的服裝。等我看到你穿著 -合適的- 服裝後，我就可以幫你試鏡。快去辦吧，快點，我是個大忙人。」*");
 	say();
 	gflags[0x0067] = true;
 	abort;
@@ -96,24 +96,24 @@ labelFunc041B_010F:
 	say();
 	abort;
 labelFunc041B_0114:
-	case "Royal Theatre" attend labelFunc041B_0134:
+	case "皇家劇院" attend labelFunc041B_0134:
 	message("「這是個很棒的空間，你不覺得嗎？它去年才剛開幕，這多虧了我們這座偉大城市幾位富有的市民的贊助。」");
 	say();
-	UI_remove_answer("Royal Theatre");
+	UI_remove_answer("皇家劇院");
 	UI_add_answer(["資助", "贊助者"]);
 labelFunc041B_0134:
 	case "資助" attend labelFunc041B_017F:
-	message("「劇院建築的實際建設費用是由皇家鑄幣局支付的，但劇團完全依賴像你這樣的人的個人支持。你願意為我們的劇團做出一點微薄的貢獻，比如說，十枚金幣嗎？」");
+	message("「雖然，劇院建築的建設費用，實際上是由皇家鑄幣局支付的，但劇團的運作，完全依賴像你這樣的人來支持。你願意為我們的劇團，做出一點微薄的貢獻嗎？例如…十枚金幣？」");
 	say();
 	var0005 = Func090A();
 	if (!var0005) goto labelFunc041B_0174;
 	var0006 = UI_remove_party_items(0x000A, 0x0284, 0xFE99, 0xFE99, true);
 	if (!var0006) goto labelFunc041B_016D;
-	message("「我感謝你。你已經證明了自己是一位真正的藝術贊助者，一個有教養和有品味的人。」");
+	message("「我感謝你。你已經證明了自己是一位真正的『藝術贊助者』，一個有教養和有品味的人。」");
 	say();
 	goto labelFunc041B_0171;
 labelFunc041B_016D:
-	message("「你不具說服力的表演暴露了你的底細！你根本沒有十枚金幣！」");
+	message("「你不具說服力的表演，暴露了你的底細！你根本沒有十枚金幣！」");
 	say();
 labelFunc041B_0171:
 	goto labelFunc041B_0178;

@@ -264,7 +264,7 @@ labelFunc0451_03E5:
 	say();
 	goto labelFunc0451_03FE;
 labelFunc0451_03FA:
-	message("「一個叫 Hook 的男人？我確定我會記得見過那樣的人，而且我肯定這與本分會曾經接觸過的任何友誼會成員的描述都不相符。」");
+	message("「一個叫 Hook 的男人？我確定我會記得見過那樣的人，而且…我肯定，這與我曾經接觸過的任何友誼會成員的描述…都不相符。」");
 	say();
 labelFunc0451_03FE:
 	UI_remove_answer("Hook");

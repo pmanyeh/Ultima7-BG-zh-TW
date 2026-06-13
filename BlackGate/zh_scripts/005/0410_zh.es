@@ -65,7 +65,7 @@ labelFunc0410_00EA:
 	say();
 	goto labelFunc0410_0103;
 labelFunc0410_00FF:
-	message("「嗯...」 男人若有所思地說，「我整晚都在家，我的妻子 Ellen 可以證明這一點。但是，正如我們在友誼會中所說，『配得上的人才會得到獎勵 (Worthiness Precedes Reward)』。Christopher 一定是做了什麼壞事。而可憐的石像鬼 Inamo！這真是個遺憾。」");
+	message("「嗯...」 男人若有所思地說，「我整晚都在家，我的妻子 Ellen 可以證明這一點。但是，正如我們在友誼會中所說，『價值先行於報償』。Christopher 一定是做了什麼壞事。而可憐的石像鬼 Inamo！這真是個遺憾。」");
 	say();
 labelFunc0410_0103:
 	UI_remove_answer("謀殺");

@@ -149,19 +149,19 @@ labelFunc048A_0239:
 	UI_add_answer("奇怪");
 labelFunc048A_0253:
 	case "奇怪" attend labelFunc048A_026D:
-	message("「他說的第一件奇怪的事是『追求團結（Strive For Unity）』。我說，嗨，這正是我在執行英雄壯舉的原因。然後 Brom 又說了另一件奇怪的事。」");
+	message("「他說的第一件奇怪的事是『致力合一（Strive For Unity）』。我說，嗨，這正是我在執行英雄壯舉的原因。然後 Brom 又說了另一件奇怪的事。」");
 	say();
 	UI_remove_answer("奇怪");
-	UI_add_answer("something else strange");
+	UI_add_answer("更奇怪的事");
 labelFunc048A_026D:
-	case "something else strange" attend labelFunc048A_0287:
+	case "更奇怪的事" attend labelFunc048A_0287:
 	message("「接下來 Brom 的聲音對我說『信任我的兄弟們（Trust My Brothers）』。這很奇怪，因為我所有的兄弟都在 Balema ，而且我無論如何都不會信任他們。他們都比我大，而且老是欺負我。但就連那個都比不上下一件奇怪的事。」");
 	say();
-	UI_remove_answer("something else strange");
-	UI_add_answer("next strange thing");
+	UI_remove_answer("更奇怪的事");
+	UI_add_answer("下一件奇怪的事");
 labelFunc048A_0287:
-	case "next strange thing" attend labelFunc048A_02CC:
-	message("「 Brom 的聲音告訴我『世故得到獎賞（Worldliness Receives Award）』。我思考那句話很長時間了，還是沒想通。但我不會放棄，直到找到 Brom 。」");
+	case "下一件奇怪的事" attend labelFunc048A_02CC:
+	message("「 Brom 的聲音告訴我『價值先行於報償（Worldliness Receives Award）』。我思考那句話很長時間了，還是沒想通。但我不會放棄，直到找到 Brom 。」");
 	say();
 	if (!var0004) goto labelFunc048A_02BE;
 	UI_show_npc_face(0xFFFC, 0x0000);
@@ -172,7 +172,7 @@ labelFunc048A_0287:
 	UI_remove_npc_face(0xFFFC);
 	UI_show_npc_face(0xFF76, 0x0000);
 labelFunc048A_02BE:
-	UI_remove_answer("next strange thing");
+	UI_remove_answer("下一件奇怪的事");
 	UI_add_answer("找到Brom");
 labelFunc048A_02CC:
 	case "找到Brom" attend labelFunc048A_0308:
@@ -188,7 +188,7 @@ labelFunc048A_02CC:
 labelFunc048A_02F0:
 	message("Gorn 臉上帶著困惑的表情。「你為什麼不幫我找 Brom ？你是覺得這全是某種把戲，還是說我應該繼續獨自尋找 Brom ？」");
 	say();
-	UI_add_answer(["繼續找Brom", "it's a trick"]);
+	UI_add_answer(["繼續找Brom", "這全是某種把戲"]);
 labelFunc048A_0301:
 	UI_remove_answer("找到Brom");
 labelFunc048A_0308:
@@ -198,7 +198,7 @@ labelFunc048A_0308:
 	UI_set_schedule_type(UI_get_npc_object(0xFF76), 0x000C);
 	abort;
 labelFunc048A_0323:
-	case "it's a trick" attend labelFunc048A_0334:
+	case "這全是某種把戲" attend labelFunc048A_0334:
 	message("Gorn 若有所思地愣了一下。他把手放到耳邊，像是在聆聽什麼。他帶著震驚的表情看著你。「我剛剛聽到了 Brom 的聲音，他說我不該信任你！我以為你是我的朋友，聖者！走開！我不想再和你說話了！」*");
 	say();
 	gflags[0x02D2] = true;

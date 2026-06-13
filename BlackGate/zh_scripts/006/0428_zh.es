@@ -14,12 +14,12 @@ void Func0428 object#(0x428) ()
 	if (!(var0000 == 0x0007)) goto labelFunc0428_003F;
 	var0001 = Func08F7(0xFFCA);
 	if (!var0001) goto labelFunc0428_003A;
-	message("Judith 正忙著和 The Avatars 樂團一起表演，現在無法說話。*");
+	message("Judith 正忙著和『聖者旅團』一起表演，現在無法說話。*");
 	say();
 	abort;
 	goto labelFunc0428_003F;
 labelFunc0428_003A:
-	message("「我得走了！我跟 The Avatars 樂團的表演要遲到了！晚點再跟你聊！」*");
+	message("「我得走了！我跟『聖者旅團』的表演要遲到了！晚點再跟你聊！」*");
 	say();
 	abort;
 labelFunc0428_003F:
@@ -40,9 +40,9 @@ labelFunc0428_0065:
 	UI_remove_answer("姓名");
 labelFunc0428_007B:
 	case "職業" attend labelFunc0428_0097:
-	message("「我在音樂廳教音樂。我也會透過與聖者樂團（The Avatars）一起演奏來賺點外快！」");
+	message("「我在音樂廳教音樂。我也會透過與『聖者旅團』一起演奏來賺點外快！」");
 	say();
-	UI_add_answer(["音樂", "音樂廳", "聖者樂團"]);
+	UI_add_answer(["音樂", "音樂廳", "聖者旅團"]);
 labelFunc0428_0097:
 	case "音樂" attend labelFunc0428_00B1:
 	message("「音樂就是我的生命。我知道我永遠不會成為一個著名的吟遊詩人，但我從演奏和表演中獲得了極大的樂趣。我也很享受教學。」");
@@ -55,10 +55,10 @@ labelFunc0428_00B1:
 	say();
 	UI_remove_answer("音樂廳");
 labelFunc0428_00C4:
-	case "聖者樂團" attend labelFunc0428_00D7:
+	case "聖者旅團" attend labelFunc0428_00D7:
 	message("「我們是一個合唱團。我們每晚在藍野豬酒館表演。請來聽我們的演出！我的學生 Neno 也在團裡。如果我們能籌到資金，我們希望明年能在全國巡迴演出。」");
 	say();
-	UI_remove_answer("聖者樂團");
+	UI_remove_answer("聖者旅團");
 labelFunc0428_00D7:
 	case "教學" attend labelFunc0428_00F1:
 	message("「教導他人實現了我人生的目標。這也讓我有時間離開家裡。」");

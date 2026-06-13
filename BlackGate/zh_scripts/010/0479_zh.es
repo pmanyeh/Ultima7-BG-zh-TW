@@ -97,7 +97,7 @@ labelFunc0479_0162:
 	if (!(!gflags[0x0186])) goto labelFunc0479_017F;
 	message("「Sprellic ，我們這位脾氣相當溫和的旅館老闆，從傷疤圖書館的牆上偷走了榮譽旗，而且拒絕歸還。現在他必須和我們當地最優秀的三名戰士進行生死決鬥。」");
 	say();
-	UI_add_answer("fighters");
+	UI_add_answer("戰士們");
 	goto labelFunc0479_0198;
 labelFunc0479_017F:
 	if (!(!gflags[0x0167])) goto labelFunc0479_0194;
@@ -111,10 +111,10 @@ labelFunc0479_0194:
 labelFunc0479_0198:
 	UI_remove_answer("Sprellic");
 labelFunc0479_019F:
-	case "fighters" attend labelFunc0479_01B2:
+	case "戰士們" attend labelFunc0479_01B2:
 	message("「如果你想了解更多關於這整件事的詳情，你可以去酒館問問。」");
 	say();
-	UI_remove_answer("fighters");
+	UI_remove_answer("戰士們");
 labelFunc0479_01B2:
 	case "勸阻" attend labelFunc0479_01CC:
 	message("「唯一能勸阻他們不殺可憐的 Sprellic 的方法就是歸還榮譽旗！它一定是被 Sullivan 拿走了，但決鬥者們不知道！如果我們有一個榮譽旗的複製品，我們就可以把它給他們！」");

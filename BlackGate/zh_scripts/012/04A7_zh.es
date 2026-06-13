@@ -225,7 +225,7 @@ labelFunc04A7_0394:
 	say();
 	goto labelFunc04A7_03AE;
 labelFunc04A7_03AA:
-	message("「不管 Tobias 有沒有親自偷毒液。他透過對我兒子產生的腐敗影響導致了這起竊案。雖然他的行為還不到犯罪的程度，我還是怪罪 Tobias。」");
+	message("「不管 Tobias 有沒有親自偷毒液。我兒子就是被他帶壞的，因此發生這起竊案。雖然他的行為還不到犯罪的程度，我還是怪罪 Tobias。」");
 	say();
 labelFunc04A7_03AE:
 	UI_remove_answer("Tobias");
@@ -258,7 +258,7 @@ labelFunc04A7_03FF:
 	UI_remove_answer("蛇毒");
 labelFunc04A7_0416:
 	case "採取行動" attend labelFunc04A7_0429:
-	message("「我向你保證，我會對我的兒子施加必要的管教，以確保他從當地小混混那裡沾染的壞習慣不會再給這個社區帶來麻煩。」");
+	message("「我向你保證，我會對我的兒子施加必要的管教，以確保他從當地小混混那裡沾染的壞習慣，不會再給這個村子帶來麻煩。」");
 	say();
 	UI_remove_answer("採取行動");
 labelFunc04A7_0429:
@@ -287,7 +287,7 @@ labelFunc04A7_046A:
 labelFunc04A7_046D:
 	endconv;
 	if (!var0003) goto labelFunc04A7_0478;
-	message("「你意識到這個方塊並沒有引出任何 Feridwyn 自己不相信的東西。他是 Guardian 那些天真的追隨者之一。」");
+	message("「你意識到這個方塊，並沒有引出任何 Feridwyn 自己不相信的東西。他是 Guardian 那些天真的追隨者之一。」");
 	say();
 labelFunc04A7_0478:
 	if (!(event == 0x0000)) goto labelFunc04A7_0486;

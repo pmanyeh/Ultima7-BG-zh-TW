@@ -68,7 +68,7 @@ labelFunc0429_00B9:
 	UI_remove_answer("姓名");
 labelFunc0429_00CF:
 	case "職業" attend labelFunc0429_0104:
-	message("「我是皇家博物館 (Royal Museum) 的館長。」");
+	message("「我是皇家博物館的館長。」");
 	say();
 	if (!(var0000 == 0x0007)) goto labelFunc0429_00EC;
 	message("「歡迎隨時詢問關於展品的任何事。」");
@@ -106,7 +106,7 @@ labelFunc0429_014F:
 	UI_remove_answer("文物");
 labelFunc0429_0162:
 	case "聖者文物" attend labelFunc0429_01A3:
-	message("「嗯，你肯定認得它們。它們應該是真品！像是銀角 (Silver Horn) 和八顆石頭。據我了解，這些石頭曾用於傳送，如果現今的法師腦子沒那麼有問題，他們可以在石頭上施放『召喚（Recall）』法術傳送到 Britannia 各地的特定地點。我相信如果有人在上面施放『標記（Mark）』法術，你就能重新指定傳送地點！但我想現在這些都不起作用了。」");
+	message("「嗯，你肯定認得它們。它們應該是真品！像是銀角 (Silver Horn) 和八顆石頭。據我了解，這些石頭曾用於傳送，如果現今的法師腦子沒那麼有問題，他們可以在石頭上施放『喚回術（Recall）』法術傳送到 Britannia 各地的特定地點。我相信如果有人在上面施放『標記術（Mark）』法術，你就能重新指定傳送地點！但我想現在這些都不起作用了。」");
 	say();
 	var0005 = Func08F7(0xFFFF);
 	if (!var0005) goto labelFunc0429_019C;

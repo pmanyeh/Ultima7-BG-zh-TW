@@ -31,17 +31,17 @@ labelFunc009B_0036:
 	UI_add_answer("犧牲");
 labelFunc009B_0043:
 	if (!(!gflags[0x01C3])) goto labelFunc009B_0055;
-	message("站在你面前的是一個高大、骨瘦如柴的身影，身處一艘幽靈船中。他向你伸出手，用陰森的聲音說：「我是 Skara Brae 的渡船夫……你必須支付兩枚硬幣……才能渡過迷霧海峽。」");
+	message("站在你面前的是一個高大、骨瘦如柴的身影，身處一艘幽靈船中。他向你伸出手，用陰森的聲音說：「我是 Skara Brae 的擺渡人……你必須支付兩枚硬幣……才能渡過迷霧海峽。」");
 	say();
 	gflags[0x01C3] = true;
 	goto labelFunc009B_0078;
 labelFunc009B_0055:
 	if (!(!gflags[0x0197])) goto labelFunc009B_0063;
-	message("Skara Brae 的渡船夫站在他幽靈般的船上，向任何願意支付代價的人伸出手。");
+	message("Skara Brae 的擺渡人站在他幽靈般的船上，向任何願意支付代價的人伸出手。");
 	say();
 	goto labelFunc009B_006E;
 labelFunc009B_0063:
-	message("Skara Brae 的渡船夫站在他幽靈般的船上，將撐篙橫在胸前。他注意到了你的靠近。「要回到大陸……你不需要付費。」");
+	message("Skara Brae 的擺渡人站在他幽靈般的船上，將撐篙橫在胸前。他注意到了你的靠近。「要回到大陸……你不需要付費。」");
 	say();
 	UI_add_answer("返回");
 labelFunc009B_006E:
@@ -49,24 +49,24 @@ labelFunc009B_006E:
 	message("他似乎有點不滿。「我告訴過你我會在這裡……直到永恆的盡頭。」");
 	say();
 labelFunc009B_0078:
-	UI_add_answer(["姓名", "職業", "渡船夫", "迷霧海峽", "Skara Brae", "告辭"]);
+	UI_add_answer(["姓名", "職業", "擺渡人", "迷霧海峽", "Skara Brae", "告辭"]);
 	if (!(!gflags[0x0197])) goto labelFunc009B_009F;
 	UI_add_answer("付費");
 labelFunc009B_009F:
 	converse attend labelFunc009B_028B;
 	case "姓名" attend labelFunc009B_00B5:
-	message("「我是……渡船夫。」他的聲音像船的搖晃聲一樣嘎吱作響。");
+	message("「我是……擺渡人。」他的聲音像船的搖晃聲一樣嘎吱作響。");
 	say();
 	UI_remove_answer("姓名");
 labelFunc009B_00B5:
 	case "職業" attend labelFunc009B_00C1:
-	message("渡船夫一開始沒有回應，困惑地搖了搖頭。「我是……渡船夫。」");
+	message("擺渡人一開始沒有回應，困惑地搖了搖頭。「我是……擺渡人。」");
 	say();
 labelFunc009B_00C1:
-	case "渡船夫" attend labelFunc009B_00D4:
+	case "擺渡人" attend labelFunc009B_00D4:
 	message("「是的，如果你付錢給我……我可以帶你渡過迷霧海峽。」");
 	say();
-	UI_remove_answer("渡船夫");
+	UI_remove_answer("擺渡人");
 labelFunc009B_00D4:
 	case "迷霧海峽" attend labelFunc009B_00E7:
 	message("他轉向一側，揮動著他骨瘦如柴的手，在船停泊的水面上劃過。「這……就是迷霧海峽。」");
@@ -99,7 +99,7 @@ labelFunc009B_00E7:
 	say();
 	UI_remove_npc_face(0xFFFF);
 	UI_show_npc_face(0xFFFE, 0x0000);
-	message("「不，先生。我不怕骷髏，」他說。然而，當他看著渡船夫時，卻嚥了一口口水。*");
+	message("「不，先生。我不怕骷髏，」他說。然而，當他看著擺渡人時，卻嚥了一口口水。*");
 	say();
 	UI_remove_npc_face(0xFFFE);
 labelFunc009B_0182:
@@ -147,7 +147,7 @@ labelFunc009B_01EF:
 	say();
 	goto labelFunc009B_023B;
 labelFunc009B_0233:
-	message("渡船夫在兜帽下似乎笑了笑，示意你再次登上他那幽靈般的船。");
+	message("擺渡人在兜帽下似乎笑了笑，示意你再次登上他那幽靈般的船。");
 	say();
 	Func0882(item);
 labelFunc009B_023B:
@@ -160,7 +160,7 @@ labelFunc009B_0242:
 labelFunc009B_024F:
 	case "犧牲" attend labelFunc009B_027B:
 	if (!(!gflags[0x0199])) goto labelFunc009B_0270;
-	message("就在那一瞬間，你覺得你看到渡船夫骷髏般的臉龐上閃過一絲短暫的希望神情，然後就消失了。「我必須履行我的職責……直到永恆的盡頭。」");
+	message("就在那一瞬間，你覺得你看到擺渡人骷髏般的臉龐上閃過一絲短暫的希望神情，然後就消失了。「我必須履行我的職責……直到永恆的盡頭。」");
 	say();
 	UI_remove_answer("犧牲");
 	gflags[0x0199] = true;
@@ -171,7 +171,7 @@ labelFunc009B_0270:
 	UI_remove_answer("犧牲");
 labelFunc009B_027B:
 	case "告辭" attend labelFunc009B_0288:
-	message("渡船夫沒有回應你的告別，低下了頭，將撐篙橫在胸前。*");
+	message("擺渡人沒有回應你的告別，低下了頭，將撐篙橫在胸前。*");
 	say();
 	abort;
 labelFunc009B_0288:

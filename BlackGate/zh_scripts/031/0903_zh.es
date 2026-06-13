@@ -15,7 +15,7 @@ labelFunc0903_001E:
 labelFunc0903_0024:
 	UI_show_npc_face(var0000, var0002);
 	if (!UI_get_item_flag(item, 0x0019)) goto labelFunc0903_0040;
-	message("\"Oink\"");
+	message("\"呼嚕\"");
 	say();
 	goto labelFunc0903_0056;
 labelFunc0903_0040:

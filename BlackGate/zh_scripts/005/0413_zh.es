@@ -59,7 +59,7 @@ labelFunc0413_00A1:
 	UI_remove_answer("姓名");
 labelFunc0413_00B2:
 	case "職業" attend labelFunc0413_00EF:
-	message("「哎呀，我經營著 Honorable Hound 酒吧與旅店，」 她嬌聲說道。");
+	message("「哎呀，我經營著謙遜獵犬客棧，」 她嬌聲說道。");
 	say();
 	if (!(var0003 == 0x0017)) goto labelFunc0413_00E1;
 	message("「你想要一間客房嗎？還是你想吃點或喝點什麼？儘管說，我會盡量用我的美味佳餚來滿足你。」");
@@ -74,12 +74,12 @@ labelFunc0413_00E1:
 	message("「我很樂意在營業時間為你服務！」");
 	say();
 labelFunc0413_00E5:
-	UI_add_answer(["Honorable Hound"]);
+	UI_add_answer(["謙遜獵犬客棧"]);
 labelFunc0413_00EF:
-	case "Honorable Hound" attend labelFunc0413_0102:
+	case "謙遜獵犬客棧" attend labelFunc0413_0102:
 	message("「在整個 Trinsic，我想不出有更好的地方能讓你安頓休息，或者品嚐美食來滿足你的胃口了。」");
 	say();
-	UI_remove_answer("Honorable Hound");
+	UI_remove_answer("謙遜獵犬客棧");
 labelFunc0413_0102:
 	case "謀殺" attend labelFunc0413_0115:
 	message("Apollonia 閉上眼睛搖了搖頭，好像剛咬了一口非常酸的檸檬。「喔。那真是太……可怕了！怎麼會有人做出這麼駭人聽聞的事？你在尋找線索嗎？我真心希望你能找到那個該負責的人。」");

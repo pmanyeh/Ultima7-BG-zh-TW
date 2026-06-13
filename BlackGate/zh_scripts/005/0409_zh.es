@@ -38,7 +38,7 @@ labelFunc0409_006B:
 	UI_add_answer("Henry");
 labelFunc0409_0078:
 	if (!gflags[0x017D]) goto labelFunc0409_0085;
-	UI_add_answer("小盒墜子 (locket)");
+	UI_add_answer("吊飾盒");
 labelFunc0409_0085:
 	if (!gflags[0x0180]) goto labelFunc0409_0092;
 	UI_add_answer("陌生人");
@@ -176,15 +176,15 @@ labelFunc0409_02BA:
 	UI_remove_answer("Henry");
 	UI_add_answer("傳家寶");
 labelFunc0409_02D4:
-	case "小盒墜子 (locket)", "傳家寶" attend labelFunc0409_02F8:
-	message("「因為他沒什麼錢，所以我把我的金屬小盒墜子給了 Henry ，好讓他能送給他的心上人 Constance 。我最近沒跟他說話，但我必須承認我很擔心他。」");
+	case "吊飾盒", "傳家寶" attend labelFunc0409_02F8:
+	message("「因為他沒什麼錢，所以我把我的金屬吊飾盒給了 Henry ，好讓他能送給他的心上人 Constance 。我最近沒跟他說話，但我必須承認我很擔心他。」");
 	say();
-	UI_remove_answer("小盒墜子 (locket)");
+	UI_remove_answer("吊飾盒");
 	UI_remove_answer("傳家寶");
 	UI_add_answer("擔心");
 labelFunc0409_02F8:
 	case "擔心" attend labelFunc0409_030B:
-	message("「Henry 帶著小盒墜子離開後不久，我看到島上的那三個陌生人朝著同一個方向遊蕩過去了。」");
+	message("「Henry 帶著吊飾盒離開後不久，我看到島上的那三個陌生人朝著同一個方向遊蕩過去了。」");
 	say();
 	UI_remove_answer("擔心");
 labelFunc0409_030B:
@@ -200,13 +200,13 @@ labelFunc0409_032B:
 	say();
 	goto labelFunc0409_0372;
 labelFunc0409_0341:
-	message("「這些年來你過得怎麼樣， Iolo ？」*");
+	message("「這些年來你過得怎麼樣， Iolo？」*");
 	say();
 	UI_show_npc_face(0xFFFF, 0x0000);
 	message("「歲月對我顯然沒有對妳那麼寬容，女士。」*");
 	say();
 	UI_show_npc_face(0xFFF7, 0x0000);
-	message("「哈！看來你還是個無賴， Iolo 。」*");
+	message("「哈！看來你還是個無賴， Iolo。」*");
 	say();
 	UI_remove_npc_face(0xFFFF);
 	UI_show_npc_face(0xFFF7, 0x0000);
@@ -219,7 +219,7 @@ labelFunc0409_0379:
 	say();
 	goto labelFunc0409_03C0;
 labelFunc0409_038F:
-	message("「我看到你頭髮裡有白頭髮嗎， Shamino ？」*");
+	message("「我看到你頭髮裡有白頭髮嗎， Shamino？」*");
 	say();
 	UI_show_npc_face(0xFFFD, 0x0000);
 	message("「才不是！哪裡？」*");

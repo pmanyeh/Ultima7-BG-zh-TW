@@ -34,7 +34,7 @@ labelFunc08F4_0064:
 	message(var0000);
 	message("？」");
 	say();
-	UI_add_answer(["蜜蜂", "離開"]);
+	UI_add_answer(["蜜蜂", "離隊"]);
 	return;
 }
 

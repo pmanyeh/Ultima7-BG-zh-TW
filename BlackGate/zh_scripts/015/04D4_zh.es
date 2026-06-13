@@ -27,8 +27,8 @@ void Func04D4 object#(0x4D4) ()
 	var0001 = Func0909();
 	var0002 = false;
 	var0003 = UI_is_dead(UI_get_npc_object(0xFF35));
-	var0004 = "the Avatar";
-	UI_add_answer(["姓名", "職業", "Fellowship", "告辭"]);
+	var0004 = "聖者";
+	UI_add_answer(["姓名", "職業", "友誼會", "告辭"]);
 	if (!(gflags[0x027E] && (!gflags[0x0285]))) goto labelFunc04D4_005B;
 	UI_add_answer("中午的 Catherine");
 labelFunc04D4_005B:
@@ -84,13 +84,13 @@ labelFunc04D4_00FC:
 labelFunc04D4_0116:
 	UI_add_answer("Catherine");
 labelFunc04D4_011D:
-	case "Fellowship" attend labelFunc04D4_013E:
+	case "友誼會" attend labelFunc04D4_013E:
 	message("「你沒聽過友誼會嗎？它是個很棒的組織。他們舉辦遊行和節慶，甚至為全 Britannia 的無家可歸者建造了庇護所。我的丈夫一段時間前得知了他們，從那之後我們就一直是快樂的成員。」");
 	say();
 	if (!(!var0002)) goto labelFunc04D4_0137;
 	UI_add_answer("丈夫");
 labelFunc04D4_0137:
-	UI_remove_answer("Fellowship");
+	UI_remove_answer("友誼會");
 labelFunc04D4_013E:
 	case "Cador", "丈夫" attend labelFunc04D4_0196:
 	if (!var0003) goto labelFunc04D4_0156;
@@ -215,7 +215,7 @@ labelFunc04D4_02EB:
 	endconv;
 	message("「旅途愉快，");
 	message(var0001);
-	message(".\"*");
+	message("。」*");
 	say();
 labelFunc04D4_02F6:
 	if (!(event == 0x0000)) goto labelFunc04D4_0304;

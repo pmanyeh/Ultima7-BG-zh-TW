@@ -30,14 +30,14 @@ labelFunc04DB_004E:
 	case "職業" attend labelFunc04DB_006A:
 	message("「為 Vesper 的其他人提供物資。」");
 	say();
-	UI_add_answer(["buy provisions", "others", "Vesper"]);
+	UI_add_answer(["買物資", "其他人", "Vesper"]);
 labelFunc04DB_006A:
 	case "Vesper" attend labelFunc04DB_007D:
 	message("「是一個充滿偏見和仇恨的城鎮。知道人類期待我們發起暴力對抗。~~相信人類是罪有應得，」他聳了聳肩，「但希望我的弟兄們能展現出更多的克制。」");
 	say();
 	UI_remove_answer("Vesper");
 labelFunc04DB_007D:
-	case "buy provisions" attend labelFunc04DB_00E7:
+	case "買物資" attend labelFunc04DB_00E7:
 	var0000 = UI_get_schedule_type(UI_get_npc_object(0xFF25));
 	if (!(!(var0000 == 0x0007))) goto labelFunc04DB_00A5;
 	message("「這個時間不營業。明天再來買物資。」");
@@ -50,9 +50,9 @@ labelFunc04DB_00A5:
 	if (!((var0001 - var0002) > 0x001D)) goto labelFunc04DB_00E0;
 	gflags[0x027F] = true;
 labelFunc04DB_00E0:
-	UI_remove_answer("buy provisions");
+	UI_remove_answer("買物資");
 labelFunc04DB_00E7:
-	case "others" attend labelFunc04DB_010E:
+	case "其他人" attend labelFunc04DB_010E:
 	if (!gflags[0x027F]) goto labelFunc04DB_0103;
 	message("「鎮上只有少數石像鬼居住。主要認識 Wis-Sur ，還有，」他微微哼了一聲，「Ansikart 。也知道一些無翼的石像鬼。」");
 	say();
@@ -62,7 +62,7 @@ labelFunc04DB_0103:
 	message("「鎮上只有少數石像鬼居住。主要認識 Wis-Sur 和 Ansikart ，也知道一些無翼的石像鬼。」");
 	say();
 labelFunc04DB_0107:
-	UI_remove_answer("others");
+	UI_remove_answer("其他人");
 labelFunc04DB_010E:
 	case "Ansikart" attend labelFunc04DB_0128:
 	message("他的眼睛迅速地左右游移，最後停留在你身上。~~「知道自從 Wis-Sur 改變後， Ansikart 獲得了太多的尊重。確信我學得更多，在這裡會是一位更聰明、更好的領袖。對 Ansikart 成為人選感到不滿。」");

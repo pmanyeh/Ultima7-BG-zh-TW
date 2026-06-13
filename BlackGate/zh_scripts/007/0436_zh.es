@@ -28,7 +28,7 @@ void Func0436 object#(0x436) ()
 	var0004 = Func08F7(0xFFD9);
 	var0005 = Func08F7(0xFFD8);
 	if (!(var0004 && var0005)) goto labelFunc0436_00BD;
-	message("Coop 正與聖者樂團在舞台上。他看見你，並說：「嗯，今晚有位特別的聽眾，這下一首曲子是要獻給他們的。」");
+	message("Coop 正與『聖者旅團』在舞台上。他看見你，並說：「嗯，今晚有位特別的聽眾，這下一首曲子是要獻給他們的。」");
 	say();
 	message("他向夥伴們示意，他們開始演奏。他唱出以下歌詞：");
 	say();
@@ -38,7 +38,7 @@ void Func0436 object#(0x436) ()
 	say();
 	message("接著 Neno 和 Judith 加入了合唱：");
 	say();
-	message("「喔，我們是聖者樂團~而且我們品德高尚！");
+	message("「喔，我們是『聖者旅團』~而且我們品德高尚！");
 	say();
 	message("「當心點，食人魔與野獸~以免成為我們下一次盛宴的佳餚！");
 	say();
@@ -63,7 +63,7 @@ void Func0436 object#(0x436) ()
 labelFunc0436_00BA:
 	goto labelFunc0436_00C2;
 labelFunc0436_00BD:
-	message("「現在不能停下來說話！我參加聖者樂團的表演要遲到了！來藍野豬酒館聽我們演奏吧！」*");
+	message("「現在不能停下來說話！我參加『聖者旅團』的表演要遲到了！來藍野豬酒館聽我們演奏吧！」*");
 	say();
 	abort;
 labelFunc0436_00C2:
@@ -150,15 +150,15 @@ labelFunc0436_01F5:
 	UI_remove_answer("Iolo");
 labelFunc0436_022B:
 	case "唱歌" attend labelFunc0436_0245:
-	message("「我的樂團叫做……嗯，叫做『聖者樂團 (The Avatars)』。希望那沒有冒犯到你。」");
+	message("「我的樂團叫做……嗯，叫做『聖者旅團』。希望那沒有冒犯到你。」");
 	say();
 	UI_remove_answer("唱歌");
-	UI_add_answer("聖者樂團");
+	UI_add_answer("聖者旅團");
 labelFunc0436_0245:
-	case "聖者樂團" attend labelFunc0436_0258:
+	case "聖者旅團" attend labelFunc0436_0258:
 	message("「樂團就只有我和音樂廳的兩位音樂家。我們每晚在藍野豬酒館表演。我負責唱歌和寫歌詞。其他兩位演奏樂器。請來聽我們演奏！」");
 	say();
-	UI_remove_answer("聖者樂團");
+	UI_remove_answer("聖者旅團");
 labelFunc0436_0258:
 	case "弓箭" attend labelFunc0436_026B:
 	message("「我們賣各種弓，還有箭和弩箭。如果你想買些什麼，請說！」");

@@ -131,12 +131,12 @@ labelFunc0425_01E6:
 	message("「你看起來就像是那種喜歡好好狂歡一下的人！");
 	say();
 	if (!(!(var0002 == 0x0007))) goto labelFunc0425_020B;
-	message("「晚上回到酒館來聽我們的駐唱樂團， The Avatars 樂團的表演吧！」");
+	message("「晚上回到酒館來聽我們的駐唱樂團，『聖者旅團』的表演吧！」");
 	say();
-	UI_add_answer("The Avatars 樂團");
+	UI_add_answer("聖者旅團");
 	goto labelFunc0425_020F;
 labelFunc0425_020B:
-	message("「我們的駐唱樂團 The Avatars 樂團正在另一個房間表演！」");
+	message("「我們的駐唱樂團『聖者旅團』正在另一個房間表演！」");
 	say();
 labelFunc0425_020F:
 	UI_remove_answer("狂歡");
@@ -147,12 +147,12 @@ labelFunc0425_021D:
 	say();
 	UI_remove_answer("狂歡");
 labelFunc0425_0230:
-	case "The Avatars 樂團" attend labelFunc0425_0249:
+	case "聖者旅團" attend labelFunc0425_0249:
 	message("「他們是當地受歡迎的合唱團。我相信你會喜歡他們的，");
 	message(var0005);
 	message("！」");
 	say();
-	UI_remove_answer("The Avatars 樂團");
+	UI_remove_answer("聖者旅團");
 labelFunc0425_0249:
 	case "人" attend labelFunc0425_025C:
 	message("「喔，我好喜歡認識那些喜歡出門『殺』東西的男人！」");

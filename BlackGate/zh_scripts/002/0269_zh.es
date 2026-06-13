@@ -116,10 +116,10 @@ labelFunc0269_01B3:
 	case "早該來了" attend labelFunc0269_01D1:
 	message("「是我把紅色的月之門送到你的家鄉，把你引誘到 Britannia 的！這耗盡了我所有的力量才讓它運作，但還是出了點差錯。你抵達了 Trinsic ，那不是我的本意。因此，你花在找到我的時間比我預期的要長得多。"  );
 	say();
-	message("「一旦你到達 Britannia ，我唯一能聯絡你的方法就是透過精靈 (Wisps) 。自從創造紅色月之門以來，經過了相當長時間的休息，我設法修復了一個能帶你來找我的月之寶珠位置。我被困在這裡時，無法在時空中自由漫遊，執行我的工作。」");
+	message("「一旦你到達 Britannia ，我唯一能聯絡你的方法就是透過鬼火 。自從創造紅色月之門以來，經過了相當長時間的休息，我設法修復了一個能帶你來找我的月之寶珠位置。我被困在這裡時，無法在時空中自由漫遊，執行我的工作。」");
 	say();
 	UI_remove_answer("早該來了");
-	UI_add_answer("精靈 (Wisps)");
+	UI_add_answer("鬼火");
 labelFunc0269_01D1:
 	case "危機" attend labelFunc0269_021E:
 	message("「這片土地正受到來自另一個維度、強大且惡意存在的攻擊，而你是唯一能阻止他的人！我因為守護者施展的一種巫術伎倆而被困在這裡。守護者創造了一個強大的『產生器』，使月之門和你的月之寶珠幾乎無法運作，從而在時空連續體中產生了皺褶。"  );
@@ -169,10 +169,10 @@ labelFunc0269_025E:
 	gflags[0x01D3] = true;
 	UI_remove_answer("任務");
 labelFunc0269_0269:
-	case "精靈 (Wisps)" attend labelFunc0269_027C:
+	case "鬼火" attend labelFunc0269_027C:
 	message("「異常冷漠的生物。他們過去曾是很好的信使。」");
 	say();
-	UI_remove_answer("精靈 (Wisps)");
+	UI_remove_answer("鬼火");
 labelFunc0269_027C:
 	case "守護者" attend labelFunc0269_028F:
 	message("「他是無上邪惡的化身。必須阻止他。他以支配和控制為生。」");

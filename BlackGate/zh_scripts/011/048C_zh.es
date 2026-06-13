@@ -102,9 +102,9 @@ labelFunc048C_0183:
 	UI_remove_answer("姓名");
 labelFunc048C_018A:
 	case "職業" attend labelFunc048C_01A3:
-	message("「為什麼，我經營這家優良的場所，烈酒之桶（Keg O' Spirits）。」有那麼一瞬間他變得嚴肅起來。「這個地方曾經吸引了來自不列顛尼亞各地的客人，石像鬼和人類都有。直到那場大火為止。」");
+	message("「我負責經營有名的『魂靈烈酒桶酒館』。」有那麼一瞬間他變得嚴肅起來。「這個地方曾經吸引了來自不列顛尼亞各地的客人，石像鬼和人類都有。直到那場大火為止。」");
 	say();
-	UI_add_answer(["烈酒之桶", "大火"]);
+	UI_add_answer(["魂靈烈酒桶酒館", "大火"]);
 labelFunc048C_01A3:
 	case "大火" attend labelFunc048C_0209:
 	message("他看起來很不自在，「 Caine 把鎮上炸得七零八落，現在我們都被困在這裡，成了那個混蛋 Horance 的奴隸。」他呆滯的瞳孔中出現了微小的藍色火焰，當他恢復鎮定時又熄滅了。");
@@ -127,15 +127,15 @@ labelFunc048C_01F8:
 	UI_remove_answer("大火");
 labelFunc048C_0209:
 	case "Caine" attend labelFunc048C_0223:
-	message("他那毀容的面孔上露出了厭惡的神情。「那個受折磨的靈魂在他愚蠢錯誤造成的坑洞裡遊蕩。不過我不會靠近他，他有點瘋瘋癲癲的，你知道的。」他從身邊的酒桶裡重新倒滿了他的馬克杯，並一口氣喝下了大部分的酒。");
+	message("他那毀容的面孔上露出了厭惡的神情。「那個受折磨的人在他愚蠢錯誤造成的坑洞裡遊蕩。不過我不會靠近他，他有點瘋瘋癲癲的，你知道的。」他從身邊的酒桶裡重新倒滿了他的馬克杯，並一口氣喝下了大部分的酒。");
 	say();
-	UI_add_answer("受折磨的靈魂");
+	UI_add_answer("受折磨的人");
 	UI_remove_answer("Caine");
 labelFunc048C_0223:
-	case "受折磨的靈魂" attend labelFunc048C_023D:
-	message("「這只是我們其他在 Skara Brae 的人對他的稱呼——受折磨者（The Tortured One），」他尷尬地笑了笑。");
+	case "受折磨的人" attend labelFunc048C_023D:
+	message("「這只是我們其他在 Skara Brae 的人對他的稱呼——受折磨的人。」他尷尬地笑了笑。");
 	say();
-	UI_remove_answer("受折磨的靈魂");
+	UI_remove_answer("受折磨的人");
 	UI_add_answer("Skara Brae");
 labelFunc048C_023D:
 	case "Skara Brae" attend labelFunc048C_0250:
@@ -157,10 +157,10 @@ labelFunc048C_0281:
 	say();
 	UI_remove_answer("Horance");
 labelFunc048C_028C:
-	case "烈酒之桶" attend labelFunc048C_029F:
+	case "魂靈烈酒桶酒館" attend labelFunc048C_029F:
 	message("他看起來真的很傷心地說：「這個地方曾經是我的驕傲和喜悅。這酒桶在不列顛尼亞各地都很出名，甚至在其他一些地方也是。嗯，現在它看起來不怎麼樣了，但在它的全盛時期，它接待過貴族、騎士、吟遊詩人和商人。當然，也少不了一些流氓地痞。」他對你眨了眨眼。他的精神似乎是不屈不撓的。");
 	say();
-	UI_remove_answer("烈酒之桶");
+	UI_remove_answer("魂靈烈酒桶酒館");
 labelFunc048C_029F:
 	case "犧牲" attend labelFunc048C_02C5:
 	if (!(!gflags[0x019A])) goto labelFunc048C_02B9;

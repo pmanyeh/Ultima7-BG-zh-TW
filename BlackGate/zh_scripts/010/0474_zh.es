@@ -91,7 +91,7 @@ labelFunc0474_0122:
 	var0002 = Func090A();
 	if (!var0002) goto labelFunc0474_0140;
 	UI_push_answers();
-	UI_add_answer("森靈 (Emps)");
+	UI_add_answer("森靈族");
 	goto labelFunc0474_014A;
 labelFunc0474_0140:
 	message("「好吧， ");
@@ -107,12 +107,12 @@ labelFunc0474_0158:
 	say();
 	UI_remove_answer("一個區域");
 labelFunc0474_016B:
-	case "森靈 (Emps)" attend labelFunc0474_0189:
+	case "森靈族" attend labelFunc0474_0189:
 	message("「那見鬼的森靈是什麼東西？」~~在你快速向他解釋了銀葉樹的情況後，他驚呼道，「喔，那太可怕了。我不知道有任何人——呃——任何其他生物在使用銀葉樹。我能怎麼做呢？」");
 	say();
 	UI_pop_answers();
 	UI_add_answer("簽署合約");
-	UI_remove_answer("森靈 (Emps)");
+	UI_remove_answer("森靈族");
 labelFunc0474_0189:
 	case "簽署合約" attend labelFunc0474_01F0:
 	message("「哎呀，我當然會簽。我不會再砍銀葉樹了。」");

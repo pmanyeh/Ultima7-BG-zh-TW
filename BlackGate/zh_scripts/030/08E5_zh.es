@@ -79,11 +79,11 @@ labelFunc08E5_0135:
 	message(var0008);
 	message("");
 	message(var0009);
-	message("被迫使用最容易就手的武器來回應，也就是 ");
+	message("被迫匆忙的拿起 ");
 	message(var0008);
 	message("");
 	message(var000A);
-	message("武器。Sentri 一言不發地逼近 ");
+	message("武器回應。Sentri 一言不發地逼近 ");
 	message(var000B);
 	message("，揮舞著他那看似狂亂、實則完全在掌控之中的利刃。 ^");
 	message(var0008);
@@ -101,9 +101,9 @@ labelFunc08E5_0135:
 	message(var000D);
 	message("展開了幾次屬於");
 	message(var000C);
-	message("的反擊刺殺。 ^");
+	message("的反擊。 ");
 	message(var000C);
-	message("敏捷度獲得了改善，且這種進步是能清晰感受到的。");
+	message("敏捷度獲得了可明確感受到的進步。");
 	say();
 	message("「太痛快了！」一切結束後，Sentri 高喊著。*");
 	say();

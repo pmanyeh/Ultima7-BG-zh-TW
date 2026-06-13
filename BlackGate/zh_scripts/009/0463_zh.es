@@ -18,7 +18,7 @@ labelFunc0463_0009:
 	gflags[0x011D] = true;
 	goto labelFunc0463_0037;
 labelFunc0463_0033:
-	message("「要些別的嗎？」 Fodus 問道。");
+	message("「要些別的嗎？」Fodus 問道。");
 	say();
 labelFunc0463_0037:
 	UI_add_answer(["姓名", "職業", "告辭"]);
@@ -37,22 +37,22 @@ labelFunc0463_0070:
 	case "還有……" attend labelFunc0463_0098:
 	message("「祕密的礦石……」");
 	say();
-	message("一陣譫妄襲過這隻石像鬼。「現……現在回去工作， Mikos ！……要努力工作！……不需要再給我銀色液體了……」");
+	message("一陣譫妄襲過這隻石像鬼。「現……現在回去工作，Mikos！……要努力工作！……不需要再給我銀色液體了……」");
 	say();
 	gflags[0x0107] = true;
 	UI_remove_answer("還有……");
 	UI_add_answer(["祕密礦石", "銀色液體"]);
 labelFunc0463_0098:
 	case "祕密礦石" attend labelFunc0463_00B2:
-	message("「被稱為……黑岩（blackrock）。」");
+	message("「被稱為……黑石。」");
 	say();
 	UI_remove_answer("祕密礦石");
-	UI_add_answer("黑岩");
+	UI_add_answer("黑石");
 labelFunc0463_00B2:
-	case "黑岩" attend labelFunc0463_00C5:
+	case "黑石" attend labelFunc0463_00C5:
 	message("「是位於礦場隱藏區域的礦脈……」石像鬼翻了個白眼。他顯然病得不輕。");
 	say();
-	UI_remove_answer("黑岩");
+	UI_remove_answer("黑石");
 labelFunc0463_00C5:
 	case "銀色液體" attend labelFunc0463_00D8:
 	message("「需要毒液……要更多的毒液……」");

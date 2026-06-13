@@ -101,7 +101,7 @@ labelFunc0406_015A:
 	goto labelFunc0406_016B;
 labelFunc0406_015D:
 	if (!(!gflags[0x0132])) goto labelFunc0406_016B;
-	UI_add_answer("精靈 (wisps)");
+	UI_add_answer("鬼火");
 labelFunc0406_016B:
 	if (!gflags[0x00E2]) goto labelFunc0406_0178;
 	UI_add_answer("Julius");
@@ -167,14 +167,14 @@ labelFunc0406_0264:
 	say();
 	UI_remove_answer("Salamon");
 labelFunc0406_0277:
-	case "精靈 (wisps)" attend labelFunc0406_0297:
-	message("「我知道精靈，」他點點頭。「在樹林裡可以找到精靈。你有什麼事嗎？」");
+	case "鬼火" attend labelFunc0406_0297:
+	message("「我知道鬼火，」他點點頭。「在樹林裡可以找到鬼火。你有什麼事嗎？」");
 	say();
-	UI_add_answer(["樹林", "與精靈交談"]);
-	UI_remove_answer("精靈 (wisps)");
+	UI_add_answer(["樹林", "與鬼火交談"]);
+	UI_remove_answer("鬼火");
 labelFunc0406_0297:
 	case "沒有許可" attend labelFunc0406_02B1:
-	message("「你還是希望能和精靈交談嗎？那麼幫助你就是我的目標。我可以做一個哨子。」");
+	message("「你還是希望能和鬼火交談嗎？那麼幫助你就是我的目標。我可以做一個哨子。」");
 	say();
 	UI_remove_answer("沒有許可");
 	UI_add_answer("哨子");
@@ -186,7 +186,7 @@ labelFunc0406_02B1:
 	UI_remove_answer("Saralek 的主意");
 labelFunc0406_02CB:
 	case "樹林" attend labelFunc0406_02DE:
-	message("「精靈的住所是森林中央山裡的一棟石頭建築。」");
+	message("「鬼火的住所是森林中央山裡的一棟石頭建築。」");
 	say();
 	UI_remove_answer("樹林");
 labelFunc0406_02DE:
@@ -206,12 +206,12 @@ labelFunc0406_0315:
 labelFunc0406_0319:
 	UI_remove_answer("哨子");
 labelFunc0406_0320:
-	case "與精靈交談" attend labelFunc0406_0351:
-	message("「你的話是個謎。你是想讓我去跟精靈交談嗎？」");
+	case "與鬼火交談" attend labelFunc0406_0351:
+	message("「你的話是個謎。你是想讓我去跟鬼火交談嗎？」");
 	say();
 	var000B = Func090A();
 	if (!var000B) goto labelFunc0406_0346;
-	message("他環顧四周，顯然在觀察這個區域。~~「這裡沒有精靈可以交談。」");
+	message("他環顧四周，顯然在觀察這個區域。~~「這裡沒有鬼火可以交談。」");
 	say();
 	UI_add_answer("去那裡");
 	goto labelFunc0406_034A;
@@ -219,7 +219,7 @@ labelFunc0406_0346:
 	message("「我不明白你的意思。」他聳了聳肩。");
 	say();
 labelFunc0406_034A:
-	UI_remove_answer("與精靈交談");
+	UI_remove_answer("與鬼火交談");
 labelFunc0406_0351:
 	case "Julius" attend labelFunc0406_0372:
 	UI_play_music(0x001A, 0x0000);

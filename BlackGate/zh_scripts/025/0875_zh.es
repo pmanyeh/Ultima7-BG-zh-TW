@@ -31,7 +31,7 @@ void Func0875 0x875 (var var0000, var var0001)
 	var0003 = Func090F(var0002);
 	var0004 = Func0908();
 	if (!(var0003 == var0004)) goto labelFunc0875_0025;
-	var0003 = "you";
+	var0003 = "你";
 labelFunc0875_0025:
 	if (!(var0002 == 0x0000)) goto labelFunc0875_0032;
 	goto labelFunc0875_01BA;
@@ -64,19 +64,19 @@ labelFunc0875_00A4:
 	message(var0001);
 	message(" 枚金幣，訓練課程開始了。");
 	say();
-	if (!(var0003 == "you")) goto labelFunc0875_00ED;
-	var0009 = "complete";
-	var000A = "feel";
-	var000B = "your";
-	var000C = "spend";
-	var000D = "you";
+	if (!(var0003 == "你")) goto labelFunc0875_00ED;
+	var0009 = "完成";
+	var000A = "感覺到";
+	var000B = "你的";
+	var000C = "花費";
+	var000D = "你";
 	goto labelFunc0875_010B;
 labelFunc0875_00ED:
-	var0009 = "completes";
-	var000A = "feels";
-	var000B = "their";
-	var000C = "spends";
-	var000D = "them";
+	var0009 = "完成";
+	var000A = "感覺到";
+	var000B = "他們的";
+	var000C = "花費";
+	var000D = "他們";
 labelFunc0875_010B:
 	message("Denby 遞給");
 	message(var0003);
@@ -84,7 +84,7 @@ labelFunc0875_010B:
 	message(var0003);
 	message("完成這項任務後，");
 	message(var0003);
-	message("感覺到腦海中多了一些以前沒有的知識。~~「現在我們要練習。每天至少練習兩次我教你的東西。這樣你就會變得更敏捷、更柔軟。」^");
+	message("感覺到腦海中多了一些以前沒有的知識。~~「現在我們要練習。每天至少練習兩次，我教你的東西。這樣你就會變得更敏捷、更柔軟。」^");
 	message(var0003);
 	message("花了一段時間模仿 Denby 示範的動作。最後，Denby 教了");
 	message(var0003);

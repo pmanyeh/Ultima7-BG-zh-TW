@@ -21,7 +21,7 @@ void Func08C0 0x8C0 ()
 	UI_add_answer("Forsythe");
 labelFunc08C0_002D:
 	if (!gflags[0x01C3]) goto labelFunc08C0_003A;
-	UI_add_answer("Ferryman");
+	UI_add_answer("擺渡人");
 labelFunc08C0_003A:
 	if (!gflags[0x01C4]) goto labelFunc08C0_0047;
 	UI_add_answer("Markham");
@@ -45,10 +45,10 @@ labelFunc08C0_0079:
 	say();
 	UI_remove_answer("Forsythe");
 labelFunc08C0_008F:
-	case "Ferryman" attend labelFunc08C0_00A9:
+	case "擺渡人" attend labelFunc08C0_00A9:
 	message("「我對那個人知之甚少。自從巫妖將憤怒的死者從墳墓中召喚出來後，他就一直待在這裡。不過我知道一件事：即使你擊敗了 Horance，他依然會留在這裡服從他所侍奉的禁制。」她對你說這話時，神情顯得有些哀傷。");
 	say();
-	UI_remove_answer("Ferryman");
+	UI_remove_answer("擺渡人");
 	UI_add_answer("憤怒的死者");
 labelFunc08C0_00A9:
 	case "憤怒的死者" attend labelFunc08C0_00BC:
@@ -179,13 +179,13 @@ labelFunc08C0_0273:
 	message("「他就是大火發生時，我試圖消滅的那個該死的巫妖。法師 Horance 顯然在某一天決定了凡人的壽命不適合他。於是，他開始研究避免死亡的方法。最後，他找到了將自己變成不死生物——一個長生不老的不死生物——巫妖所需的配方。不幸的是，這種轉變加上他本就偏執的行為，使他變成了今天這個邪惡的怪物！~~「而正是他那邪惡的『黑色儀式』在擺佈著我們所有人！」");
 	say();
 	UI_remove_answer("巫妖 Horance");
-	UI_add_answer("Black Service");
+	UI_add_answer("黑色儀式");
 	var0004 = true;
 labelFunc08C0_0291:
-	case "Dark Tower" attend labelFunc08C0_02B6:
+	case "黑暗之塔" attend labelFunc08C0_02B6:
 	message("「Dark Tower 坐落在 Skara Brae 的西北角。它的建造有些古怪，因為我發現很難用我的魔法感知去滲透它。在它內部，」她說道，「你會找到靈魂之井。");
 	say();
-	UI_remove_answer("Dark Tower");
+	UI_remove_answer("黑暗之塔");
 	if (!(!var0005)) goto labelFunc08C0_02B2;
 	UI_add_answer("靈魂之井(Well of Souls)");
 labelFunc08C0_02B2:
@@ -201,12 +201,12 @@ labelFunc08C0_02D4:
 	UI_remove_answer("靈魂之井(Well of Souls)");
 	var0005 = true;
 labelFunc08C0_02DF:
-	case "Black Service" attend labelFunc08C0_031C:
+	case "黑色儀式" attend labelFunc08C0_031C:
 	if (!(!gflags[0x01AA])) goto labelFunc08C0_0303;
 	message(" Mordra 憤怒地說道：「每晚子時一到，Skara Brae 的亡靈就會前往 Dark Tower，並被用來為 Horance 注入力量以延續他的黑暗存在。其他人在這發生時都毫無察覺，但我能感受得到卻無法阻止自己。」");
 	say();
 	if (!(!var0006)) goto labelFunc08C0_0300;
-	UI_add_answer("Dark Tower");
+	UI_add_answer("黑暗之塔");
 labelFunc08C0_0300:
 	goto labelFunc08C0_0315;
 labelFunc08C0_0303:
@@ -215,7 +215,7 @@ labelFunc08C0_0303:
 	if (!(!var0005)) goto labelFunc08C0_0315;
 	UI_add_answer("靈魂之井(Well of Souls)");
 labelFunc08C0_0315:
-	UI_remove_answer("Black Service");
+	UI_remove_answer("黑色儀式");
 labelFunc08C0_031C:
 	case "暫時沒有" attend labelFunc08C0_0333:
 	message("「我明白了。那麼，你想談談什麼？」*");

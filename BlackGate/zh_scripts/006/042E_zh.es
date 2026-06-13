@@ -57,7 +57,7 @@ labelFunc042E_0095:
 	UI_add_answer(["櫃檯人員", "不輕鬆"]);
 labelFunc042E_00B5:
 	case "旅店" attend labelFunc042E_00C8:
-	message("「這個地方叫做旅人客棧 (Wayfarer's Inn)。它在 Britain 有著悠久而豐富的歷史。如果你的祖父母曾經來過這個城鎮，他們很可能就是住在這兒。」");
+	message("「這個地方叫做『風塵旅人客棧』。它在 Britain 有著悠久而豐富的歷史。如果你的祖父母曾經來過這個城鎮，他們很可能就是住在這兒。」");
 	say();
 	UI_remove_answer("旅店");
 labelFunc042E_00C8:
@@ -93,7 +93,7 @@ labelFunc042E_013B:
 	UI_add_answer(["海盜", "海盜巢穴"]);
 labelFunc042E_015B:
 	case "海盜巢穴" attend labelFunc042E_016E:
-	message("「據我所知，那裡有一流的遊戲場，還有豪華的浴池。至少我是聽賣炸魚薯條的 Gordon 這麼說的。」");
+	message("「據我所知，那裡有一流的賭坊，還有豪華的浴池。至少我是聽賣炸魚薯條的 Gordon 這麼說的。」");
 	say();
 	UI_remove_answer("海盜巢穴");
 labelFunc042E_016E:

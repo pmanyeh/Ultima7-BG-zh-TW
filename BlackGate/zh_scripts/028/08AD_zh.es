@@ -72,7 +72,7 @@ labelFunc08AD_00BE:
 	Func08AF();
 	goto labelFunc08AD_00D2;
 labelFunc08AD_00CA:
-	message("「很好，現在我們可以繼續解放 Skara Brae 的其餘部分。靈魂之井(Well of Souls)的摧毀只能透過一個精靈的無私犧牲來達成。活著的生物是不行的，因為靈魂與身體是相連的。~~去鎮上找一個願意為了整個 Skara Brae 的利益而做出犧牲的精靈。我建議你先去問鎮長 Mayor Forsythe，因為在其他人之前，他有優先被考慮的權利。」當你離開時，他沉思地撫摸著下巴。");
+	message("「很好，現在我們可以繼續解放 Skara Brae 的其餘部分。靈魂之井(Well of Souls)的摧毀，只能透過一個願意無私犧牲的靈魂來達成。活著的生物是不行的，因為靈魂與身體是相連的。~~去鎮上找一個願意為了整個 Skara Brae 的利益而做出犧牲的精靈。我建議你先去問鎮長 Mayor Forsythe，因為在其他人之前，他有優先被考慮的權利。」當你離開時，他沉思地撫摸著下巴。");
 	say();
 	gflags[0x0198] = true;
 labelFunc08AD_00D2:

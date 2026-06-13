@@ -324,10 +324,10 @@ labelFunc0401_05EC:
 	UI_remove_answer("Christopher");
 labelFunc0401_0605:
 	case "Inamo" attend labelFunc0401_061F:
-	message("「我沒跟他講過話。這真是太遺憾了。跟人類生活的 Gargoyles 本來就不多，這下又更少了。」");
+	message("「我沒跟他講過話。這真是太遺憾了。跟人類生活的石像鬼本來就不多，這下又更少了。」");
 	say();
 	UI_remove_answer("Inamo");
-	UI_add_answer("Gargoyles");
+	UI_add_answer("石像鬼");
 labelFunc0401_061F:
 	case "離隊" attend labelFunc0401_0696:
 	message("Iolo 看起來很受傷。「你真的要我離開嗎？」");
@@ -376,10 +376,10 @@ labelFunc0401_06E3:
 	message("「看來與你同行的成員已經夠多了！我會等到有人離開隊伍時再加入。」");
 	say();
 labelFunc0401_06E7:
-	case "Gargoyles" attend labelFunc0401_06FA:
-	message("「你上次離開 Britannia 後，Gargoyles 已經開始與人類生活在一起。他們大多住在 Sutek 的舊島上，現在改名為 『Terfin』。不過，你偶爾還是會在各地看到一兩個。」");
+	case "石像鬼" attend labelFunc0401_06FA:
+	message("「你上次離開 Britannia 後，石像鬼 已經開始與人類生活在一起。他們大多住在 Sutek 的舊島上，現在改名為 『Terfin』。不過，你偶爾還是會在各地看到一兩個。」");
 	say();
-	UI_remove_answer("Gargoyles");
+	UI_remove_answer("石像鬼");
 labelFunc0401_06FA:
 	case "友誼會" attend labelFunc0401_070D:
 	message("「我跟他們不熟。我知道應該是慈善團體，成立大概二十幾年吧？大家蠻喜歡他們，在 Britannia 到處都有分會。不過我個人沒有和他們打過交道。」");

@@ -118,7 +118,7 @@ labelFunc0462_01A2:
 	say();
 	UI_add_answer(["冒險", "再看看"]);
 	if (!gflags[0x0138]) goto labelFunc0462_01C8;
-	UI_add_answer("小精靈");
+	UI_add_answer("鬼火");
 labelFunc0462_01C8:
 	gflags[0x0158] = true;
 	UI_remove_answer("Salamon 的允許");
@@ -133,12 +133,12 @@ labelFunc0462_01E6:
 	say();
 	UI_remove_answer("再看看");
 labelFunc0462_01F9:
-	case "小精靈" attend labelFunc0462_0230:
-	message("她興奮地微笑了。~~「你的願望是見到小精靈？」");
+	case "鬼火" attend labelFunc0462_0230:
+	message("她興奮地微笑了。~~「你的願望是見到鬼火？」");
 	say();
 	var0003 = Func090A();
 	if (!var0003) goto labelFunc0462_021C;
-	message("「我有個關於 Trellek 能如何幫助你的主意。 Trellek 的口哨聲可以和小精靈聯繫。或許他可以為你做一個哨子。你接下來應該再去和他談談。」");
+	message("「我有個關於 Trellek 能如何幫助你的主意。 Trellek 的口哨聲可以和鬼火聯繫。或許他可以為你做一個哨子。你接下來應該再去和他談談。」");
 	say();
 	gflags[0x0155] = true;
 	goto labelFunc0462_0220;
@@ -146,7 +146,7 @@ labelFunc0462_021C:
 	message("「哦。」她似乎又變得沮喪了。");
 	say();
 labelFunc0462_0220:
-	UI_remove_answer(["冒險", "再看看", "小精靈"]);
+	UI_remove_answer(["冒險", "再看看", "鬼火"]);
 labelFunc0462_0230:
 	case "告辭" attend labelFunc0462_023B:
 	goto labelFunc0462_023E;

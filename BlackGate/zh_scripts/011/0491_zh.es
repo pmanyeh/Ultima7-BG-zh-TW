@@ -29,7 +29,7 @@ void Func0491 object#(0x491) ()
 	var0005 = false;
 	UI_add_answer(["姓名", "職業", "告辭"]);
 	if (!gflags[0x017C]) goto labelFunc0491_0055;
-	UI_add_answer("受折磨的人 (Tortured One)");
+	UI_add_answer("受折磨的人");
 labelFunc0491_0055:
 	if (!(!gflags[0x01B9])) goto labelFunc0491_0061;
 	message("美麗的幻影繼續她的工作，沒有提供任何回應。*");
@@ -146,7 +146,7 @@ labelFunc0491_01DC:
 	if (!var0008) goto labelFunc0491_0233;
 	message("「很抱歉，");
 	message(var0000);
-	message("，」她咯咯笑著，「但我們這裡只供應……靈魂 (spirits) ！」*");
+	message("，」她咯咯笑著，「但我們這裡只供應……靈魂！」*");
 	say();
 	var0009 = Func08F7(0xFF74);
 	if (!(var0009 && gflags[0x01B4])) goto labelFunc0491_0230;
@@ -165,10 +165,10 @@ labelFunc0491_0233:
 labelFunc0491_023D:
 	UI_remove_answer("買");
 labelFunc0491_0244:
-	case "受折磨的人 (Tortured One)" attend labelFunc0491_0265:
+	case "受折磨的人" attend labelFunc0491_0265:
 	message("她困惑了一瞬間，但隨後點了點頭。~~「哦，你一定是指 Caine 。他是對這場火災負有責任的鍊金術士。」");
 	say();
-	UI_remove_answer("受折磨的人 (Tortured One)");
+	UI_remove_answer("受折磨的人");
 	if (!(!var0004)) goto labelFunc0491_0265;
 	UI_add_answer("大火");
 labelFunc0491_0265:
@@ -193,7 +193,7 @@ labelFunc0491_02A4:
 labelFunc0491_02BE:
 	var000A = "";
 labelFunc0491_02C4:
-	message("「哎呀，這裡叫做烈酒桶 (Keg O' Spirits) 。對一家酒館來說，這名字很不錯吧？」她");
+	message("「哎呀，這裡叫做『魂靈烈酒桶』 。對一家酒館來說，這名字很不錯吧？」她");
 	message(var000A);
 	message("笑著說。");
 	say();

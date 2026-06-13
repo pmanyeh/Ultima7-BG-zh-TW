@@ -112,13 +112,13 @@ labelFunc040A_0148:
 	UI_add_answer("隱士");
 labelFunc040A_0168:
 	if (!var0017) goto labelFunc040A_0175;
-	UI_add_answer("史萊姆");
+	UI_add_answer("黏怪");
 labelFunc040A_0175:
 	if (!var0018) goto labelFunc040A_0182;
 	UI_add_answer("狐狸");
 labelFunc040A_0182:
 	if (!var0019) goto labelFunc040A_018F;
-	UI_add_answer("鳥身女妖 (harpies)");
+	UI_add_answer("鳥身女妖");
 labelFunc040A_018F:
 	if (!var001A) goto labelFunc040A_01A0;
 	message("「我們不必擔心這些蜜蜂，只要我們有幾支我可靠的箭。」");
@@ -153,7 +153,7 @@ labelFunc040A_0216:
 	case "姓名" attend labelFunc040A_0277:
 	UI_remove_answer("姓名");
 	if (!(gflags[0x001D] == true)) goto labelFunc040A_024A;
-	message("「我是樵夫 Tseramed 。你是一個");
+	message("「我是獵人 Tseramed 。你是一個");
 	message(var001C);
 	message("。」");
 	say();
@@ -445,7 +445,7 @@ labelFunc040A_06E1:
 	if (!(!(var0004 in var0002))) goto labelFunc040A_0705;
 	message("「我已經獵殺過牠們很多次了，因為我把牠們的毒液用在我的箭上。而且我喜歡牠們的蜂蜜。也許我們可以一起去洞穴裡弄點？」");
 	say();
-	UI_add_answer(["join", "箭"]);
+	UI_add_answer(["加入", "箭"]);
 labelFunc040A_0705:
 	case "箭" attend labelFunc040A_0818:
 	UI_remove_answer("箭");
@@ -500,8 +500,8 @@ labelFunc040A_080E:
 	message("。」");
 	say();
 labelFunc040A_0818:
-	case "join" attend labelFunc040A_0856:
-	UI_remove_answer("join");
+	case "加入" attend labelFunc040A_0856:
+	UI_remove_answer("加入");
 	if (!(var0007 < 0x0008)) goto labelFunc040A_084C;
 	UI_add_to_party(0xFFF6);
 	message("「我很榮幸，");
@@ -516,7 +516,7 @@ labelFunc040A_084C:
 	message("，你已經有足夠多的旅行同伴了。」");
 	say();
 labelFunc040A_0856:
-	case "leave" attend labelFunc040A_08C0:
+	case "離隊" attend labelFunc040A_08C0:
 	var0027 = true;
 	message("「你是想讓我在這裡等，還是想讓我回家？」");
 	say();
@@ -614,7 +614,7 @@ labelFunc040A_09C3:
 	gflags[0x0162] = true;
 labelFunc040A_09E0:
 	if (!(var0004 in var0002)) goto labelFunc040A_09F1;
-	UI_remove_answer("join");
+	UI_remove_answer("加入");
 labelFunc040A_09F1:
 	case "告辭" attend labelFunc040A_0A88:
 	if (!((var0004 in var0002) || var0027)) goto labelFunc040A_0A0B;
@@ -650,7 +650,7 @@ labelFunc040A_0A63:
 	message(var0001);
 	message("，如果你願意，我很榮幸能與你同行。我精通武器，也能為你提供我的知識和叢林技能……」");
 	say();
-	UI_add_answer("join");
+	UI_add_answer("加入");
 	var0016 = true;
 labelFunc040A_0A78:
 	goto labelFunc040A_0A88;

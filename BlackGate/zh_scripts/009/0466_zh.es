@@ -158,20 +158,20 @@ labelFunc0466_0209:
 	message("「他不是嗎？嗯。那他一定是我沒想到的那個人！」");
 	say();
 labelFunc0466_020D:
-	message("「等等！我記起來了！他是我的騎士橋 (Knight's Bridge) 對手！我們在我家北邊的騎士橋場地玩。」");
+	message("「等等！我記起來了！他是我的騎士橋棋對手！我們在我家北邊的騎士橋棋場地玩。」");
 	say();
 	goto labelFunc0466_0218;
 labelFunc0466_0214:
-	message("「我好幾個月沒跟時間領主說過話了！那老傢伙好嗎？代我向他問好。告訴他我很想念我們的騎士橋遊戲！」");
+	message("「我好幾個月沒跟時間領主說過話了！那老傢伙好嗎？代我向他問好。告訴他我很想念我們的騎士橋棋遊戲！」");
 	say();
 labelFunc0466_0218:
 	UI_remove_answer("時間領主");
-	UI_add_answer("騎士橋");
+	UI_add_answer("騎士橋棋");
 labelFunc0466_0226:
-	case "騎士橋" attend labelFunc0466_0239:
+	case "騎士橋棋" attend labelFunc0466_0239:
 	message("「這是一種真人大小的棋盤遊戲。我這附近應該有一本書裡面寫著規則。」");
 	say();
-	UI_remove_answer("騎士橋");
+	UI_remove_answer("騎士橋棋");
 labelFunc0466_0239:
 	case "沙漏" attend labelFunc0466_0287:
 	if (!gflags[0x012D]) goto labelFunc0466_024E;
