@@ -53,13 +53,13 @@ labelFunc044D_00A5:
 	case "神殿" attend labelFunc044D_00BF:
 	message("「我們為我們的神殿感到驕傲。我們的一位居民把它照顧得很好。如果你還沒去過，一定要去看看神殿。它是鎮上所有戀人的紀念碑。」");
 	say();
-	UI_add_answer("lovers");
+	UI_add_answer("戀人們");
 	UI_remove_answer("神殿");
 labelFunc044D_00BF:
-	case "lovers" attend labelFunc044D_00DF:
+	case "戀人們" attend labelFunc044D_00DF:
 	message("「Britain 也許是慈悲之城，但 Cove 已經成為熱情之城。這裡的每個人似乎都很容易墜入愛河。你會發現每個人都愛著某個人。幾乎每個人都是如此。」");
 	say();
-	UI_remove_answer("lovers");
+	UI_remove_answer("戀人們");
 	UI_add_answer(["每個人", "幾乎每個人"]);
 labelFunc044D_00DF:
 	case "每個人" attend labelFunc044D_01AE:

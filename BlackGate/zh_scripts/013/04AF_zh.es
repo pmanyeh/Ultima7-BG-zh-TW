@@ -177,7 +177,7 @@ labelFunc04AF_0286:
 	message("多少？");
 	say();
 	UI_push_answers();
-	var0002 = Func090B(["O", "1", "2", "3", "4", "5"]);
+	var0002 = Func090B(["0", "1", "2", "3", "4", "5"]);
 	var0003 = UI_count_objects(0xFE9B, 0x0284, 0xFE99, 0xFE99);
 	if (!((var0003 >= var0002) && (var0002 != "0"))) goto labelFunc04AF_0301;
 	var0004 = UI_remove_party_items(var0002, 0x0284, 0xFE99, 0xFE99, true);

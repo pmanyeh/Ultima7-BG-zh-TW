@@ -30,7 +30,7 @@ labelFunc04BF_003F:
 	if (!(!gflags[0x0256])) goto labelFunc04BF_00A4;
 	message("你看到一位貴族，獨自一人，眼中閃爍著瘋狂的光芒。~~「你到底是誰？」男人問道。他的態度就像是一個剛被從某件極其重要的事情中打斷的人。");
 	say();
-	var0002 = Func090B([var0001, "I am the Avatar"]);
+	var0002 = Func090B([var0001, "我是聖者"]);
 	if (!(var0002 == var0001)) goto labelFunc04BF_007C;
 	message("Martingo 和你握手，但表現得完全不感興趣。「我真是太激動了。」");
 	say();

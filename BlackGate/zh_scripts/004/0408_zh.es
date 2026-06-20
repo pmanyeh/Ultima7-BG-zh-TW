@@ -24,8 +24,10 @@ void Func0408 object#(0x408) ()
 	var var000B;
 	var var000C;
 	var var000D;
+	var talked_book;
 
 	if (!(event == 0x0001)) goto labelFunc0408_0482;
+	talked_book = false;
 	UI_show_npc_face(0xFFF8, 0x0000);
 	var0000 = Func0909();
 	var0001 = UI_get_party_list();
@@ -57,7 +59,16 @@ labelFunc0408_0099:
 	message("，」 Julia 向你打招呼。");
 	say();
 labelFunc0408_00A3:
+	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
+		UI_add_answer("翻譯寶典");
+	}
 	converse attend labelFunc0408_0477;
+	case "翻譯寶典" attend labelFunc0408_TransBook:
+	message("「身為一名修補匠，我對各種精密的工具都有興趣。這本翻譯寶典就像是一把能夠拆解語言結構的萬能扳手！有了它，我們就不用在那些布滿灰塵的石碑前浪費時間瞎猜了，趕快去拿到手吧！」");
+	say();
+	talked_book = true;
+	UI_remove_answer("翻譯寶典");
+labelFunc0408_TransBook:
 	case "姓名" attend labelFunc0408_00BF:
 	message("「真的過那麼久了嗎，");
 	message(var0003);

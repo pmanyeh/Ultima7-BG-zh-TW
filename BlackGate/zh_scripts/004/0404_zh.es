@@ -28,8 +28,10 @@ void Func0404 object#(0x404) ()
 	var var0011;
 	var var0012;
 	var var0013;
+	var talked_book;
 
 	if (!(event == 0x0001)) goto labelFunc0404_0508;
+	talked_book = false;
 	UI_show_npc_face(0xFFFC, 0x0000);
 	if (!gflags[0x02EB]) goto labelFunc0404_003E;
 	if (!(UI_get_timer(0x000B) < 0x0001)) goto labelFunc0404_002E;
@@ -80,7 +82,18 @@ labelFunc0404_012C:
 	message("？」 Dupre 爵士問道。");
 	say();
 labelFunc0404_0136:
+	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
+		UI_add_answer("翻譯寶典");
+	}
 	converse attend labelFunc0404_0503;
+	case "翻譯寶典" attend labelFunc0404_TransBook:
+	message("「翻譯寶典？聽起來是個好東西！只要它能幫我們更快找到哪裡有最好的酒館，或是看懂那些該死的酒單，我就完全贊成。」");
+	say();
+	message("「乾杯！為了不用再盯著那些酒單發愁！」");
+	say();
+	talked_book = true;
+	UI_remove_answer("翻譯寶典");
+labelFunc0404_TransBook:
 	case "姓名" attend labelFunc0404_01A7:
 	message("「哎呀，你不認得我了嗎？是我， Lord British ！」他笑著說。「當你看到你的朋友 Dupre 時，你認不出他來了嗎，");
 	message(var0003);

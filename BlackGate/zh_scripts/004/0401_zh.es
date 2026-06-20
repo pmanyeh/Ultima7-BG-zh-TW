@@ -29,6 +29,7 @@ void Func0401 object#(0x401) ()
 	var var0010;
 	var var0011;
 	var var0012;
+	var talked_book;
 
 	gflags[0x0014] = true;
 	var0000 = Func0908();
@@ -98,6 +99,7 @@ labelFunc0401_0267:
 	abort;
 labelFunc0401_0268:
 	if (!(event == 0x0001)) goto labelFunc0401_0733;
+	talked_book = false;
 	var0000 = Func0908();
 	var0001 = UI_get_party_list();
 	var0002 = UI_get_npc_object(0xFFFF);
@@ -148,6 +150,9 @@ labelFunc0401_0361:
 	message("「我的老朋友，你需要什麼？」 Iolo 這麼問道。");
 	say();
 labelFunc0401_0365:
+	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
+		UI_add_answer("翻譯寶典");
+	}
 	converse attend labelFunc0401_072E;
 	case "姓名" attend labelFunc0401_0381:
 	message("你朋友哼了一聲。「你在開玩笑嗎，");
@@ -156,6 +161,16 @@ labelFunc0401_0365:
 	say();
 	UI_remove_answer("姓名");
 labelFunc0401_0381:
+	case "翻譯寶典" attend labelFunc0401_TransBook:
+	message("「翻譯寶典？我聽說不列顛王有一本，這是能讓人輕鬆閱讀盧恩文的魔法工具。」");
+	say();
+	message("「說實話，我平時幾乎沒有在使用這些古文了。現在只有在一些路標、建築銘版上會看到。」");
+	say();
+	message("「靠自己慢慢解讀其實有點累…，有了它，在不列顛尼亞的旅途肯定會方便許多。」");
+	say();
+	talked_book = true;
+	UI_remove_answer("翻譯寶典");
+labelFunc0401_TransBook:
 	case "馬廄" attend labelFunc0401_0394:
 	message("「我覺得你最好親自去看看，");
 	message(var0000);
@@ -337,8 +352,8 @@ labelFunc0401_061F:
 	message("「你是要我留在這裡等你，還是要我回 Yew 的家？」");
 	say();
 	UI_clear_answers();
-	var000E = Func090B(["wait here", "go home"]);
-	if (!(var000E == "wait here")) goto labelFunc0401_0675;
+	var000E = Func090B(["在這裡等", "回家"]);
+	if (!(var000E == "在這裡等")) goto labelFunc0401_0675;
 	message("「很好。我會在這裡等你回來，並邀請我重新加入。」");
 	say();
 	UI_remove_from_party(0xFFFF);

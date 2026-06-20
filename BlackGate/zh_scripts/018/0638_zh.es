@@ -34,6 +34,18 @@ labelFunc0638_0076:
 labelFunc0638_0077:
 	UI_play_sound_effect2(0x000E, item);
 	UI_book_mode(item);
+	
+	// 攔截 149 號！
+	if (!(var0000 == 149)) goto labelFunc0638_OriginalCheck;
+	message("~~ ~~《不列顛尼亞古文譯本》~~ ~~皇家翻譯局 發行~~");
+	say();
+	message("     這本古老的辭典記載著不列顛尼亞各地招牌與墓碑上使用的古老盧恩文字(Runic)的翻譯。");
+	say();
+	message("     只要將此書攜帶在隊伍中，您便能奇蹟般地看懂那些古老的文字。");
+	say();
+	goto labelFunc0638_0627;
+
+labelFunc0638_OriginalCheck:
 	if (!(var0000 > 0x0094)) goto labelFunc0638_0092;
 	message("這『不是』一本有效的書");
 	say();

@@ -103,12 +103,12 @@ labelFunc0477_018D:
 	message("你拿出在 Minoc 謀殺現場發現的匕首。蛇形的刻痕與傷疤圖書館的標記完全吻合。 De Snel 看了看它，然後轉頭看你。他無法掩飾自己的驚訝。~「你從哪裡弄來那把匕首的？」");
 	say();
 	UI_push_answers();
-	var0009 = Func090B(["found it", "murder site"]);
-	if (!(var0009 == "found it")) goto labelFunc0477_01BA;
+	var0009 = Func090B(["找到了", "謀殺現場"]);
+	if (!(var0009 == "找到了")) goto labelFunc0477_01BA;
 	message("De Snel 盯著你看，顯然知道你在說謊。");
 	say();
 labelFunc0477_01BA:
-	if (!(var0009 == "murder site")) goto labelFunc0477_01C8;
+	if (!(var0009 == "謀殺現場")) goto labelFunc0477_01C8;
 	message("你看著 De Snel 的眼睛，告訴他你是在 Minoc 的謀殺現場找到的。他給了你一個好奇的眼神。");
 	say();
 labelFunc0477_01C8:

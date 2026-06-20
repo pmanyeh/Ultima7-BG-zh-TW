@@ -25,8 +25,10 @@ void Func0405 object#(0x405) ()
 	var var000C;
 	var var000D;
 	var var000E;
+	var talked_book;
 
 	if (!(event == 0x0001)) goto labelFunc0405_041C;
+	talked_book = false;
 	UI_show_npc_face(0xFFFB, 0x0000);
 	var0000 = Func0909();
 	var0001 = UI_get_npc_object(0xFFFB);
@@ -56,7 +58,20 @@ labelFunc0405_0093:
 	message("？」 Jaana 問。");
 	say();
 labelFunc0405_009D:
+	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
+		UI_add_answer("翻譯寶典");
+	}
 	converse attend labelFunc0405_0411;
+	case "翻譯寶典" attend labelFunc0405_TransBook:
+	message("「這些符文，原本是德魯依在使用的文字，所以每個符文都蘊藏自然的力量。」");
+	say();
+	message("「前人透過魔法陣，將為符文轉化為使用者能理解的方式，能幫助你看穿語言的迷霧，是個很好用的工具。」");
+	say();
+	message("「但現在大多遺失了！聽說不列顛王還有藏本，可跟他詢問看看。」");
+	say();
+	talked_book = true;
+	UI_remove_answer("翻譯寶典");
+labelFunc0405_TransBook:
 	case "姓名" attend labelFunc0405_00C4:
 	message("「哎呀，我是 Jaana 啊。你應該記得我！」");
 	say();

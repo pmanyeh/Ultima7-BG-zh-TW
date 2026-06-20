@@ -56,8 +56,10 @@ void Func040A object#(0x40A) ()
 	var var0028;
 	var var0029;
 	var var002A;
+	var talked_book;
 
 	if (!(event == 0x0001)) goto labelFunc040A_0A8C;
+	talked_book = false;
 	UI_show_npc_face(0xFFF6, 0x0000);
 	var0000 = Func0908();
 	var0001 = Func0909();
@@ -147,13 +149,26 @@ labelFunc040A_01FC:
 	if (!((!gflags[0x015F]) && ((var0007 > 0x0001) && gflags[0x001D]))) goto labelFunc040A_0216;
 	UI_add_answer("介紹");
 labelFunc040A_0216:
+	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
+		UI_add_answer("翻譯寶典");
+	}
 	converse attend labelFunc040A_0A8B;
 	var0002 = UI_get_party_list();
 	var001D = "";
+	case "翻譯寶典" attend labelFunc040A_TransBook:
+	message("「哼，友誼會的傢伙們總是滿口謊言，但那些刻在石頭上的古老盧恩文卻不會騙人。」");
+	say();
+	message("「如果這本寶典能幫我們更快找到被隱藏的真相，或者揭露那些偽君子的陰謀，那它就是我們最好的武器。」");
+	say();
+	message("「讓我看看這玩意兒怎麼用。」");
+	say();
+	talked_book = true;
+	UI_remove_answer("翻譯寶典");
+labelFunc040A_TransBook:
 	case "姓名" attend labelFunc040A_0277:
 	UI_remove_answer("姓名");
 	if (!(gflags[0x001D] == true)) goto labelFunc040A_024A;
-	message("「我是獵人 Tseramed 。你是一個");
+	message("「我是 Tseramed。一名『遊俠』，而你是");
 	message(var001C);
 	message("。」");
 	say();
@@ -178,7 +193,7 @@ labelFunc040A_028E:
 	gflags[0x001D] = true;
 	message("「幸會了，");
 	message(var0000);
-	message("\"");
+	message("」");
 	say();
 	if (!gflags[0x0161]) goto labelFunc040A_02B5;
 	message("你的舉止很高貴。");
@@ -264,12 +279,12 @@ labelFunc040A_03BF:
 	if (!(var0004 in var0002)) goto labelFunc040A_03F0;
 	message("「我與你同行，");
 	message(var001C);
-	message("，用我的叢林技能來幫助你。」");
+	message("，用我在森林裡習得的技能來幫助你。」");
 	say();
 	UI_add_answer("森林");
 	goto labelFunc040A_0406;
 labelFunc040A_03F0:
-	message("「我只是個卑微的樵夫。我靠森林維生，並在它的深處尋找知識。");
+	message("「在 Yew，我只是個卑微的樵夫。我靠森林維生，並在它的深處尋找知識。");
 	say();
 	message("我已經探索了這整個區域。」");
 	say();
@@ -306,9 +321,9 @@ labelFunc040A_0495:
 	if (!((!gflags[0x015F]) || (!gflags[0x001D]))) goto labelFunc040A_04E2;
 	var0020 = ["我們可能要在介紹完之後再多聊...", "也許先自我介紹一下比較好。"];
 	var0021 = var0020[UI_die_roll(0x0001, UI_get_array_size(var0020))];
-	message("\"");
+	message("「");
 	message(var0021);
-	message("\"");
+	message("」");
 	say();
 	var001F = 0x0000;
 	UI_add_answer("介紹");
@@ -521,8 +536,8 @@ labelFunc040A_0856:
 	message("「你是想讓我在這裡等，還是想讓我回家？」");
 	say();
 	UI_clear_answers();
-	var0028 = Func090B(["wait here", "go home"]);
-	if (!(var0028 == "wait here")) goto labelFunc040A_08A0;
+	var0028 = Func090B(["在這裡等", "回家"]);
+	if (!(var0028 == "在這裡等")) goto labelFunc040A_08A0;
 	message("「很好！我會等你的！」*");
 	say();
 	UI_remove_from_party(0xFFF6);

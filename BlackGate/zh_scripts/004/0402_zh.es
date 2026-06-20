@@ -28,8 +28,10 @@ void Func0402 object#(0x402) ()
 	var var0010;
 	var var0011;
 	var var0012;
+	var talked_book;
 
 	if (!(event == 0x0001)) goto labelFunc0402_0659;
+	talked_book = false;
 	var0000 = Func0908();
 	var0001 = "聖者";
 	var0002 = UI_get_party_list();
@@ -121,7 +123,18 @@ labelFunc0402_0189:
 	if (!(gflags[0x003E] && (!gflags[0x0064]))) goto labelFunc0402_01A4;
 	UI_add_answer(["金幣", "徽章", "卷軸"]);
 labelFunc0402_01A4:
+	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
+		UI_add_answer("翻譯寶典");
+	}
 	converse attend labelFunc0402_0642;
+	case "翻譯寶典" attend labelFunc0402_TransBook:
+	message("「哇！翻譯寶典！這聽起來好厲害！我以前看那些招牌上的符號總覺得像是一堆奇怪的蟲子在爬。」");
+	say();
+	message("「有了這個，我就能知道那些無聊的鎮民都在寫些什麼了！你下次用它的時候可以讓我也看看嗎？」");
+	say();
+	talked_book = true;
+	UI_remove_answer("翻譯寶典");
+labelFunc0402_TransBook:
 	case "姓名" attend labelFunc0402_01BA:
 	message("「大家一直都叫我 Spark。」");
 	say();

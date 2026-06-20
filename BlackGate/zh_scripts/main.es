@@ -30,3 +30,9 @@
 #include "030/main_030.es"
 #include "031/main_031.es"
 #include "032/main_032.es"
+
+// Runes
+#include "Runes/017B.es"
+#include "Runes/02CB.es"
+#include "Runes/0334.es"
+#include "Runes/runic_first_click.es"

@@ -49,7 +49,7 @@ labelFunc044C_00AA:
 	case "職業" attend labelFunc044C_00C3:
 	message("「我是一名訓練師。我專精於一種依賴專注和冥想的戰鬥風格。它能提升你的敏捷和智力，以及你的戰鬥技巧。」");
 	say();
-	UI_add_answer(["meditation", "train"]);
+	UI_add_answer(["冥想", "訓練"]);
 labelFunc044C_00C3:
 	case "Regal" attend labelFunc044C_00D6:
 	message("「牠是非常聰明的動物。牠了解冥想的生活方式。」~~Rayburt 丟給狗一塊餅乾，狗眨眼間就把它吞了。「牠也很可愛，」Rayburt 一臉嚴肅地說。");
@@ -61,12 +61,12 @@ labelFunc044C_00D6:
 	say();
 	UI_remove_answer("Pamela");
 labelFunc044C_00E9:
-	case "meditation" attend labelFunc044C_00FC:
+	case "冥想" attend labelFunc044C_00FC:
 	message("「在揮出第一擊之前，大部分的戰鬥都發生在心智中。勝利的關鍵是首先在心中贏得內在的戰鬥。贏得那場內在的戰鬥就是我幫助學生學習的。」");
 	say();
-	UI_remove_answer("meditation");
+	UI_remove_answer("冥想");
 labelFunc044C_00FC:
-	case "train" attend labelFunc044C_013F:
+	case "訓練" attend labelFunc044C_013F:
 	if (!(var0001 == 0x001B)) goto labelFunc044C_0134;
 	message("「我每堂課收費 60 枚金幣，但你會獲益良多。你能接受嗎？」");
 	say();
@@ -81,7 +81,7 @@ labelFunc044C_0131:
 labelFunc044C_0134:
 	message("「如果你想訓練，請在營業時間來我的工作室。」");
 	say();
-	UI_remove_answer("train");
+	UI_remove_answer("訓練");
 labelFunc044C_013F:
 	case "告辭" attend labelFunc044C_014A:
 	goto labelFunc044C_014D;
