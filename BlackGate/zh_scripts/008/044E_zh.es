@@ -44,7 +44,7 @@ labelFunc044E_007C:
 	gflags[0x00F0] = true;
 labelFunc044E_0080:
 	case "職業" attend labelFunc044E_00BD:
-	message("「我是外宿旅店的老闆。」");
+	message("「我是進進出出客棧的老闆。」");
 	say();
 	if (!((var0000 == 0x0010) || (var0000 == 0x000B))) goto labelFunc044E_00AC;
 	message("「如果你需要房間，儘管說！」");
@@ -56,7 +56,7 @@ labelFunc044E_00AC:
 	message("「如果今晚想讓疲憊的雙腳休息一下，請過來吧！」");
 	say();
 labelFunc044E_00B6:
-	UI_add_answer("外宿旅店");
+	UI_add_answer("進進出出客棧");
 labelFunc044E_00BD:
 	case "房間" attend labelFunc044E_016B:
 	message("「房間相當便宜。每人只需 8 枚金幣。要一間嗎？」");
@@ -95,10 +95,10 @@ labelFunc044E_0160:
 labelFunc044E_0164:
 	UI_remove_answer("房間");
 labelFunc044E_016B:
-	case "外宿旅店" attend labelFunc044E_017E:
+	case "進進出出客棧" attend labelFunc044E_017E:
 	message("「嗯……Cove 可是愛與熱情之城，你不知道嗎？你得小心點。如果你在 Cove 待太久，你會愛上某個人的！記住我的話！」");
 	say();
-	UI_remove_answer("外宿旅店");
+	UI_remove_answer("進進出出客棧");
 labelFunc044E_017E:
 	case "Rayburt" attend labelFunc044E_0198:
 	message("「喔，他真是個很棒的男人，你不覺得嗎？他既專注又認真。而且也很英俊！喔，還有我也很喜歡 Regal。」");

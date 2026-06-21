@@ -57,10 +57,10 @@ labelFunc0409_00A4:
 	say();
 labelFunc0409_00AE:
 	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
-		UI_add_answer("翻譯寶典");
+		UI_add_answer("古文譯本");
 	}
 	converse attend labelFunc0409_0431;
-	case "翻譯寶典" attend labelFunc0409_TransBook:
+	case "古文譯本" attend labelFunc0409_TransBook:
 	message("「在 Magincia 放羊時，我偶爾會看到一些古老的遺跡，上面的文字總是讓我很好奇。」");
 	say();
 	message("「有了這本寶典，我們就不用再像迷途的羔羊一樣，面對那些古文不知所措了。」");
@@ -68,7 +68,7 @@ labelFunc0409_00AE:
 	message("「它一定能為我們的旅途帶來不少便利！」");
 	say();
 	talked_book = true;
-	UI_remove_answer("翻譯寶典");
+	UI_remove_answer("古文譯本");
 labelFunc0409_TransBook:
 	case "姓名" attend labelFunc0409_00D5:
 	message("「哎呀，」她對你眨眨眼，「我知道已經過很久了，但你肯定沒忘記我吧。我是 Katrina 。你以前的同伴之一。」");

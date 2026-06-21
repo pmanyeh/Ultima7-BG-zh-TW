@@ -34,18 +34,18 @@ labelFunc046A_004A:
 	UI_remove_answer("姓名");
 labelFunc046A_0066:
 	case "職業" attend labelFunc046A_007F:
-	message("「呃，那又怎樣？喔，我的工作。哎呀，我好好照顧著這共情修道院墓園裡的朋友們，真的。」");
+	message("「呃，那又怎樣？喔，我的工作。哎呀，我好好照顧著這人神修道院墓園裡的朋友們，真的。」");
 	say();
-	UI_add_answer(["共情修道院", "朋友們"]);
+	UI_add_answer(["人神修道院", "朋友們"]);
 labelFunc046A_007F:
-	case "共情修道院" attend labelFunc046A_0099:
+	case "人神修道院" attend labelFunc046A_0099:
 	message("「你說我『對 Abby 發情』是什麼意思。我當然沒有。我從來沒靠近過 Abby 。誰告訴你的？」");
 	say();
 	UI_add_answer("對 Abby 發情");
-	UI_remove_answer("共情修道院");
+	UI_remove_answer("人神修道院");
 labelFunc046A_0099:
 	case "對 Abby 發情" attend labelFunc046A_00B2:
-	message("「共情修道院？哎呀，這裡就是共情修道院啊， ");
+	message("「人神修道院？哎呀，這裡就是人神修道院啊， ");
 	message(var0001);
 	message("。我無意打聽，但如果你不知道自己在哪裡，你幹嘛來這？」他搖搖頭。「就像我前幾天跟 Darek 說的，我說『如果你永遠不想迷路，就永遠哪裡都別去。』」");
 	say();

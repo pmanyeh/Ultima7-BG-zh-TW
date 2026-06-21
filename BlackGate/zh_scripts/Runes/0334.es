@@ -325,7 +325,7 @@ labelFunc0334_04DD:
 	if (!(var0001 == 0x001C)) goto labelFunc0334_04F9;
 	var000A = ["(e", "wayfarers", "inn"];
 
-	var_chinese = "風塵旅人客棧";
+	var_chinese = "旅人旅館";
 
 	goto labelFunc0334_09FA;
 labelFunc0334_04F9:

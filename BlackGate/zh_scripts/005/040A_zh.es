@@ -150,12 +150,12 @@ labelFunc040A_01FC:
 	UI_add_answer("介紹");
 labelFunc040A_0216:
 	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
-		UI_add_answer("翻譯寶典");
+		UI_add_answer("古文譯本");
 	}
 	converse attend labelFunc040A_0A8B;
 	var0002 = UI_get_party_list();
 	var001D = "";
-	case "翻譯寶典" attend labelFunc040A_TransBook:
+	case "古文譯本" attend labelFunc040A_TransBook:
 	message("「哼，友誼會的傢伙們總是滿口謊言，但那些刻在石頭上的古老盧恩文卻不會騙人。」");
 	say();
 	message("「如果這本寶典能幫我們更快找到被隱藏的真相，或者揭露那些偽君子的陰謀，那它就是我們最好的武器。」");
@@ -163,7 +163,7 @@ labelFunc040A_0216:
 	message("「讓我看看這玩意兒怎麼用。」");
 	say();
 	talked_book = true;
-	UI_remove_answer("翻譯寶典");
+	UI_remove_answer("古文譯本");
 labelFunc040A_TransBook:
 	case "姓名" attend labelFunc040A_0277:
 	UI_remove_answer("姓名");
@@ -362,7 +362,7 @@ labelFunc040A_054C:
 labelFunc040A_057A:
 	case "修道院" attend labelFunc040A_059A:
 	UI_remove_answer("修道院");
-	message("「共情修道院(Empath Abbey) 是它的全名，");
+	message("「人神修道院(Empath Abbey) 是它的全名，");
 	message(var0001);
 	message("。他們在那裡實踐古老的技藝，最古老的是烈酒的發酵和蒸餾。在 Yew ，人們對他們產品的需求量很大。」");
 	say();

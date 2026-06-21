@@ -1,0 +1,865 @@
+# List of flags, found by Alun Bestor (?), Marzo, SB-X and Malignant Maynor.
+# Adapted from https://github.com/marzojr/u7-usecode fov/include/globals.uc.
+# Lists ALL known flags, regardless of whether they make sense in the autonotes.
+
+0x0:SEEN_TETRA
+0x1:SEEN_SPHERE
+0x2:SEEN_CUBE
+0x3:我破壞了四面體產生器。
+0x4:BROKE_SPHERE
+0x5:BROKE_CUBE
+0x6:JOIN_FELLOWSHIP
+0x7:TIMELORD_SAID_PENUMBRA
+0x8:TIMELORD_SAID_BRION
+0x9:SEEN_BLACKGATE
+0xA:SAW_PASSION_PLAY
+0xB:AVATAR_INVENTORY
+0xC:AVATAR_WAIT
+0xD:AVATAR_SINGLE_FILE
+0xE:AVATAR_FORM_UP
+0xF:AVATAR_ATTACK
+0x10:AVATAR_RETREAT
+0x11:AVATAR_HELP
+0x12:TIMELORD_SAID_SPHERE
+0x13:TIMELORD_SAID_CUBE
+0x14:我遇到了 Iolo 。
+0x15:我遇到了 Spark 。
+0x16:我遇到了 Shamino 。
+0x17:我遇到了 Dupre 。
+0x18:在 Cove 我遇見了前同伴 Jaana 。
+0x19:我遇到了 Trellek 。
+0x1A:我遇到了 Sentri 。
+0x1B:我的老朋友 Julia 住在 Minoc 。也許她會加入我的隊伍。
+0x1C:我遇到了 Katrina 。
+0x1D:我遇到了 Tseramed 。
+0x1E:糟糕，這「末日決戰」法術比我想像中危險。哈囉？有人在嗎？
+#0x1F:WHEEL_1
+#0x20:WHEEL_2
+#0x21:WHEEL_3
+#0x22:RAT_1
+#0x23:RAT_2
+#0x24:RAT_3
+#0x25:RAT_4
+0x26:DEAD_AGAIN
+0x27:HELP_USED
+0x28:Jaana 是 Cove 的治療師。
+0x29:SET_JAANA_TIMER
+#0x2A:FINN_1
+#0x2B:FINN_2
+#0x2C:FINN_3
+#0x2D:FINN_4
+#0x2E:FINN_5
+#0x2F:FINN_6
+#0x30:FINN_7
+#0x31:FINN_8
+#0x32:BAT_1
+#0x33:BAT_2
+#0x34:BAT_3
+#0x35:BAT_4
+#0x36:BAT_5
+#0x37:BAT_6
+0x38:FAILED_BATLIN
+0x39:我在產生器裡面，突然無法再施放法術了。
+0x3A:NEAR_SHELTER
+
+# Trinsic
+0x3B:START_GAME
+0x3C:這是什麼？一具屍體！還有一把鑰匙？這會不會是個線索？
+0x3D:現在我知道離開 Trinsic 需要的口令了。口令是 Blackbird ！
+0x3E:搜查了 Christopher 的家，我找到的鑰匙打開了一個箱子，裡面有獎章、卷軸和金幣。
+0x3F:Christopher 曾與 Klog 發生過爭執！
+0x40:有一艘名為皇冠寶石號（Crown Jewel）的船，在發生謀殺案時停泊在 Trinsic 。
+0x41:KLOG_SAID_COMPANIONS
+0x42:因為 Trinsic 發生了謀殺案，所有城門都被鎖上了。我需要密碼才能出去。
+0x43:一個帶著鐵鉤的男人曾在 Trinsic 。
+0x44:我完成了對 Trinsic 駭人聽聞的謀殺案的調查。
+0x45:我收到了謀殺案調查的一半報酬，抓住犯人後會收到剩下的。
+0x46:我告訴 Spark 我的名字。
+0x47:我告訴 Spark 我是聖者。
+0x48:我告訴市長 Finnigan 我在屍體上找到的鑰匙。
+0x49:Spark 請求加入隊伍。
+0x4A:GARGAN_SAID_SAILED
+0x4B:我遇到了 Petre 。
+0x4C:Trinsic 的市長叫做 Finnigan 。他希望我調查一起儀式謀殺案。
+0x4D:我遇到了 Gilberto 。
+0x4E:我遇到了 Johnson 。
+0x4F:我遇到了 Klog 。
+0x50:我遇到了 Ellen 。
+0x51:我遇到了 Apollonia 。
+0x52:Trinsic 的 Chantu 是一個穿著治療師長袍的莊嚴傢伙。
+0x53:我遇到了 Dell 。
+0x54:我遇到了 Markus 。
+0x55:我遇到了 Gargan 。
+0x56:我遇到了 Caroline 。
+0x57:我們離開 Trinsic ，到外面探險吧。
+0x58:SOLD_BLUEFIN
+0x59:我拒絕了市長，不會去調查這起謀殺案。
+0x5A:我才剛到就有任務了：調查馬廄。
+0x5B:我找到了足夠的線索向 Finnigan 報告！
+0x5C:Iolo 在碎碎唸……
+0x5D:我報告了一些線索，但顯然還需要找出更多。
+0x5E:QUESTION_ONE
+0x5F:QUESTION_TWO
+0x60:QUESTION_THREE
+0x61:QUESTION_FOUR
+0x62:QUESTION_FIVE
+0x63:QUESTION_SIX
+0x64:CHEST_CONTENTS
+
+# Britain
+0x65:LEARNED_ABOUT_BLACKROCK
+0x66:Lord British 告訴我魔法已經失效了，但他認為我也許還能施放魔法。他把一本法術書和我的其他裝備放在一起。嗯，他指的裝備是什麼意思？
+0x67:COSTUME_QUEST
+0x68:GOT_COSTUME
+0x69:MIRANDA_SAID_MAX
+0x6A:BILL_QUEST
+0x6B:SHAMINO_SAID_AMBER
+0x6C:SHAMINO_SAID_MAGIC
+0x6D:AMBER_SAID_SHAMINO
+0x6E:AMBER_SAID_SETTLE
+0x6F:CHUCKLES_GAVE_SCROLL
+0x70:BENNIE_GAVE_MUTTON
+0x71:BOOTS_SAID_MEAT
+0x72:MEAT_QUEST
+0x73:CHUCKLES_SAID_GAME
+0x74:BATLIN_PACKAGE
+0x75:NELL_SAID_FIANCE
+0x76:NELL_SAID_CHARLES
+0x77:NELL_DISTRUSTS
+0x78:TOLD_NELL_NAME
+0x79:TOLD_NELL_AVATAR
+0x7A:NELL_SAID_CHILD
+0x7B:CHARLES_SAID_JEANETTE
+0x7C:CHARLES_SAID_NELL
+0x7D:JEANETTE_SAID_CHARLES
+0x7E:JEANETTE_SAID_CONSIDER
+0x7F:PATTERSON_SAID_BROWNIE
+0x80:我聽說 Patterson 有外遇。
+0x81:JUDITH_SUSPICIOUS
+0x82:NANNA_SAID_CLASS
+0x83:TOLD_LUCY_NAME
+0x84:TOLD_LUCY_AVATAR
+0x85:Jeanette 暗戀麵包師傅 Willy 。
+0x86:JEWEL_FIRST_TIME
+0x87:EA_GONE_TO_MINOC
+0x88:EA_GONE_TO_VESPER
+0x89:CHARLES_MAD
+0x8A:MILLIE_SAID_VOICE
+0x8B:MILLIE_SAID_RETREAT
+0x8C:有人告訴我關於「內在聲音」的事。
+0x8D:INVITED_TO_JOIN
+0x8E:CHEST_QUEST
+0x8F:PACKAGE_QUEST
+0x90:GOT_MEDALLION
+0x91:CEREMONY_DONE
+0x92:CYNTHIA_SAID_SHE_CARES
+0x93:AVATAR_SENT_TO_PROOF
+0x94:FIGG_GIVES_APPLES
+0x95:MACK_TOLD_STORY
+0x96:TEST_GIVEN
+0x97:CHEST_QUEST_DONE
+0x98:我又遇見了我的老朋友 Lord British 。
+0x99:我的老朋友 Nystul 似乎失去了理智。
+0x9A:Lord British 的宮廷弄臣 Chuckles 想跟我玩個愚蠢的遊戲「四字遊戲」。
+0x9B:我遇到了 Batlin 。
+0x9C:我遇到了 Raymundo 。
+0x9D:我遇到了 Jesse 。
+0x9E:我遇到了 Stuart 。
+0x9F:我遇到了 Amber 。
+0xA0:我遇到了 Kristy 。
+0xA1:我遇到了 Max 。
+0xA2:我遇到了 Nicholas 。
+0xA3:我遇到了 Nanna 。
+0xA4:Csil （又名 Abrams ）是 Britain 一位充滿智慧且誠實的治療師。
+0xA5:我遇到了 Zella 。
+0xA6:我遇到了 Lucy 。
+0xA7:我遇到了 Greg 。
+0xA8:我遇到了 Neno 。
+0xA9:我遇到了 Judith 。
+0xAA:Candice 是一位好女人，在皇家博物館工作。
+0xAB:我遇到了 Cynthia 。
+0xAC:我遇到了 Patterson 。
+0xAD:我遇到了 Carrocio 。
+0xAE:我遇到了 Figg 。
+0xAF:我遇到了 James 。
+0xB0:我遇到了 Jeanette 。
+0xB1:我遇到了 Kessler 。
+0xB2:我遇到了 Denby 。
+0xB3:我遇到了 Fred 。
+0xB4:我遇到了 Kelly 。
+0xB5:Willy 是 Britain 的麵包師傅，能做出最甜美的麵包。
+0xB6:我遇到了 Gaye 。
+0xB7:我遇到了 Coop 。
+0xB8:我遇到了 Grayson 。
+0xB9:我遇到了 Diane 。
+0xBA:我遇到了 Clint 。
+0xBB:Gordon 在 Britain 他的馬車上賣炸魚薯條。
+0xBC:我遇到了 Sean 。
+0xBD:我遇到了 Brownie 。
+0xBE:我遇到了 Mack 。
+0xBF:我遇到了 Snaz 。
+0xC0:我遇到了 Millie 。
+0xC1:我遇到了 Geoffrey 。
+0xC2:我遇到了 Wislem 。
+0xC3:我遇到了 Sherry 。
+0xC4:我遇到了 Boots 。
+0xC5:我遇到了 Bennie 。
+0xC6:我遇到了 Weston 。
+0xC7:我遇到了 Miranda 。
+0xC8:我遇到了 Inwisloklem 。
+0xC9:我遇到了 Nell 。
+0xCA:我遇到了 Charles 。
+0xCB:Willy 雇我烤麵包。
+0xCC:Lord British 調查了 Weston 的監禁，並讓他重獲自由。
+0xCD:一個名叫 Weston 的男子被關押在 Britain 城堡頂樓。他的監禁可能是不公正的。我必須和我的朋友 Lord British 談談這件事。
+0xCE:BROWNIE_HIRED
+0xCF:MACK_HIRED
+0xD0:PAID_CARROCIO
+0xD1:多年前 Britain 也曾發生過一起儀式謀殺案。我需要調查這件事！
+0xD2:SOLD_SHARKTOOTH
+0xD3:雖然魔法不再可靠，但 Lord British 依然能治療我，甚至有時還能讓我的隊員復活。這有時會派上用場。
+0xD4:ASKED_LB_ABOUT_GUARDIAN
+0xD5:TOLD_SHAMINO
+0xD6:REFUSED_PACKAGE
+0xD7:DIDNT_GET_PACKAGE
+0xD8:BENNIE_SERVED_ONCE
+0xD9:獲得懷錶
+0xDA:Batlin 在我和他帶著那個立方體交談後失蹤了。
+0xDB:Sentri 加入隊伍
+0xDC:CYNTHIA_SAID_EXCHANGE
+0xDD:Lord British 給了我他的月亮寶珠（Orb of the moon），但警告我月之門（Moongates）已不再穩定。
+
+# Cove
+0xDE:BILL_QUEST_DONE
+0xDF:RUDYOM_GAVE_IWAN
+0xE0:DE_MARIA_TOLD_STORY
+0xE1:NASTASIA_SAID_JULIUS
+0xE2:JULIUS_QUEST
+0xE3:LORD_HEATHER_SAID_NASTASIA
+0xE4:LORD_HEATHER_SAID_LOVERS
+0xE5:SEEN_IWAN
+0xE6:HAS_KISSED
+0xE7:我遇到了 Rudyom 。
+0xE8:我遇到了 Nastassia 。
+0xE9:我遇到了 Rayburt 。
+0xEA:我遇到了 Lord Heather 。
+0xEB:我遇到了 Pamela 。
+0xEC:我遇到了 Zinaida 。
+0xED:我遇到了 De Maria 。
+0xEE:RAYBURT_SAID_NAME
+0xEF:我不知道自己為什麼這麼做，但我問了 Jaana 的名字。我一定是老了。
+0xF0:PAMELA_SAID_NAME
+0xF1:ZINAIDA_SAID_NAME
+0xF2:DE_MARIA_SAID_NAME
+0xF3:LORD_HEATHER_SAID_NAME
+
+# Minoc
+0xF4:JAKHER_SAID_GYPSIES
+0xF5:JAKHER_SAID_KARENNA_ATTRACTIVE
+0xF6:KARENNA_SAID_JAKHER_IS_CUTE
+0xF7:MAYOR_CANCELLED_STATUE
+0xF8:JAKHER_SAID_BROTHER
+0xF9:OWEN_SAID_CROWN
+0xFA:OWEN_SAID_HOOK
+0xFB:OWEN_TOOK_GOLD
+0xFC:OWEN_GAVE_GOLD
+0xFD:OWENS_PLANS_ARE_UNSAFE
+0xFE:MINOC_MURDERS
+0xFF:SEARA_SAID_SASHA
+0x100:一位吉普賽人告訴了我我的未來。我真的需要找到時間領主（Time Lord），而鬼火（Wisps）知道如何聯絡他。
+0x101:不幸的是，我不得不把 Julia 留下。她不再是我的隊伍成員了。
+0x102:PACKAGE_DELIVERED
+0x103:PACKAGE_OPENED
+0x104:RUTH_SAID_HOOK
+0x105:EA_GONE_TO_PAWS
+0x106:ZORN_GAVE_HELMET
+0x107:FODUS_SAID_SILVERFLUID
+0x108:我邀請了 Julia 加入我的隊伍，她覺得很榮幸！
+0x109:PACKAGE_QUEST_DONE
+0x10A:WILLIAM_SAID_MURDERS
+0x10B:KARL_TOLD_ABOUT_PLANS
+0x10C:我遇到了 Elynor 。
+0x10D:我遇到了 Gregor 。
+0x10E:我遇到了 Margareta 。
+0x10F:我遇到了 Sasha 。
+0x110:Minoc 的 Gladstone 是玻璃吹製工和雕塑家。
+0x111:我遇到了 Xanthia 。
+0x112:我遇到了 Zorn 。
+0x113:我遇到了 Seara 。
+0x114:我遇到了 Karl 。
+0x115:我遇到了 Owen 。
+0x116:我遇到了 Burnside 。
+0x117:我遇到了 Rutherford 。
+0x118:我遇到了 William 。
+0x119:我遇到了 Karenna 。
+0x11A:我遇到了 Jakher 。
+0x11B:我遇到了 Jergi 。
+0x11C:我遇到了 Mikos 。
+0x11D:我遇到了 Fodus 。
+0x11E:SCROLL_GONE
+0x11F:喔不，又一起謀殺案。這次是在 Minoc 的鋸木廠。這裡有些不對勁。
+0x120:KARL_SAID_FOLLOW
+0x121:Julia 覺得 Spark 很可愛而且很有禮貌。
+0x122:SEEN_SECOND_MURDER
+0x123:OWEN_SAID_NAME
+0x124:KARL_SAID_NAME
+0x125:XANTHIA_CANDELABRA
+
+# Empath Abbey & Yew
+0x126:HOOK_POST
+0x127:時間領主告訴我邪惡的守護者的事，以及他計劃在天文對齊時透過黑月之門進入不列顛尼亞。
+0x128:ASKED_REYNA_ABOUT_MOTHER
+0x129:JULIUS_QUEST_DONE
+0x12A:SIGN_DOC
+0x12B:DOC_SIGNED
+0x12C:IN_JAIL
+0x12D:ENCHANTED_HOURGLASS
+0x12E:TAV_EXPLAIN
+0x12F:KREG_INVISIBLE
+0x130:SARALEK_TRELLEK
+0x131:TRELLEK_PERMIT
+0x132:ASK_SARALEK
+0x133:鬼火不肯白白幫我。他們要求我把全不列顛尼亞最聰明的人 Alagner 的筆記本交給他們，他住在 New Magincia 島上。
+0x134:WISP_SAID_EAST
+0x135:DREL_SAID_HOOK
+0x136:TOLD_TRELLEK_NAME
+0x137:TOLD_TRELLEK_AVATAR
+0x138:森靈族與鬼火
+0x139:GAVE_REYNA_FLOWERS
+0x13A:REYNA_EMERGENCY
+0x13B:KNOWS_REYNA_LOVES_ANIMALS
+0x13C:我遇到了森靈族。
+0x13D:我遇到了 Saralek 。
+0x13E:我遇到了 Tavenor 。
+0x13F:我遇到了 Salamon 。
+0x140:我遇到了 Nicodemus 。
+0x141:我遇到了 Thad 。
+0x142:我遇到了 Bradman 。
+0x143:我遇到了 Sir Jeff 。
+0x144:我遇到了 Tiery 。
+0x145:我遇到了 Perrin 。
+0x146:我遇到了 Reyna 。
+0x147:我遇到了 Taylor 。
+0x148:我遇到了 Kreg 。
+0x149:我遇到了 Gharl 。
+0x14A:我遇到了 Drel 。
+0x14B:我遇到了 Smith 。
+0x14C:我遇到了 Aimi 。
+0x14D:我遇到了 Penni 。
+0x14E:我遇到了 Ben 。
+0x14F:我遇到了 Goth 。
+0x150:終於，我和鬼火交談了。只有用友善的森靈 Trellek 給我的哨子，我才能與他們對話。
+0x151:TRELLEK_SHOULD_JOIN
+0x152:TSERAMED_TOLD
+0x153:GAVE_ARROWS
+0x154:GAVE_HONEY
+0x155:TALK_TRELLEK
+0x156:GOT_WHISTLE
+0x157:將被詛咒的筆記本交給了鬼火。作為回報，他們轉達了時間領主的訊息，並告訴我如何在靈性神殿（Shrine of Spirituality）找到他。
+0x158:SARALEK_LIED
+0x159:KREG_DIS
+0x15A:REYNAGARDEN
+0x15B:AIMI_TOLD_NAME
+0x15C:MOMS_FLOWERS
+0x15D:TSERAMED_HATES_YOU
+0x15E:TSERAMED_THINKS_MAGE
+0x15F:TSERAMED_INTRO
+0x160:TSERAMED_TRADE
+0x161:TSERAMED_KNOWS_AVATAR
+0x162:TSERAMED_SAID_PREF
+0x163:REYNA_TOLD_JOB
+
+# Jhelom
+0x164:HONOR_FLAG_RETURNED
+0x165:AVATAR_BET_ON_SPRELLIC
+0x166:BETS_SPRELLIC_DIES
+0x167:FALSE_FLAG
+0x168:FALSE_FLAG_GIVEN
+0x169:SPRELLIC_DUELS
+0x16A:DUELS_SHUT_OFF
+0x16B:EA_GONE_TO_BRITAIN
+0x16C:AVATAR_SHOWED_DAGGER
+0x16D:DUPRE_IN_PARTY
+0x16E:AVATAR_HEARD_OF_SPRELLIC
+0x16F:AVATAR_PAID_WINNINGS
+0x170:AVATAR_CHAMPION
+0x171:我遇到了 De Snel 。
+0x172:我遇到了 Joseph 。
+0x173:我遇到了 Kliftin 。
+0x174:我遇到了 Ophelia 。
+0x175:我遇到了 Daphne 。
+0x176:我遇到了 Sprellic 。
+0x177:我遇到了 Vokes 。
+0x178:我遇到了 Syria 。
+0x179:我遇到了 Timmons 。
+0x17A:AVATAR_WON_WINNINGS
+0x17B:KLIFTIN_SEWS
+
+# New Magincia
+0x17C:ALAGNER_QUEST
+0x17D:HENRY_ASKED_FIND_LOCKET
+0x17E:MAGENTA_FOUND_LOCKET
+0x17F:AVATAR_HAS_LOCKET
+0x180:THREE_STRANGERS
+0x181:RUSSELL_SAID_CROWN
+0x182:RUSSELL_SAID_HOOK
+0x183:BORIS_LIED_TO_AVATAR
+0x184:ROBIN_SELL_CONSTANCE
+0x185:ROBIN_LOST_LOCKET
+0x186:HEARD_SPRELLIC_TALE
+0x187:TOLD_SAM_NAME
+0x188:TOLD_SAM_AVATAR
+0x189:我遇到了 Alagner 。
+0x18A:我遇到了 Russell 。
+0x18B:我遇到了 Boris 。
+0x18C:我遇到了 Magenta 。
+0x18D:我遇到了 Henry 。
+0x18E:我遇到了 Constance 。
+0x18F:我遇到了 Robin 。
+0x190:我遇到了 Battles 。
+0x191:我遇到了 Leavell 。
+0x192:我遇到了 Sam 。
+0x193:SOLD_WHITE_GULL
+0x194:SEEN_NEW_MAGINCIA_MURDER
+0x195:BILL_NOT_PAID
+
+# Skara Brae
+0x196:CAINE_GAVE_ANSWER
+0x197:我抵達了 Skara Brae 的碼頭。
+0x198:找尋有誰願意自我犧牲去毀掉靈魂之井。
+0x199:我詢問了擺渡人是否願意自我犧牲去毀掉靈魂之井。
+0x19A:我詢問了 MARKHAM 是否願意自我犧牲去毀掉靈魂之井。
+0x19B:我詢問了 PAULETTE 是否願意自我犧牲去毀掉靈魂之井。
+0x19C:我詢問了 QUENTON 是否願意自我犧牲去毀掉靈魂之井。
+0x19D:我詢問了 ROWENA 是否願意自我犧牲去毀掉靈魂之井。
+0x19E:我詢問了 TRENT 是否願意自我犧牲去毀掉靈魂之井。
+0x19F:我詢問了 FORSYTHE 是否願意自我犧牲去毀掉靈魂之井。
+0x1A0:我詢問了 MORDRA 是否願意自我犧牲去毀掉靈魂之井。
+0x1A1:我詢問了 CAINE 是否願意自我犧牲去毀掉靈魂之井。
+0x1A2:我找到了合適的犧牲者。
+0x1A3:靈魂之井被毀了。
+0x1A4:Paulette 為此悲痛欲絕。
+0x1A5:TRENT_AWARE
+0x1A6:REUNITED
+0x1A7:MUSIC_BOX
+0x1A8:CAGE_MADE
+0x1A9:BOX_FIRST_TIME
+0x1AA:HORANCE_GONE
+0x1AB:GAVE_STAFF
+0x1AC:WELL_QUEST
+0x1AD:DONE_HORANCE
+0x1AE:TAKE_ROWENA_HOME
+0x1AF:HORANCE_TRAPPED
+0x1B0:SKARABRAED_ONE
+0x1B1:MADE_FORMULA
+0x1B2:我透過降神術與 Caine 交談。
+0x1B3:我透過降神術與擺渡人交談。
+0x1B4:我透過降神術與 Markham 交談。
+0x1B5:我透過降神術與 Horance 交談。
+0x1B6:我透過降神術與 Trent 交談。
+0x1B7:我透過降神術與 Mordra 交談。
+0x1B8:我透過降神術與 Rowena 交談。
+0x1B9:我透過降神術與 Paulette 交談。
+0x1BA:我透過降神術與 Quenton 交談。
+0x1BB:我透過降神術與 Forsythe 交談。
+0x1BC:CAINE_QUEST
+0x1BD:FORSYTHE_FINE
+0x1BE:ROWENA_FINE
+0x1BF:FORMULA
+0x1C0:MORDRA_FORMULA
+0x1C1:CAME_FROM_DEFAULT
+0x1C2:我遇到了 Caine。
+0x1C3:我遇到了擺渡人。
+0x1C4:我遇到了 Markham。
+0x1C5:我遇到了巫妖。
+0x1C6:我遇到了 Horance。
+0x1C7:我遇到了 Trent。
+0x1C8:我遇到了 Mordra。
+0x1C9:我遇到了 Rowena。
+0x1CA:我遇到了 Paulette。
+0x1CB:我遇到了 Quenton 。
+0x1CC:我遇到了 Forsythe 。
+0x1CD:LOCKET_RETURNED
+0x1CE:LEFT_WHILE_TRENT_WORKING
+0x1CF:MAKING_CAGE
+0x1D0:FORMULA_CREATED
+0x1D1:WELL_REFUSED
+
+# Shrine of Spirituality
+0x1D2:HOURGLASS_QUEST
+0x1D3:TIME_LORD_GAVE_MISSION
+0x1D4:我遇到了 Time Lord 。
+
+# Moonglow
+0x1D5:RECTOL
+0x1D6:CUBTOL
+0x1D7:CUBMOR
+0x1D8:BALTEL
+0x1D9:GOT_FOOD
+0x1DA:ZELDA_LOVE
+0x1DB:BRION_ZELDA
+0x1DC:NELSON_ZELDA
+0x1DD:BRION_CRY
+0x1DE:ADDOM_PENUMBRA
+0x1DF:BLACKROCK_QUEST
+0x1E0:RING_QUEST
+0x1E1:RING_ENCHANTED
+0x1E2:BLACKROCK_DONE
+0x1E3:ZELDA_RESPOND
+0x1E4:NELSON_STAND
+0x1E5:NELSON_MARK
+0x1E6:NELSON_QUILL
+0x1E7:NELSON_BOOK
+0x1E8:BRION_CHEESE
+0x1E9:BRION_MAGNIFY
+0x1EA:BRION_KITE
+0x1EB:BRION_SHOWN
+0x1EC:NEL_SHOWN
+0x1ED:GOT_CRYSTAL
+0x1EE:SAI_DNO
+0x1EF:EA_GONE_TO_TERFIN
+0x1F0:TAKE_VIEWER
+0x1F1:TOLD_CHAD_NAME
+0x1F2:TOLD_CHAD_GENDER
+0x1F3:TOLD_CHAD_AVATAR
+0x1F4:TOLD_EFFREM_NAME
+0x1F5:NPC_SAID_VOICE
+0x1F6:BRION_SAID_NES
+0x1F7:我遇到了 Brion 。
+0x1F8:我遇到了 Penumbra 。
+0x1F9:我遇到了 Nelson 。
+0x1FA:我遇到了 Zelda 。
+0x1FB:我在 Moonglow 遇見了我的老朋友 Mariah 。
+0x1FC:我遇到了 Rankin 。
+0x1FD:我遇到了 Balayna 。
+0x1FE:我遇到了 Tolemac 。
+0x1FF:我遇到了 Cub 。
+0x200:我遇到了 Morz 。
+0x201:我遇到了 Jillian 。
+0x202:我遇到了 Effrem 。
+0x203:我遇到了 Chad 。
+0x204:Elad 是 Moonglow 的治療師，嚮往著冒險。
+0x205:我遇到了 Phearcy 。
+0x206:我遇到了 Addom 。
+0x207:我遇到了 Frank 。
+0x208:我遇到了 Carlyn 。
+0x209:BRION_TOLD_NAME
+0x20A:ACCU_TOLD
+0x20B:RANKIN_TOLD_NAME
+0x20C:BALAYNA_LUNCHED
+0x20D:BALAYNA_DEAD
+0x20E:VIAL_GIVEN
+0x20F:FIND_MERCHANT
+0x210:BALAYNA_OVER
+
+# Paws
+0x211:GOT_HOURGLASS
+0x212:我聽說 Paws 發生了竊盜案。
+0x213:Feridwyn 指控 Tobias 犯下了 Paws 的竊盜案。
+0x214:MORFIN_TAUNTED_AVATAR
+0x215:MERRICK_TAUNTED_AVATAR
+0x216:THURSTON_LOVES_POLLY
+0x217:EA_GONE_TO_JHELOM
+0x218:發現 Garritt 就是 Paws 的小偷。
+0x219:AVATAR_SAID_WONT_TELL
+0x21A:Camille 給了我小麥讓我送去給 Thurston 。
+0x21B:POLLY_SHY
+0x21C:STREET_TROUBLE
+0x21D:我把 Camille 的小麥送交給了 Thurston 。
+0x21E:MERRICK_APOLOGIZED
+0x21F:我遇到了 Thurston 。
+0x220:我遇到了 Feridwyn 。
+0x221:我遇到了 Brita 。
+0x222:我遇到了 Alina 。
+0x223:我遇到了 Merrick 。
+0x224:我遇到了 Garritt 。
+0x225:我遇到了 Morfin 。
+0x226:我遇到了 Beverlea 。
+0x227:我遇到了 Komor 。
+0x228:我遇到了 Fenn 。
+0x229:我遇到了 Andrew 。
+0x22A:Camille 是一位勤勞的農婦兼寡婦。她和兒子 Tobias 在 Paws 經營農場。
+0x22B:我遇到了 Tobias 。
+0x22C:我遇到了 Polly 。
+0x22D:TOLD_MERRICK_NAME
+0x22E:TOLD_MERRICK_NONE
+0x22F:TOLD_MORFIN_NAME
+0x230:TOLD_MORFIN_NONE
+0x231:THURSTON_COURTING
+0x232:BEVERLEA_SOLD_HOURGLASS
+0x233:MORFIN_CREEP
+0x234:Camille 跑出來說她的兒子在 Paws 的竊盜案中是無辜的。
+0x235:MORFIN_APOLOGIZED
+0x236:PAWS_SETUP
+0x237:MORFIN_GAVE_KEY
+
+# Terfin
+0x238:DRAX_KNOWS
+0x239:DRAX_INAMO
+0x23A:TOLD_INAMO_DEAD
+0x23B:DRAX_SAID_SULTAN
+0x23C:IN_FOR_QUAN
+0x23D:KNOWS_SILAMO_UNHAPPY
+0x23E:QUAEVEN_CONVERT
+0x23F:FOUND_NOTE
+0x240:SARPLING_SPILLED
+0x241:QUAN_SARP
+0x242:PLOT_TOLD
+0x243:EA_GONE_TO_SERPENTS_HOLD
+0x244:KNOWNS_ABOUT_CONFLICTS
+0x245:我遇到了 Drax 。
+0x246:我遇到了 Inforlem 。
+0x247:在 Terfin 我遇見了 Inmalinem 。
+0x248:我遇到了 Teregus 。
+0x249:我遇到了 Runeb 。
+0x24A:我遇到了 Quan 。
+0x24B:我遇到了 Quaeven 。
+0x24C:我遇到了 Silamo 。
+0x24D:我遇到了 Sarpling 。
+0x24E:我遇到了 Forbrak 。
+0x24F:我遇到了 Betra 。
+0x250:SARPLING_TOLD_NAME
+0x251:BETRA_TOLD_NAME
+0x252:EVIDENCE_SHOWN
+0x253:DESTRUCT_RUMOR
+0x254:TEREGUS_TOLD_NAME
+0x255:RUNEB_TOLD_NAME
+
+# Spektran
+0x256:我遇到了 Martingo 。
+0x257:HARPY_AWAKENED
+0x258:SOLD_BANANA
+
+# Serpent's Hold
+0x259:GOT_CHIPS
+0x25A:TOLD_JORDAN_NAME
+0x25B:TOLD_JORDAN_AVATAR
+0x25C:JORDAN_HEARD_JEHANNE
+0x25D:JEHANNE_TOLD
+0x25E:有人破壞了我的朋友 Lord British 在 Serpent's Hold 的雕像。 Sir John-Paul 希望我找出是誰做的。
+0x25F:EXAMINED_CHIPS
+0x260:AVATAR_REFUSED
+0x261:Sir Pendaran 就是那個破壞 Serpent's Hold 裡 Lord British 雕像的人。
+0x262:HORFFE_BLAMED
+0x263:JOHN_PAUL_ASKED
+0x264:EA_GONE_TO_BUCCANEERS_DEN
+0x265:ACCUSED_HORFFE
+0x266:TOLD_RICHTER_NAME
+0x267:TOLD_RICHTER_AVATAR
+0x268:CHIPS_EXAMINED
+0x269:Menion 是我在 Serpent's Hold 遇見的鐵匠。
+0x26A:我遇到了 Pendaran 。
+0x26B:我遇到了 Jehanne 。
+0x26C:我遇到了 John Paul 。
+0x26D:我遇到了 Richter 。
+0x26E:在 Serpent's Hold ，我遇見了保安主管 Horffe 。他讓我想起了另一個人。
+0x26F:我遇到了 Jordan 。
+0x270:我遇到了 Denton 。
+0x271:Serpent's Hold 的 Lady Tory 讓我想起了名叫 Deanna 的人。
+0x272:Serpent's Hold 的 Lady Leigh 讓我想起了某位醫生。
+0x273:我遇到了 Ian 。
+0x274:SOLD_CONSTELLATION
+0x275:DENTON_TOLD_NAME
+0x276:PENDARAN_ADMITS
+0x277:Lady Tory 的男嬰 Riky 被鳥妖綁架了。我必須救他。
+0x278:我從鳥妖手中救出了嬰兒 Riky ！
+0x279:RICHTER_REPORT
+0x27A:Lady Leigh 告訴我她是個治療師。
+0x27B:RICHTER_TOLD_NAME
+0x27C:JEHANNE_TOLD_NAME
+
+# Vesper
+0x27D:CATHERINE_CAUGHT
+0x27E:YVELLA_WORRY
+0x27F:BOUGHT_MUCH
+0x280:BLORN_TELL
+0x281:BLORN_GIVE
+0x282:LAP_TELL
+0x283:YONGI_BLORN
+0x284:EA_GONE_TO_MOONGLOW
+0x285:CATHERINE_REPORTED
+0x286:TOLD_YVELLA_NAME
+0x287:TOLD_YVELLA_AVATAR
+0x288:我遇到了 Cador 。
+0x289:我遇到了 Mara 。
+0x28A:我遇到了 Zaksam 。
+0x28B:我遇到了 Eldroth 。
+0x28C:我遇到了 Yongi 。
+0x28D:我遇到了 Blorn 。
+0x28E:我遇到了 Auston 。
+0x28F:我遇到了 Liana 。
+0x290:我遇到了 Lap 。
+0x291:我遇到了 Yvella 。
+0x292:我遇到了 Catherine 。
+0x293:我遇到了 For 。
+0x294:我遇到了 Ansikart 。
+0x295:我遇到了 Wis 。
+0x296:我遇到了 Anmanivas 。
+0x297:我遇到了 Foranamo 。
+0x298:我遇到了 Aurvid 。
+
+# Buccaneer's Den
+0x299:AGREE_TO_AVENGE
+0x29A:TOLD_MARTINE_NAME
+0x29B:TOLD_MARTINE_AVATAR
+0x29C:HAD_MARTINE
+0x29D:HAD_WENCH
+0x29E:HAD_ROBERTO
+0x29F:TOLD_WENCH_NAME
+0x2A0:TOLD_WENCH_AVATAR
+0x2A1:TOLD_ROBERTO_NAME
+0x2A2:TOLD_ROBERTO_AVATAR
+0x2A3:TOLD_BLACKTOOTH_NAME
+0x2A4:TOLD_BLACKTOOTH_AVATAR
+0x2A5:BLACKTOOTH_SAID_MISSES_MOE
+0x2A6:BLACKTOOTH_QUEST_DONE
+0x2A7:MOLE_SAID_SORRY
+0x2A8:EA_HERE
+0x2A9:我遇到了 Danag 。
+0x2AA:我遇到了 Wench 。
+0x2AB:我遇到了 Glenno 。
+0x2AC:我遇到了 Martine 。
+0x2AD:我遇到了 Roberto 。
+0x2AE:我遇到了 Sintag 。
+0x2AF:我遇到了 Blacktooth 。
+0x2B0:我遇到了 Mole 。
+0x2B1:我遇到了 Lucky 。
+0x2B2:我遇到了 Budo 。
+0x2B3:我遇到了 Gordy 。
+0x2B4:我遇到了 Mandy 。
+0x2B5:我遇到了 Smithy 。
+0x2B6:SOLD_LUSTY_WENCH
+0x2B7:HOOK_DEN
+
+# Travelling Show
+0x2B8:我遇到了 Paul 。
+0x2B9:我遇到了 Meryl 。
+0x2BA:我遇到了 Dustin 。
+
+# Misc
+0x2BB:我遇到了 Gorn 。
+0x2BC:我遇到了 Owings 。
+0x2BD:我遇到了 Malloy 。
+0x2BE:我遇到了 Grod 。
+0x2BF:我遇到了 Papa 。
+0x2C0:遇見了 Mama 。
+0x2C1:我遇到了 Boy 。
+0x2C2:我遇到了 Sullivan 。
+0x2C3:我遇到了 Anton 。
+0x2C4:我遇到了 Eiko 。
+0x2C5:我遇到了 Amanda 。
+0x2C6:我遇到了 Kissme 。
+0x2C7:我遇到了 Brothers 。
+0x2C8:我遇到了 Cairbre 。
+0x2C9:我遇到了 Kallibrus 。
+0x2CA:我遇到了 Wayne 。
+0x2CB:我遇到了 Cosmo 。
+0x2CC:我遇到了 Iriale 。
+0x2CD:我遇到了 Lasher 。
+0x2CE:我遇到了 Garok 。
+0x2CF:我遇到了 Iskander 。
+0x2D0:LASHER_SAID_FORGET_IT
+0x2D1:LASHER_WILL_HELP
+0x2D2:GORN_TRICKED
+0x2D3:HUNTING_BEES
+0x2D4:JIG_IS_UP
+0x2D5:TOLD_ISKANDER_NAME
+0x2D6:TOLD_ISKANDER_AVATAR
+0x2D7:COSMO_SAID_OPHELIA
+0x2D8:MALLOY_FRUSTRATED
+0x2D9:MALLOY_FOOT_IN_HAT
+0x2DA:MALLOY_HAT_CRUSHED
+0x2DB:ISKANDER_QUEST
+0x2DC:KALIDETHMAD
+0x2DD:VENGEANCE_OFF
+0x2DE:AMANDA_SETTLED
+0x2DF:GAVE_AMULET
+0x2E0:FOR_THE_MEN
+0x2E1:ANTON_FREE
+0x2E2:SULLIVAN_FREE
+0x2E3:MAGICAL_SILENCE
+0x2E4:LEFT_DOOR_ACTIVE
+0x2E5:CENTER_DOOR_ACTIVE
+0x2E6:RIGHT_DOOR_ACTIVE
+0x2E7:SATIN_GOOD
+0x2E8:INSIDE_PUT_THE_AVATAR_TO_BED
+0x2E9:BAD_AVATAR
+0x2EA:IOLO_PISSED
+0x2EB:DUPRE_PISSED
+0x2EC:SHAMINO_PISSED
+0x2ED:I've cast Magic Storm.
+
+# FoV
+0x2EE:ERETHIAN_IS_DEAD
+0x2EF:USED_KILL_DRACOTHRAXUS
+#0x2F1:CREATED_GOLEM_BODY_1
+#0x2F2:CREATED_GOLEM_BODY_2
+#0x2F3:CREATED_GOLEM_BODY_3
+#0x2F4:CREATED_GOLEM_BODY_4
+#0x2F5:CREATED_GOLEM_BODY_5
+#0x2F6:CREATED_GOLEM_BODY_6
+#0x2F7:CREATED_GOLEM_BODY_7
+#0x2F8:CREATED_GOLEM_BODY_8
+#0x2F9:CREATED_GOLEM_BODY_9
+#0x2FA:CREATED_GOLEM_BODY_A
+#0x2FB:CREATED_GOLEM_BODY_B
+#0x2FC:CREATED_GOLEM_BODY_C
+0x2FE:我向 Lord British 提起了地震，他告訴我，我曾經擊敗 Exodus 的烈火島（Isle of Fire）已經升起了。他還告訴我他在那裡建立的三座神殿。他讓我使用他停泊在 Vesper 的船，也就是黃金安卡號（Golden Ankh），去造訪那座島嶼。
+0x2FF:ISLE_OF_FIRE_TREMORS
+0x301:PSYCHE_PROBED_AVATAR
+0x30C:我成功地將 Exodus 的黑暗核心（Dark Core）放逐到了以太（Ether）之中！
+0x30D:收到了 Lord British 對調查烈火島的獎賞。
+0x30E:SCROLL_OF_INFINITY
+0x30F:TALKED_TALISMAN_OF_INFINITY
+0x310:一位被流放的盲人 Erethian 住在烈火島上。
+0x311:我遇到了 Dracothraxus 。
+0x312:HAVE_BLANK_BLACKSWORD
+0x313:在烈火島上，我遇到了一個名叫 Arcadion 的惡魔，被困在一面鏡子裡。他希望我放他出來。
+0x314:TALKED_ABOUT_BOLLUX
+0x315:我遇到了 Bollux 。
+0x316:我遇到了 Shrine Of Truth 。
+0x317:CAN_TALK_SHRINE_OF_PRINCIPLE
+0x318:DID_SHRINE_OF_TRUTH
+0x319:PLACED_SECOND_TALISMAN
+0x31A:我遇到了 Shrine Of Love 。
+0x31B:ADJHAR_IS_ALIVE
+0x31C:BOLLUX_IS_DEAD
+0x31D:KNOW_BOLLUX_NAME
+0x31E:AGREED_TO_HEAL_BOLLUX
+0x31F:KNOWS_ABOUT_STONE_OF_CASTAMBRE
+0x321:CAN_HARVEST_NEW_HEART
+0x322:ADJHAR_READ_BOOK
+0x323:HAVE_GOLEM_BOOK
+0x324:UNSET_GOLEM_FLAG
+0x325:PAGE_FELL_FROM_BOOK
+0x326:REVIVING_GOLEM
+0x327:DID_SHRINE_OF_LOVE
+0x328:GOT_TALISMAN_OF_LOVE
+0x329:我到了勇氣神殿。
+0x32A:ERETHIAN_IS_ANGRY
+0x32B:ERETHIAN_TURNED_GARGOYLE
+0x32C:ERETHIAN_TURNED_DRAGON
+0x32D:強化了黑石劍（Blackrock Sword）。
+0x32E:FINISHED_BLADE
+0x32F:我用寶石打破了鏡子以釋放惡魔 Arcadion，但他反而被囚禁在惡魔寶石裡了。
+0x330:我將惡魔 Arcadion 束縛在黑石劍上。
+0x331:我才不幫惡魔！
+0x332:我不信任 Erethian，並同意幫助惡魔 Arcadion 。
+0x333:TALKED_ARCADION_WITH_GEM
+0x333:ACCEPTED_GEM_POWER
+0x334:ARCADION_SLAVE
+0x335:REFUSED_GEM_POWER
+0x336:DEFEATED_DRACOTHRAXUS
+0x337:鍛造是件苦差事。終於成功打造出黑石劍了。
+0x338:TALKED_ABOUT_BINDING_GEM
+0x339:TALKED_ABOUT_SHADE_BLADE
+0x33B:SUMMONING_RITUAL_DONE
+0x33C:PLACED_SECOND_LENS
+0x33D:OPENED_WALLS_2
+0x33E:OPENED_WALLS_1
+0x33F:PLACED_FIRST_LENS
+0x340:PLACED_THIRD_TALISMAN
+0x341:DID_SHRINE_OF_COURAGE
+0x342:PLACED_ONE_TALISMAN
+0x343:BEGIN_BOND
+0x344:FINISHED_BOND

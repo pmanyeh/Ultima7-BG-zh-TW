@@ -32,10 +32,10 @@ labelFunc04EE_0046:
 	case "姓名" attend labelFunc04EE_0069:
 	message("「請，");
 	message(var0001);
-	message("，叫我 Perrin 。我住在共情修道院這裡。」");
+	message("，叫我 Perrin 。我住在人神修道院這裡。」");
 	say();
 	UI_remove_answer("姓名");
-	UI_add_answer("共情修道院");
+	UI_add_answer("人神修道院");
 labelFunc04EE_0069:
 	case "職業" attend labelFunc04EE_00BA:
 	message("「我是個學者，");
@@ -61,11 +61,11 @@ labelFunc04EE_00B6:
 	message("「原諒我，我在尋找學生方面有點太過熱心了。我希望你未來會回來。」");
 	say();
 labelFunc04EE_00BA:
-	case "共情修道院" attend labelFunc04EE_00DD:
+	case "人神修道院" attend labelFunc04EE_00DD:
 	message("「這是個令人愉快的地方。我喜歡這種隱私，讓我有機會在需要時專心研究。友誼會就在馬路對面，而且我附近有一位治療師。另外，我開始了一項關於處理死亡對殯葬業者影響的研究。我正以 Tiery 作為案例研究。」");
 	say();
 	UI_add_answer(["修道院", "治療師", "Tiery"]);
-	UI_remove_answer("共情修道院");
+	UI_remove_answer("人神修道院");
 labelFunc04EE_00DD:
 	case "修道院" attend labelFunc04EE_0100:
 	message("「那是修道院。住在那裡的僧侶以釀造精美葡萄酒的能力而聞名。附近有高等法院和監獄。」");

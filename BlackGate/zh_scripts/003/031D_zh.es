@@ -85,7 +85,7 @@ labelFunc031D_00CF:
 	goto labelFunc031D_0487;
 labelFunc031D_00E0:
 	if (!(var0000 == 0x0006)) goto labelFunc031D_00F1;
-	message("一旦建造完成，將黑岩存放在『皇冠寶石號 (The Crown Jewel)』的船艙裡。");
+	message("一旦建造完成，將黑石存放在『皇冠寶石號 (The Crown Jewel)』的船艙裡。");
 	say();
 	goto labelFunc031D_0487;
 labelFunc031D_00F1:

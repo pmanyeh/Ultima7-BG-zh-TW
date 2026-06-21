@@ -52,10 +52,10 @@ labelFunc0407_0078:
 	say();
 labelFunc0407_0082:
 	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
-		UI_add_answer("翻譯寶典");
+		UI_add_answer("古文譯本");
 	}
 	converse attend labelFunc0407_0409;
-	case "翻譯寶典" attend labelFunc0407_TransBook:
+	case "古文譯本" attend labelFunc0407_TransBook:
 	message("「作為一名劍術教練，我一直告訴學生：了解敵人的意圖和揮劍一樣重要。」");
 	say();
 	message("「這本寶典能讓你在不列顛尼亞的各個角落暢行無阻，掌握第一手情報。」");
@@ -63,7 +63,7 @@ labelFunc0407_0082:
 	message("「知識，就像一把磨得鋒利的劍，永遠不嫌多！」");
 	say();
 	talked_book = true;
-	UI_remove_answer("翻譯寶典");
+	UI_remove_answer("古文譯本");
 labelFunc0407_TransBook:
 	case "姓名" attend labelFunc0407_0098:
 	message("「你不記得我了嗎？我是 Sentri ！我們過去曾經一起冒險過！」");

@@ -1,0 +1,9 @@
+archive endshap_local.flx
+palette palettes_local.flx
+21/1:shape21
+22/1:shape22
+23/1:shape23
+24/1:shape24
+25/1:shape25
+26/1:shape26
+28/1:shape28

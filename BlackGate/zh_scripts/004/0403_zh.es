@@ -66,18 +66,18 @@ labelFunc0403_00BB:
 	say();
 labelFunc0403_00C5:
 	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
-		UI_add_answer("翻譯寶典");
+		UI_add_answer("古文譯本");
 	}
 	converse attend labelFunc0403_04AD;
-	case "翻譯寶典" attend labelFunc0403_TransBook:
+	case "古文譯本" attend labelFunc0403_TransBook:
 	message("「在荒野中生存，解讀古老的標記和盧恩文是必備的技能。」");
 	say();
-	message("「不過，既然你有了翻譯寶典，我想我們在探索那些古老遺跡時能省下不少時間。」");
+	message("「不過，既然你有了古文譯本，我想我們在探索那些古老遺跡時能省下不少時間。」");
 	say();
 	message("「希望它不會在我們最需要的時候失去魔力。」");
 	say();
 	talked_book = true;
-	UI_remove_answer("翻譯寶典");
+	UI_remove_answer("古文譯本");
 labelFunc0403_TransBook:
 	case "姓名" attend labelFunc0403_00DB:
 	message("你的朋友看著你，就像你失去理智一樣。「是 Shamino 。『Sha-mi-no』。」");

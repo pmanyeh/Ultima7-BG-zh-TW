@@ -92,7 +92,7 @@ labelFunc0417_010B:
 	say();
 labelFunc0417_0115:
 	if (gflags[0x0345] && UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0 && !talked_book) {
-		UI_add_answer("翻譯寶典");
+		UI_add_answer("古文譯本");
 	}
 	converse attend labelFunc0417_072A;
 	case "姓名" attend labelFunc0417_012B:
@@ -464,25 +464,25 @@ labelFunc0417_0709:
 	say();
 	UI_remove_answer("Exodus");
 labelFunc0417_071C:
-	case "翻譯寶典" attend labelFunc0417_0722:
+	case "古文譯本" attend labelFunc0417_0722:
 	if (!gflags[0x0346]) {
 		message("「哦？你說你遇到了一些看不懂的古文招牌？」 Lord British 沉思了一會。");
 		say();
 		message("「的確，那些是古老的不列顛盧恩符文。現在已經很少人使用了。」");
 		say();
-		message("「既然你需要，這本『翻譯寶典』就交給你吧，它能幫助你解讀那些古老的文字。」");
+		message("「既然你需要，這本『古文譯本』就交給你吧，它能幫助你解讀那些古老的文字。」");
 		say();
 		UI_add_party_items(1, 0x0282, 149, 0, false);
 		gflags[0x0346] = true;
 	} else {
-		message("「你弄丟了我給你的那本『翻譯寶典』嗎？」 Lord British 嘆了口氣。");
+		message("「你弄丟了我給你的那本『古文譯本』嗎？」 Lord British 嘆了口氣。");
 		say();
 		message("「好吧，看在你身負重任的份上，我再給你一本。這次可別再弄丟了！」");
 		say();
 		UI_add_party_items(1, 0x0282, 149, 0, false);
 	}
 	talked_book = true;
-	UI_remove_answer("翻譯寶典");
+	UI_remove_answer("古文譯本");
 labelFunc0417_0722:
 	case "告辭" attend labelFunc0417_0727:
 	goto labelFunc0417_072A;

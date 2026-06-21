@@ -211,7 +211,7 @@ labelFunc017B_039E:
 	if (!(var0001 == 0x001E)) goto labelFunc017B_03B8;
 	var000A = ["out|n|inn"];
 
-	var_chinese = "出入平安客棧";
+	var_chinese = "進進出出客棧";
 	goto labelFunc017B_105D;
 labelFunc017B_03B8:
 	if (!(var0001 == 0x001F)) goto labelFunc017B_03D5;
@@ -377,7 +377,7 @@ labelFunc017B_0695:
 	if (!(var0001 == 0x0046)) goto labelFunc017B_06B2;
 	var000A = ["empa(", "abbey"];
 
-	var_chinese = "共情修道院";
+	var_chinese = "人神修道院";
 	goto labelFunc017B_105D;
 labelFunc017B_06B2:
 	if (!(var0001 == 0x0047)) goto labelFunc017B_06CC;

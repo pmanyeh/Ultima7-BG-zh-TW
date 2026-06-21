@@ -53,17 +53,17 @@ labelFunc0475_007A:
 	UI_remove_answer("園藝");
 labelFunc0475_0094:
 	case "區域" attend labelFunc0475_00AE:
-	message("「共情修道院，笨蛋！」");
+	message("「人神修道院，笨蛋！」");
 	say();
-	UI_add_answer("共情修道院");
+	UI_add_answer("人神修道院");
 	UI_remove_answer("區域");
 labelFunc0475_00AE:
-	case "共情修道院" attend labelFunc0475_00DB:
+	case "人神修道院" attend labelFunc0475_00DB:
 	message("「事實上，我對住在這的人了解不少。而且我說不定會告訴你。對你來說這值多少金幣？」");
 	say();
 	UI_push_answers();
 	UI_add_answer(["什麼都不給", "2", "3", "4", "5"]);
-	UI_remove_answer("共情修道院");
+	UI_remove_answer("人神修道院");
 labelFunc0475_00DB:
 	case "什麼都不給" attend labelFunc0475_00EB:
 	UI_pop_answers();

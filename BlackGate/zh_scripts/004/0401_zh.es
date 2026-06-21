@@ -151,7 +151,7 @@ labelFunc0401_0361:
 	say();
 labelFunc0401_0365:
 	if (gflags[0x0345] && (UI_count_objects(0xFE9B, 0x0282, 149, 0) == 0) && !talked_book) {
-		UI_add_answer("翻譯寶典");
+		UI_add_answer("古文譯本");
 	}
 	converse attend labelFunc0401_072E;
 	case "姓名" attend labelFunc0401_0381:
@@ -161,15 +161,15 @@ labelFunc0401_0365:
 	say();
 	UI_remove_answer("姓名");
 labelFunc0401_0381:
-	case "翻譯寶典" attend labelFunc0401_TransBook:
-	message("「翻譯寶典？我聽說不列顛王有一本，這是能讓人輕鬆閱讀盧恩文的魔法工具。」");
+	case "古文譯本" attend labelFunc0401_TransBook:
+	message("「古文譯本？我聽說不列顛王有一本，這是能讓人輕鬆閱讀盧恩文的魔法工具。」");
 	say();
 	message("「說實話，我平時幾乎沒有在使用這些古文了。現在只有在一些路標、建築銘版上會看到。」");
 	say();
 	message("「靠自己慢慢解讀其實有點累…，有了它，在不列顛尼亞的旅途肯定會方便許多。」");
 	say();
 	talked_book = true;
-	UI_remove_answer("翻譯寶典");
+	UI_remove_answer("古文譯本");
 labelFunc0401_TransBook:
 	case "馬廄" attend labelFunc0401_0394:
 	message("「我覺得你最好親自去看看，");
