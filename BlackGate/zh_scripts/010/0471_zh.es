@@ -78,14 +78,14 @@ labelFunc0471_00F0:
 labelFunc0471_0110:
 	case "Smith" attend labelFunc0471_0165:
 	if (!var0002) goto labelFunc0471_0127;
-	var0004 = "still want";
+	var0004 = "仍然想要";
 	goto labelFunc0471_012D;
 labelFunc0471_0127:
-	var0004 = "want";
+	var0004 = "想要";
 labelFunc0471_012D:
-	message("「對，這就是我告訴你怎麼叫我的名字。喔，我懂了！你」");
+	message("「對，這就是我的『名字』。喔～我懂了！你");
 	message(var0004);
-	message("，你想從我這裡得到什麼，對吧？」");
+	message("從我這裡得到什麼，對吧？」");
 	say();
 	var0005 = Func090A();
 	if (!var0005) goto labelFunc0471_0160;

@@ -94,7 +94,7 @@ labelFunc04F9_010E:
 	UI_remove_answer("Moonglow");
 labelFunc04F9_0128:
 	case "人" attend labelFunc04F9_015D:
-	message("「你見過我的雙胞胎兄弟嗎？他是這裡天文台的負責人。在智者書庫的某個地方，你可以找到 Mariah。可悲的是，她這裡不太好。」他指了指自己的頭。~~「賢者 Jillian 也在這裡的智者書庫學習。如果要打聽 Moonglow 的其他居民，最好的對象就是 Friendly Knave 的酒保。Phearcy 幾乎認識我們島上所有人。~~「喔，你可別忘了 Penumbra 的傳說。那是兩百年前，她讓自己陷入沉睡。現在我回想起來，");
+	message("「你見過我的雙胞胎兄弟嗎？他是這裡天文台的負責人。在智者書庫的某個地方，你可以找到 Mariah。可悲的是，她這裡不太好。」他指了指自己的頭。~~「賢者 Jillian 也在這裡的智者書庫學習。如果要打聽 Moonglow 的其他居民，最好的對象就是『親切惡棍酒館』的酒保。Phearcy 幾乎認識我們島上所有人。~~「喔，你可別忘了 Penumbra 的傳說。那是兩百年前，她讓自己陷入沉睡。現在我回想起來，");
 	message(var0000);
 	message("，你就是她預言會喚醒她的人。~~「最好快點，");
 	message(var0001);

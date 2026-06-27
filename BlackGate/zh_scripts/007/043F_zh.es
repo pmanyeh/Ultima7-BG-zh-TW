@@ -131,7 +131,7 @@ labelFunc043F_019A:
 	var0006 = UI_die_roll(0x0001, 0x0004);
 	if (!(var0005 == 0x000C)) goto labelFunc043F_021B;
 	if (!(var0006 == 0x0001)) goto labelFunc043F_01DE;
-	var0007 = "Fellowship meeting tonight!@";
+	var0007 = "@今晚在友誼會集會上見！@";
 labelFunc043F_01DE:
 	if (!(var0006 == 0x0002)) goto labelFunc043F_01EE;
 	var0007 = "@追求團結！@";

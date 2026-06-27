@@ -116,14 +116,14 @@ labelFunc044D_01C8:
 	goto labelFunc044D_0201;
 labelFunc044D_01E2:
 	if (!var0000) goto labelFunc044D_01F1;
-	var0004 = "someone";
+	var0004 = "『某個人』";
 	goto labelFunc044D_01F7;
 labelFunc044D_01F1:
-	var0004 = "a man like thee";
+	var0004 = "『與君相似的人』";
 labelFunc044D_01F7:
-	message("「我真的希望你能幫她。她需要」");
+	message("「我真的希望你能幫她。她需要");
 	message(var0004);
-	message("「將她從憂鬱中帶出來。」");
+	message("將她從憂鬱中帶出來。」");
 	say();
 labelFunc044D_0201:
 	UI_remove_answer("Nastassia");
@@ -132,7 +132,7 @@ labelFunc044D_0208:
 	if (!(!gflags[0x00DE])) goto labelFunc044D_0244;
 	var0005 = Func0931(0xFE9B, 0x0001, 0x031D, 0x0004, 0xFE99);
 	if (!var0005) goto labelFunc044D_023D;
-	message("「政府早該對那座湖傳出的惡臭採取行動了！我很樂意簽署你的法案！快把它帶回大議會！」Lord Heather 簽署了法案並交還給你。");
+	message("「官府早該對那座湖傳出的惡臭採取行動了！我很樂意簽署你的法案！快把它帶回大議會！」Lord Heather 簽署了法案並交還給你。");
 	say();
 	gflags[0x00DE] = true;
 	goto labelFunc044D_0241;

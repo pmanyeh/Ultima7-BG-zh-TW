@@ -106,10 +106,10 @@ labelFunc044B_017A:
 labelFunc044B_0181:
 	case "Ariana" attend labelFunc044B_01B6:
 	if (!var0004) goto labelFunc044B_0198;
-	var0006 = "she";
+	var0006 = "她";
 	goto labelFunc044B_019E;
 labelFunc044B_0198:
-	var0006 = "he";
+	var0006 = "他";
 labelFunc044B_019E:
 	message("「是的，她是我的高祖母。我聽說她曾見過聖者，而且」");
 	message(var0006);

@@ -97,12 +97,10 @@ N		notebook		# 顯示自動筆記
 O		useitem			785	# 使用月之寶珠
 Ctrl-P		repaint
 P		useitem			627	# 使用開鎖器
-P		useitem			627	# 使用開鎖器
 Alt-Q		quit		# 離開遊戲
 Ctrl-R		quickrestore		#讀取快速存檔
 R		face_stats		#切換隊伍狀態欄
 Alt-S		change_skin
-Ctrl-Alt-S	screenshot		# 遊戲截圖
 Ctrl-Alt-S	screenshot		# 遊戲截圖
 Ctrl-S		quicksave		# 快速存檔
 S		save_restore		# 存檔 / 讀檔

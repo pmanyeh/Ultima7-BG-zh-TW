@@ -279,7 +279,7 @@ labelFunc04A3_0418:
 	goto labelFunc04A3_0138;
 labelFunc04A3_041B:
 	endconv;
-	message("「記住！告訴他們你是在 Friendly Knave 吃的！」*");
+	message("「記住！告訴他們你是在『親切惡棍酒館』吃的！」*");
 	say();
 labelFunc04A3_0420:
 	if (!(event == 0x0000)) goto labelFunc04A3_042E;
