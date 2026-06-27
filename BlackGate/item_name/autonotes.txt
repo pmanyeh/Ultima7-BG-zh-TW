@@ -108,7 +108,7 @@
 
 # Britain
 0x65:LEARNED_ABOUT_BLACKROCK
-0x66:Lord British 告訴我魔法已經失效了，但他認為我也許還能施放魔法。他把一本法術書和我的其他裝備放在一起。嗯，他指的裝備是什麼意思？
+0x66:不列顛王告訴我魔法已經失效了，但他認為我也許還能施放魔法。他把一本法術書和我的其他裝備放在一起。嗯，他指的裝備是什麼意思？
 0x67:COSTUME_QUEST
 0x68:GOT_COSTUME
 0x69:MIRANDA_SAID_MAX
@@ -158,9 +158,9 @@
 0x95:MACK_TOLD_STORY
 0x96:TEST_GIVEN
 0x97:CHEST_QUEST_DONE
-0x98:我又遇見了我的老朋友 Lord British 。
+0x98:我又遇見了我的老朋友不列顛王 。
 0x99:我的老朋友 Nystul 似乎失去了理智。
-0x9A:Lord British 的宮廷弄臣 Chuckles 想跟我玩個愚蠢的遊戲「四字遊戲」。
+0x9A:不列顛王的宮廷弄臣 Chuckles 想跟我玩個愚蠢的遊戲「四字遊戲」。
 0x9B:我遇到了 Batlin 。
 0x9C:我遇到了 Raymundo 。
 0x9D:我遇到了 Jesse 。
@@ -210,14 +210,14 @@
 0xC9:我遇到了 Nell 。
 0xCA:我遇到了 Charles 。
 0xCB:Willy 雇我烤麵包。
-0xCC:Lord British 調查了 Weston 的監禁，並讓他重獲自由。
-0xCD:一個名叫 Weston 的男子被關押在 Britain 城堡頂樓。他的監禁可能是不公正的。我必須和我的朋友 Lord British 談談這件事。
+0xCC:不列顛王調查了 Weston 的監禁，並讓他重獲自由。
+0xCD:一個名叫 Weston 的男子被關押在 Britain 城堡頂樓。他的監禁可能是不公正的。我必須和我的朋友不列顛王談談這件事。
 0xCE:BROWNIE_HIRED
 0xCF:MACK_HIRED
 0xD0:PAID_CARROCIO
 0xD1:多年前 Britain 也曾發生過一起儀式謀殺案。我需要調查這件事！
 0xD2:SOLD_SHARKTOOTH
-0xD3:雖然魔法不再可靠，但 Lord British 依然能治療我，甚至有時還能讓我的隊員復活。這有時會派上用場。
+0xD3:雖然魔法不再可靠，但不列顛王依然能治療我，甚至有時還能讓我的隊員復活。這有時會派上用場。
 0xD4:ASKED_LB_ABOUT_GUARDIAN
 0xD5:TOLD_SHAMINO
 0xD6:REFUSED_PACKAGE
@@ -227,7 +227,7 @@
 0xDA:Batlin 在我和他帶著那個立方體交談後失蹤了。
 0xDB:Sentri 加入隊伍
 0xDC:CYNTHIA_SAID_EXCHANGE
-0xDD:Lord British 給了我他的月亮寶珠（Orb of the moon），但警告我月之門（Moongates）已不再穩定。
+0xDD:不列顛王給了我他的月亮寶珠（Orb of the moon），但警告我月之門（Moongates）已不再穩定。
 
 # Cove
 0xDE:BILL_QUEST_DONE
@@ -636,10 +636,10 @@
 0x25B:TOLD_JORDAN_AVATAR
 0x25C:JORDAN_HEARD_JEHANNE
 0x25D:JEHANNE_TOLD
-0x25E:有人破壞了我的朋友 Lord British 在 Serpent's Hold 的雕像。 Sir John-Paul 希望我找出是誰做的。
+0x25E:有人破壞了我的朋友不列顛王在 Serpent's Hold 的雕像。 Sir John-Paul 希望我找出是誰做的。
 0x25F:EXAMINED_CHIPS
 0x260:AVATAR_REFUSED
-0x261:Sir Pendaran 就是那個破壞 Serpent's Hold 裡 Lord British 雕像的人。
+0x261:Sir Pendaran 就是那個破壞 Serpent's Hold 裡不列顛王雕像的人。
 0x262:HORFFE_BLAMED
 0x263:JOHN_PAUL_ASKED
 0x264:EA_GONE_TO_BUCCANEERS_DEN
@@ -804,11 +804,11 @@
 #0x2FA:CREATED_GOLEM_BODY_A
 #0x2FB:CREATED_GOLEM_BODY_B
 #0x2FC:CREATED_GOLEM_BODY_C
-0x2FE:我向 Lord British 提起了地震，他告訴我，我曾經擊敗 Exodus 的烈火島（Isle of Fire）已經升起了。他還告訴我他在那裡建立的三座神殿。他讓我使用他停泊在 Vesper 的船，也就是黃金安卡號（Golden Ankh），去造訪那座島嶼。
+0x2FE:我向不列顛王提起了地震，他告訴我，我曾經擊敗 Exodus 的烈火島（Isle of Fire）已經升起了。他還告訴我他在那裡建立的三座神殿。他讓我使用他停泊在 Vesper 的船，也就是黃金安卡號（Golden Ankh），去造訪那座島嶼。
 0x2FF:ISLE_OF_FIRE_TREMORS
 0x301:PSYCHE_PROBED_AVATAR
 0x30C:我成功地將 Exodus 的黑暗核心（Dark Core）放逐到了以太（Ether）之中！
-0x30D:收到了 Lord British 對調查烈火島的獎賞。
+0x30D:收到了不列顛王對調查烈火島的獎賞。
 0x30E:SCROLL_OF_INFINITY
 0x30F:TALKED_TALISMAN_OF_INFINITY
 0x310:一位被流放的盲人 Erethian 住在烈火島上。

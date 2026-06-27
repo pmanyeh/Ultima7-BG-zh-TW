@@ -26,7 +26,7 @@ labelFunc044D_0049:
 	if (!(!gflags[0x00EA])) goto labelFunc044D_005F;
 	message("這位充滿王者風範的紳士完美詮釋了一位受歡迎的政治家。");
 	say();
-	message("「你好！Lord British 傳話說你也許會來拜訪我們。歡迎來到 Cove，聖者！」");
+	message("「你好！不列顛王傳話說你也許會來拜訪我們。歡迎來到 Cove，聖者！」");
 	say();
 	gflags[0x00EA] = true;
 	goto labelFunc044D_0063;
@@ -46,7 +46,7 @@ labelFunc044D_0079:
 	UI_add_answer(["Cove", "神殿"]);
 labelFunc044D_0092:
 	case "Cove" attend labelFunc044D_00A5:
-	message("「我知道這是個小地方。我們許多居民都搬到較大的城鎮去了，尤其是 Britain。但我們保留了一小群忠誠的 Cove 鎮民。」");
+	message("「我知道這是個小地方。我們許多居民都搬到較大的城鎮去了，尤其是不列顛城。但我們保留了一小群忠誠的 Cove 鎮民。」");
 	say();
 	UI_remove_answer("Cove");
 labelFunc044D_00A5:
@@ -57,7 +57,7 @@ labelFunc044D_00A5:
 	UI_remove_answer("神殿");
 labelFunc044D_00BF:
 	case "戀人們" attend labelFunc044D_00DF:
-	message("「Britain 也許是慈悲之城，但 Cove 已經成為熱情之城。這裡的每個人似乎都很容易墜入愛河。你會發現每個人都愛著某個人。幾乎每個人都是如此。」");
+	message("「不列顛城也許是慈悲之城，但 Cove 已經成為熱情之城。這裡的每個人似乎都很容易墜入愛河。你會發現每個人都愛著某個人。幾乎每個人都是如此。」");
 	say();
 	UI_remove_answer("戀人們");
 	UI_add_answer(["每個人", "幾乎每個人"]);

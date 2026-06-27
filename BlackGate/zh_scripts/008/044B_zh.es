@@ -72,7 +72,7 @@ labelFunc044B_00E7:
 	UI_add_answer("神殿");
 labelFunc044B_00FA:
 	case "神殿" attend labelFunc044B_011A:
-	message("「慈悲神殿和 Britannia 的所有神殿一樣，已經存在好幾代了。我的高祖母 Ariana 在遺囑中要求她的家族世世代代照料這座神殿。」");
+	message("「慈悲神殿和不列顛尼亞的所有神殿一樣，已經存在好幾代了。我的高祖母 Ariana 在遺囑中要求她的家族世世代代照料這座神殿。」");
 	say();
 	UI_add_answer(["所有神殿", "照料"]);
 	UI_remove_answer("神殿");

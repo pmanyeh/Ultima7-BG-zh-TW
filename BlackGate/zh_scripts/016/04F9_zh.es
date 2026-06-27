@@ -239,7 +239,7 @@ labelFunc04F9_0394:
 	goto labelFunc04F9_0377;
 labelFunc04F9_0397:
 	if (!var0010) goto labelFunc04F9_03A4;
-	message("他小心翼翼地拿出一本皮裝的厚書。他從長袍中掏出手帕，一絲不苟地擦去灰塵。~~「這是 Lord British 親自送給我的。看，這是初版。」~~他小心翼翼地放在你手掌上的那本書非常古老，書名的金箔幾乎已經被完全磨掉。將書本翻正，你可以讀到書名：《異鄉異客（Stranger in a Strange Land）》。");
+	message("他小心翼翼地拿出一本皮裝的厚書。他從長袍中掏出手帕，一絲不苟地擦去灰塵。~~「這是不列顛王親自送給我的。看，這是初版。」~~他小心翼翼地放在你手掌上的那本書非常古老，書名的金箔幾乎已經被完全磨掉。將書本翻正，你可以讀到書名：《異鄉異客（Stranger in a Strange Land）》。");
 	say();
 	goto labelFunc04F9_03A8;
 labelFunc04F9_03A4:
